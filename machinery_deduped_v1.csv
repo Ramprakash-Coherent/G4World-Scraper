@@ -1,0 +1,2497 @@
+catalog_row_id,entity_type,catalog_line_number,business_cluster,search_term
+machinery:1,machinery,1,Machinery,Stability Chamber
+machinery:2,machinery,2,Machinery,Extraction System
+machinery:3,machinery,3,Machinery,21 CFR Part 11 System
+machinery:4,machinery,4,Machinery,2D Code Verification Cartoner
+machinery:5,machinery,5,Machinery,2D Matrix Printer
+machinery:6,machinery,6,Machinery,3-Side Seal Sachet Machine
+machinery:7,machinery,7,Machinery,3D Vibrating Screen
+machinery:8,machinery,8,Machinery,4-Side Seal Sachet Machine
+machinery:9,machinery,9,Machinery,AAS
+machinery:10,machinery,10,Machinery,AGV
+machinery:11,machinery,11,Machinery,Vision Inspection
+machinery:12,machinery,12,Machinery,API Blending Vessel
+machinery:13,machinery,13,Machinery,API Feeder
+machinery:14,machinery,14,Machinery,API Lyophilizer
+machinery:15,machinery,15,Machinery,API Sieve
+machinery:16,machinery,16,Machinery,API Size Reduction Mill
+machinery:17,machinery,17,Machinery,ASRS
+machinery:18,machinery,18,Machinery,ASTM Dissolution System
+machinery:19,machinery,19,Machinery,Conveyor
+machinery:20,machinery,20,Machinery,Coater
+machinery:21,machinery,21,Machinery,ATR-FTIR
+machinery:22,machinery,22,Machinery,Abrasion Tester
+machinery:23,machinery,23,Machinery,Accela-Cota Style Coater
+machinery:24,machinery,24,Machinery,Accelerated Aging Chamber
+machinery:25,machinery,25,Machinery,Accelerated Solvent Extractor
+machinery:26,machinery,26,Machinery,Accumulation Conveyor
+machinery:27,machinery,27,Machinery,Acid Recovery CIP
+machinery:28,machinery,28,Machinery,Acoustic Cavitation System
+machinery:29,machinery,29,Machinery,Active Air Sampler
+machinery:30,machinery,30,Machinery,Active RABS
+machinery:31,machinery,31,Machinery,Adaptogen Processing Line
+machinery:32,machinery,32,Machinery,Adhesion Tester
+machinery:33,machinery,33,Machinery,Adjustable Case Sealer
+machinery:34,machinery,34,Machinery,Adjustable Width Conveyor
+machinery:35,machinery,35,Machinery,Adsorption Dryer
+machinery:36,machinery,36,Machinery,Adsorption Wheel Dryer
+machinery:37,machinery,37,Machinery,Affinity Chromatography System
+machinery:38,machinery,38,Machinery,Agar Manufacturing Line
+machinery:39,machinery,39,Machinery,Agglomerate Breaker Mill
+machinery:40,machinery,40,Machinery,Agglomeration Dryer
+machinery:41,machinery,41,Machinery,Aggregation Cartoner
+machinery:42,machinery,42,Machinery,Aggregation Machine
+machinery:43,machinery,43,Machinery,Aggregation System
+machinery:44,machinery,44,Machinery,Agitated Nutsche Filter Dryer
+machinery:45,machinery,45,Machinery,Agitated Paddle Dryer
+machinery:46,machinery,46,Machinery,Agitated Thin-Film Dryer
+machinery:47,machinery,47,Machinery,Agitated Thin-Film Evaporator
+machinery:48,machinery,48,Machinery,Agitator Tank
+machinery:49,machinery,49,Machinery,Air Classifier
+machinery:50,machinery,50,Machinery,Air Classifier Mill
+machinery:51,machinery,51,Machinery,Air Classifying Mill
+machinery:52,machinery,52,Machinery,Air Dryer System
+machinery:53,machinery,53,Machinery,Air Handling Unit
+machinery:54,machinery,54,Machinery,Air Lock
+machinery:55,machinery,55,Machinery,Air Receiver System
+machinery:56,machinery,56,Machinery,Air Rinser
+machinery:57,machinery,57,Machinery,Air Shower
+machinery:58,machinery,58,Machinery,Air Slide Conveyor
+machinery:59,machinery,59,Machinery,Air Treatment System
+machinery:60,machinery,60,Machinery,Air-Cooled Pelletizer
+machinery:61,machinery,61,Machinery,Air-Lift Bioreactor
+machinery:62,machinery,62,Machinery,Air-Swept Mill
+machinery:63,machinery,63,Machinery,Air-Swept Mixer
+machinery:64,machinery,64,Machinery,Airless Spray Coating System
+machinery:65,machinery,65,Machinery,Airlift Conveyor
+machinery:66,machinery,66,Machinery,Algae Bioreactor
+machinery:67,machinery,67,Machinery,Algae Cultivation System
+machinery:68,machinery,68,Machinery,Algae Oil Extraction Line
+machinery:69,machinery,69,Machinery,Algae Oil Extractor
+machinery:70,machinery,70,Machinery,Alkaloid Extraction Unit
+machinery:71,machinery,71,Machinery,Allicin Extraction Unit
+machinery:72,machinery,72,Machinery,Alpha-Beta Port
+machinery:73,machinery,73,Machinery,Alpine Jet Mill
+machinery:74,machinery,74,Machinery,Alu-Alu Blister Machine
+machinery:75,machinery,75,Machinery,Aluminum Can Filler
+machinery:76,machinery,76,Machinery,Aluminum Foil Sealer
+machinery:77,machinery,77,Machinery,Aluminum Tube Filler
+machinery:78,machinery,78,Machinery,Amino Acid Manufacturing System
+machinery:79,machinery,79,Machinery,Ampoule Cartoner
+machinery:80,machinery,80,Machinery,Ampoule Filling Machine
+machinery:81,machinery,81,Machinery,Ampoule Inspection Machine
+machinery:82,machinery,82,Machinery,Anaerobic Chamber
+machinery:83,machinery,83,Machinery,Anaerobic Workstation
+machinery:84,machinery,84,Machinery,Analytical Balance
+machinery:85,machinery,85,Machinery,Analytical HPLC
+machinery:86,machinery,86,Machinery,Analytical Sieve Stack
+machinery:87,machinery,87,Machinery,Anchor Agitator
+machinery:88,machinery,88,Machinery,Andrographolide Extractor
+machinery:89,machinery,89,Machinery,Angle of Repose Tester
+machinery:90,machinery,90,Machinery,Anthocyanin Extraction Line
+machinery:91,machinery,91,Machinery,Anthocyanin Extractor
+machinery:92,machinery,92,Machinery,Anti-Counterfeit Carton System
+machinery:93,machinery,93,Machinery,Anti-Counterfeit System
+machinery:94,machinery,94,Machinery,Aquacoat Coating Machine
+machinery:95,machinery,95,Machinery,Aqueous Enteric Coater
+machinery:96,machinery,96,Machinery,Aqueous Film Coater
+machinery:97,machinery,97,Machinery,Articulated Robot Palletizer
+machinery:98,machinery,98,Machinery,Ascorbic Acid Line
+machinery:99,machinery,99,Machinery,Aseptic Ampoule Line
+machinery:100,machinery,100,Machinery,Aseptic Bag Filler
+machinery:101,machinery,101,Machinery,Aseptic Carton Filler
+machinery:102,machinery,102,Machinery,Aseptic Cartridge Filling System
+machinery:103,machinery,103,Machinery,Aseptic Filling System
+machinery:104,machinery,104,Machinery,Aseptic Isolator
+machinery:105,machinery,105,Machinery,Aseptic Isolator Line
+machinery:106,machinery,106,Machinery,Aseptic Liquid Filler
+machinery:107,machinery,107,Machinery,Aseptic Liquid Manufacturing System
+machinery:108,machinery,108,Machinery,Aseptic Manufacturing Line
+machinery:109,machinery,109,Machinery,Aseptic Syringe Line
+machinery:110,machinery,110,Machinery,Aseptic Vial Filling Line
+machinery:111,machinery,111,Machinery,Ashwagandha Extract System
+machinery:112,machinery,112,Machinery,Astaxanthin Extraction Unit
+machinery:113,machinery,113,Machinery,Astaxanthin System
+machinery:114,machinery,114,Machinery,Asymmetric Blender
+machinery:115,machinery,115,Machinery,Atmospheric Freeze Dryer
+machinery:116,machinery,116,Machinery,Atmospheric Vessel
+machinery:117,machinery,117,Machinery,Atomic Absorption Spectrometer
+machinery:118,machinery,118,Machinery,Attrition Mill
+machinery:119,machinery,119,Machinery,Auger Bottle Filler
+machinery:120,machinery,120,Machinery,Auto-Clean Blending Vessel
+machinery:121,machinery,121,Machinery,Auto-Clean Screener
+machinery:122,machinery,122,Machinery,Auto-Reject Blister System
+machinery:123,machinery,123,Machinery,Auto-Reject Capsule Machine
+machinery:124,machinery,124,Machinery,Autoclave
+machinery:125,machinery,125,Machinery,Autogenous Mill
+machinery:126,machinery,126,Machinery,Automated Blending System
+machinery:127,machinery,127,Machinery,Automated Disintegration System
+machinery:128,machinery,128,Machinery,Automated Dissolution System
+machinery:129,machinery,129,Machinery,Automated Guided Vehicle
+machinery:130,machinery,130,Machinery,Automated Sampling System
+machinery:131,machinery,131,Machinery,Automated Stability Sampler
+machinery:132,machinery,132,Machinery,Automated Storage Retrieval System
+machinery:133,machinery,133,Machinery,Automated Tablet Hardness Tester
+machinery:134,machinery,134,Machinery,Capsule Filling Machine
+machinery:135,machinery,135,Machinery,Colony Counter
+machinery:136,machinery,136,Machinery,Liquid Filler
+machinery:137,machinery,137,Machinery,Polarimeter
+machinery:138,machinery,138,Machinery,Autonomous Mobile Robot
+machinery:139,machinery,139,Machinery,Aw Analyzer
+machinery:140,machinery,140,Machinery,Axial Compression Column
+machinery:141,machinery,141,Machinery,Axial Extruder Granulator
+machinery:142,machinery,142,Machinery,BCAA Production Line
+machinery:143,machinery,143,Machinery,BET System
+machinery:144,machinery,144,Machinery,BFS Machine
+machinery:145,machinery,145,Machinery,BOD Analyzer
+machinery:146,machinery,146,Machinery,Bacosides Extractor
+machinery:147,machinery,147,Machinery,Bacterial Fermentation System
+machinery:148,machinery,148,Machinery,Bag Dump Station
+machinery:149,machinery,149,Machinery,Bag Emptying Station
+machinery:150,machinery,150,Machinery,Bag Filter Dust Collector
+machinery:151,machinery,151,Machinery,Bag-in-Box Filler
+machinery:152,machinery,152,Machinery,Ball Mill
+machinery:153,machinery,153,Machinery,Banbury Mixer
+machinery:154,machinery,154,Machinery,Band Dryer
+machinery:155,machinery,155,Machinery,Band Sealer
+machinery:156,machinery,156,Machinery,Band Sealer Cartoner
+machinery:157,machinery,157,Machinery,Bar Cartoner
+machinery:158,machinery,158,Machinery,Bar Cooling Tunnel
+machinery:159,machinery,159,Machinery,Bar Cutting Machine
+machinery:160,machinery,160,Machinery,Bar Enrobing Machine
+machinery:161,machinery,161,Machinery,Bar Forming Machine
+machinery:162,machinery,162,Machinery,Bar Mill
+machinery:163,machinery,163,Machinery,Bar Packaging Line
+machinery:164,machinery,164,Machinery,Bar Wrapping Machine
+machinery:165,machinery,165,Machinery,Barcode Printer Applicator
+machinery:166,machinery,166,Machinery,Bark Grinding Machine
+machinery:167,machinery,167,Machinery,Barrier Isolator
+machinery:168,machinery,168,Machinery,Basket Centrifuge
+machinery:169,machinery,169,Machinery,Basket Dissolution Apparatus
+machinery:170,machinery,170,Machinery,Basket Extractor
+machinery:171,machinery,171,Machinery,Basket Extruder Granulator
+machinery:172,machinery,172,Machinery,Batch Blending Suite
+machinery:173,machinery,173,Machinery,Batch Crystallizer
+machinery:174,machinery,174,Machinery,Batch Emulsifier
+machinery:175,machinery,175,Machinery,Batch Extraction System
+machinery:176,machinery,176,Machinery,Batch Feed Mill
+machinery:177,machinery,177,Machinery,Batch Feeder
+machinery:178,machinery,178,Machinery,Batch Fluid Bed Dryer
+machinery:179,machinery,179,Machinery,Batch Granulation System
+machinery:180,machinery,180,Machinery,Batch Homogenizer
+machinery:181,machinery,181,Machinery,Batch Management System
+machinery:182,machinery,182,Machinery,Batch Mixer
+machinery:183,machinery,183,Machinery,Batch Pan Coater
+machinery:184,machinery,184,Machinery,Batch Pasteurizer
+machinery:185,machinery,185,Machinery,Batch Reactor
+machinery:186,machinery,186,Machinery,Batch Record Extraction System
+machinery:187,machinery,187,Machinery,Batch-to-Continuous Conversion System
+machinery:188,machinery,188,Machinery,Bead Mill
+machinery:189,machinery,189,Machinery,Bead Mill Mixer
+machinery:190,machinery,190,Machinery,Beauty Drink Line
+machinery:191,machinery,191,Machinery,Belt Conveyor
+machinery:192,machinery,192,Machinery,Belt Feeder
+machinery:193,machinery,193,Machinery,Bench Scale
+machinery:194,machinery,194,Machinery,NMR
+machinery:195,machinery,195,Machinery,Berberine Extraction Line
+machinery:196,machinery,196,Machinery,Berberine Extraction Unit
+machinery:197,machinery,197,Machinery,Beta-Carotene Line
+machinery:198,machinery,198,Machinery,Beta-Glucan Extraction System
+machinery:199,machinery,199,Machinery,Beta-Glucan Extractor
+machinery:200,machinery,200,Machinery,Bi-Layer Tablet Press
+machinery:201,machinery,201,Machinery,Biconical Blender
+machinery:202,machinery,202,Machinery,Big Bag Discharger
+machinery:203,machinery,203,Machinery,Bin Blender
+machinery:204,machinery,204,Machinery,Binder Solution Mixer
+machinery:205,machinery,205,Machinery,Bioanalyzer
+machinery:206,machinery,206,Machinery,Bioburden Testing System
+machinery:207,machinery,207,Machinery,Biofermentor
+machinery:208,machinery,208,Machinery,Bioimpedance Analyzer
+machinery:209,machinery,209,Machinery,Biological Safety Cabinet Class II
+machinery:210,machinery,210,Machinery,Biosensor Analyzer
+machinery:211,machinery,211,Machinery,Blend Endpoint Detection System
+machinery:212,machinery,212,Machinery,Blend Feeder
+machinery:213,machinery,213,Machinery,Blend Sampling System
+machinery:214,machinery,214,Machinery,Blend Vessel
+machinery:215,machinery,215,Machinery,Blended Powder Screener
+machinery:216,machinery,216,Machinery,Blending Validation System
+machinery:217,machinery,217,Machinery,Blister Cartoner
+machinery:218,machinery,218,Machinery,Blister Feeder
+machinery:219,machinery,219,Machinery,Blister Inspection Machine
+machinery:220,machinery,220,Machinery,Blister Leak Tester
+machinery:221,machinery,221,Machinery,Blister Metal Detector
+machinery:222,machinery,222,Machinery,Blister Packaging Machine
+machinery:223,machinery,223,Machinery,Blister Punching Machine
+machinery:224,machinery,224,Machinery,Blister Sealing Machine
+machinery:225,machinery,225,Machinery,Blister Tooling Change System
+machinery:226,machinery,226,Machinery,Blister Vision Inspector
+machinery:227,machinery,227,Machinery,Blister Vision System
+machinery:228,machinery,228,Machinery,Blister Weight Checker
+machinery:229,machinery,229,Machinery,Blow-Fill-Seal System
+machinery:230,machinery,230,Machinery,Boiling Point Analyzer
+machinery:231,machinery,231,Machinery,Booklet Maker
+machinery:232,machinery,232,Machinery,Botanical Extract Manufacturing System
+machinery:233,machinery,233,Machinery,Botanical Extraction System
+machinery:234,machinery,234,Machinery,Botanical Grinding Mill
+machinery:235,machinery,235,Machinery,Bottle Accumulation Table
+machinery:236,machinery,236,Machinery,Bottle Cartoner
+machinery:237,machinery,237,Machinery,Bottle Cartoning Machine
+machinery:238,machinery,238,Machinery,Bottle Case Erector
+machinery:239,machinery,239,Machinery,Bottle Checkweigher
+machinery:240,machinery,240,Machinery,Bottle Cleaner
+machinery:241,machinery,241,Machinery,Bottle Coding Machine
+machinery:242,machinery,242,Machinery,Bottle Conveyor System
+machinery:243,machinery,243,Machinery,Bottle Feeder
+machinery:244,machinery,244,Machinery,Bottle Filler
+machinery:245,machinery,245,Machinery,Bottle Filling Machine
+machinery:246,machinery,246,Machinery,Bottle Inkjet Coder
+machinery:247,machinery,247,Machinery,Bottle Inspection Machine
+machinery:248,machinery,248,Machinery,Bottle Inverter Rinser
+machinery:249,machinery,249,Machinery,Bottle Labeling Machine
+machinery:250,machinery,250,Machinery,Bottle Leak Tester
+machinery:251,machinery,251,Machinery,Bottle Metal Detector
+machinery:252,machinery,252,Machinery,Bottle Orienter
+machinery:253,machinery,253,Machinery,Bottle Palletizer
+machinery:254,machinery,254,Machinery,Bottle Rinsing Machine
+machinery:255,machinery,255,Machinery,Bottle Sorter
+machinery:256,machinery,256,Machinery,Bottle Transport System
+machinery:257,machinery,257,Machinery,Bottle Unscrambler
+machinery:258,machinery,258,Machinery,Bottle Vision System
+machinery:259,machinery,259,Machinery,Bottle Washer
+machinery:260,machinery,260,Machinery,Bottom Labeler
+machinery:261,machinery,261,Machinery,Bottom Sealer
+machinery:262,machinery,262,Machinery,Bottom-Drive High-Shear Granulator
+machinery:263,machinery,263,Machinery,Bottom-Spray Fluid Bed Coater
+machinery:264,machinery,264,Machinery,Bottom-Spray Granulator
+machinery:265,machinery,265,Machinery,Bovine Collagen Line
+machinery:266,machinery,266,Machinery,Breakable Tablet Press
+machinery:267,machinery,267,Machinery,Broad-Spectrum Extract Line
+machinery:268,machinery,268,Machinery,Brookfield Viscometer
+machinery:269,machinery,269,Machinery,Bubble Column Bioreactor
+machinery:270,machinery,270,Machinery,Bucket Elevator
+machinery:271,machinery,271,Machinery,Buffer Preparation Tank
+machinery:272,machinery,272,Machinery,Buffer Tank
+machinery:273,machinery,273,Machinery,Bulk Bag Discharger
+machinery:274,machinery,274,Machinery,Bulk Bag Filler
+machinery:275,machinery,275,Machinery,Bulk Bottle Unscrambler
+machinery:276,machinery,276,Machinery,Bulk Density Tester
+machinery:277,machinery,277,Machinery,Bulk Freeze Dryer
+machinery:278,machinery,278,Machinery,Bulk Liquid Tank
+machinery:279,machinery,279,Machinery,Bulk Lyophilization System
+machinery:280,machinery,280,Machinery,Bulk Weighing System
+machinery:281,machinery,281,Machinery,Bundle Wrapper
+machinery:282,machinery,282,Machinery,Burst Pressure Tester
+machinery:283,machinery,283,Machinery,Butterfly Valve Container System
+machinery:284,machinery,284,Machinery,Bypass Conveying System
+machinery:285,machinery,285,Machinery,C-Type Elevator
+machinery:286,machinery,286,Machinery,CBD Extraction System
+machinery:287,machinery,287,Machinery,CE-MS System
+machinery:288,machinery,288,Machinery,CE-UV System
+machinery:289,machinery,289,Machinery,CIP System
+machinery:290,machinery,290,Machinery,CIP Validation System
+machinery:291,machinery,291,Machinery,CIP-Compatible Tank
+machinery:292,machinery,292,Machinery,CIP/SIP Skid
+machinery:293,machinery,293,Machinery,CM Line
+machinery:294,machinery,294,Machinery,CO2 Extraction Skid
+machinery:295,machinery,295,Machinery,CO2 Headspace Analyzer
+machinery:296,machinery,296,Machinery,CO2 Incubator
+machinery:297,machinery,297,Machinery,COD Analyzer
+machinery:298,machinery,298,Machinery,CRC Capping Machine
+machinery:299,machinery,299,Machinery,CSTR
+machinery:300,machinery,300,Machinery,Caffeine Decaffeination System
+machinery:301,machinery,301,Machinery,Cage Crusher
+machinery:302,machinery,302,Machinery,Cage Disintegrator
+machinery:303,machinery,303,Machinery,Cage Mill Delumper
+machinery:304,machinery,304,Machinery,Calcium Carbonate Mill
+machinery:305,machinery,305,Machinery,Calendar Blister Machine
+machinery:306,machinery,306,Machinery,Camera Inspection Machine
+machinery:307,machinery,307,Machinery,Can Filling Machine
+machinery:308,machinery,308,Machinery,Candy Depositor
+machinery:309,machinery,309,Machinery,Canister Inserter
+machinery:310,machinery,310,Machinery,Cannabis Extractor
+machinery:311,machinery,311,Machinery,Cap Sealer
+machinery:312,machinery,312,Machinery,Capillary Electrophoresis System
+machinery:313,machinery,313,Machinery,Capillary Viscometer
+machinery:314,machinery,314,Machinery,Caplet Press
+machinery:315,machinery,315,Machinery,Capping Machine
+machinery:316,machinery,316,Machinery,Capsule Banding Machine
+machinery:317,machinery,317,Machinery,Capsule Blister Machine
+machinery:318,machinery,318,Machinery,Capsule Blister Packer
+machinery:319,machinery,319,Machinery,Capsule Body-Cap Separator
+machinery:320,machinery,320,Machinery,Capsule Bottle Filler
+machinery:321,machinery,321,Machinery,Capsule Bottling System
+machinery:322,machinery,322,Machinery,Capsule Color Sorter
+machinery:323,machinery,323,Machinery,Capsule Counter
+machinery:324,machinery,324,Machinery,Capsule Deduster
+machinery:325,machinery,325,Machinery,Capsule Disintegration Tester
+machinery:326,machinery,326,Machinery,Capsule Filling
+machinery:327,machinery,327,Machinery,Capsule Inspection Machine
+machinery:328,machinery,328,Machinery,Capsule Orientation Machine
+machinery:329,machinery,329,Machinery,Capsule Polishing Machine
+machinery:330,machinery,330,Machinery,Capsule Printing Machine
+machinery:331,machinery,331,Machinery,Capsule Sampling System
+machinery:332,machinery,332,Machinery,Capsule Screening Machine
+machinery:333,machinery,333,Machinery,Capsule Sealing Machine
+machinery:334,machinery,334,Machinery,Capsule Sorting Machine
+machinery:335,machinery,335,Machinery,Capsule Tamper Band Applicator
+machinery:336,machinery,336,Machinery,Capsule Vision System
+machinery:337,machinery,337,Machinery,Capsule Weight Checker
+machinery:338,machinery,338,Machinery,Capsule-in-Capsule Filling Machine
+machinery:339,machinery,339,Machinery,Carnauba Wax Coater
+machinery:340,machinery,340,Machinery,Carotenoid Extraction System
+machinery:341,machinery,341,Machinery,Carotenoid Extractor
+machinery:342,machinery,342,Machinery,Carousel Extractor
+machinery:343,machinery,343,Machinery,Carr Index Analyzer
+machinery:344,machinery,344,Machinery,Carrageenan Processing System
+machinery:345,machinery,345,Machinery,Carton Erector
+machinery:346,machinery,346,Machinery,Cartoner for Bottles
+machinery:347,machinery,347,Machinery,Cartoning Machine
+machinery:348,machinery,348,Machinery,Cartridge Dust Collector
+machinery:349,machinery,349,Machinery,Cartridge Filling Machine
+machinery:350,machinery,350,Machinery,Case Erector
+machinery:351,machinery,351,Machinery,Case Former
+machinery:352,machinery,352,Machinery,Case Labeler
+machinery:353,machinery,353,Machinery,Case Packer
+machinery:354,machinery,354,Machinery,Case Packer for Bottles
+machinery:355,machinery,355,Machinery,Case Sealer
+machinery:356,machinery,356,Machinery,Casein Processing System
+machinery:357,machinery,357,Machinery,Catechin Concentration System
+machinery:358,machinery,358,Machinery,Caustic Recovery CIP
+machinery:359,machinery,359,Machinery,Cell Counter
+machinery:360,machinery,360,Machinery,Cellulose Grinding Machine
+machinery:361,machinery,361,Machinery,Center Peripheral Discharge Mill
+machinery:362,machinery,362,Machinery,Centrifugal Atomizer Spray Dryer
+machinery:363,machinery,363,Machinery,Centrifugal Bottle Feeder
+machinery:364,machinery,364,Machinery,Centrifugal Impact Mill
+machinery:365,machinery,365,Machinery,Centrifugal Sifter
+machinery:366,machinery,366,Machinery,Centrifuge
+machinery:367,machinery,367,Machinery,Cereal Bar Machine
+machinery:368,machinery,368,Machinery,Chaga Extract Line
+machinery:369,machinery,369,Machinery,Chain Conveyor
+machinery:370,machinery,370,Machinery,Chain Mill
+machinery:371,machinery,371,Machinery,Chain-on-Edge Conveyor
+machinery:372,machinery,372,Machinery,Changeover-Free Blender
+machinery:373,machinery,373,Machinery,Check Screener
+machinery:374,machinery,374,Machinery,Checkweigher
+machinery:375,machinery,375,Machinery,Checkweighing System
+machinery:376,machinery,376,Machinery,Chewable Tablet Blister Machine
+machinery:377,machinery,377,Machinery,Chewable Tablet Press
+machinery:378,machinery,378,Machinery,Child-Resistant Blister Machine
+machinery:379,machinery,379,Machinery,Child-Resistant Capper
+machinery:380,machinery,380,Machinery,Chilled Product Conveyor
+machinery:381,machinery,381,Machinery,Chilsonator Roller Compactor
+machinery:382,machinery,382,Machinery,Chitin Processing Line
+machinery:383,machinery,383,Machinery,Chitosan Manufacturing System
+machinery:384,machinery,384,Machinery,Chromatography System
+machinery:385,machinery,385,Machinery,Chuck Capper
+machinery:386,machinery,386,Machinery,Circular Vibrating Screen
+machinery:387,machinery,387,Machinery,Clamshell Blister Machine
+machinery:388,machinery,388,Machinery,Clarifier Centrifuge
+machinery:389,machinery,389,Machinery,Clarity Tester
+machinery:390,machinery,390,Machinery,Class III Biological Safety Cabinet
+machinery:391,machinery,391,Machinery,Classified Area Manufacturing Suite
+machinery:392,machinery,392,Machinery,Classifier Mill
+machinery:393,machinery,393,Machinery,Clean Room AHU
+machinery:394,machinery,394,Machinery,Clean Room System
+machinery:395,machinery,395,Machinery,Clean-in-Place Hammer Mill
+machinery:396,machinery,396,Machinery,Clean-in-Place Unit
+machinery:397,machinery,397,Machinery,Cleanroom Conveyor
+machinery:398,machinery,398,Machinery,Cleanroom Workstation
+machinery:399,machinery,399,Machinery,Cleated Belt Conveyor
+machinery:400,machinery,400,Machinery,Climatic Chamber
+machinery:401,machinery,401,Machinery,Clinical Nutrition Manufacturing
+machinery:402,machinery,402,Machinery,Closed RABS
+machinery:403,machinery,403,Machinery,Closed System Mixer
+machinery:404,machinery,404,Machinery,Closed Transfer System
+machinery:405,machinery,405,Machinery,Closed-Cycle Spray Dryer
+machinery:406,machinery,406,Machinery,Closed-Loop Extraction System
+machinery:407,machinery,407,Machinery,Closed-Loop Spray Dryer
+machinery:408,machinery,408,Machinery,Closure Torque Tester
+machinery:409,machinery,409,Machinery,Cloud Point System
+machinery:410,machinery,410,Machinery,Club Store Packer
+machinery:411,machinery,411,Machinery,Cluster Pack Machine
+machinery:412,machinery,412,Machinery,Co-Current Rotary Dryer
+machinery:413,machinery,413,Machinery,Co-Current Spray Dryer
+machinery:414,machinery,414,Machinery,Co-Kneader
+machinery:415,machinery,415,Machinery,Co-Precipitation System
+machinery:416,machinery,416,Machinery,Co-Rotating Twin-Screw Extruder
+machinery:417,machinery,417,Machinery,CoQ10 Fermentation Line
+machinery:418,machinery,418,Machinery,Coacervation Encapsulation System
+machinery:419,machinery,419,Machinery,Coarse Crusher
+machinery:420,machinery,420,Machinery,Coarse Grinding Mill
+machinery:421,machinery,421,Machinery,Coating Endpoint System
+machinery:422,machinery,422,Machinery,Coating Film Grinding Machine
+machinery:423,machinery,423,Machinery,Coating Solution Mixer
+machinery:424,machinery,424,Machinery,Coating Solution Preparation System
+machinery:425,machinery,425,Machinery,Coating Solution Pump System
+machinery:426,machinery,426,Machinery,Coating Solution Vessel
+machinery:427,machinery,427,Machinery,Cobot
+machinery:428,machinery,428,Machinery,Cobot Palletizer
+machinery:429,machinery,429,Machinery,Coenzyme Q10 Manufacturing System
+machinery:430,machinery,430,Machinery,Cold Ethanol Extraction Unit
+machinery:431,machinery,431,Machinery,Cold Grinding Machine
+machinery:432,machinery,432,Machinery,Cold Pasteurization System
+machinery:433,machinery,433,Machinery,Cold Plasma Processing System
+machinery:434,machinery,434,Machinery,Cold Room Stability System
+machinery:435,machinery,435,Machinery,Cold Vapor AAS
+machinery:436,machinery,436,Machinery,Cold-Fill Machine
+machinery:437,machinery,437,Machinery,Cold-Form Blister Machine
+machinery:438,machinery,438,Machinery,Cold-Form Foil Feeding System
+machinery:439,machinery,439,Machinery,Cold-Glue Cartoner
+machinery:440,machinery,440,Machinery,Cold-Press Extractor
+machinery:441,machinery,441,Machinery,Collaborative Robot
+machinery:442,machinery,442,Machinery,Collaborative Robot Palletizer
+machinery:443,machinery,443,Machinery,Collagen Drink Line
+machinery:444,machinery,444,Machinery,Collagen Extraction System
+machinery:445,machinery,445,Machinery,Collagen Peptide Hydrolysis Line
+machinery:446,machinery,446,Machinery,Collagen Processing Line
+machinery:447,machinery,447,Machinery,Colloid Manufacturing System
+machinery:448,machinery,448,Machinery,Colloid Mill Homogenizer
+machinery:449,machinery,449,Machinery,Colloid Mill Mixer
+machinery:450,machinery,450,Machinery,Colloidal Mill
+machinery:451,machinery,451,Machinery,Color Coating Machine
+machinery:452,machinery,452,Machinery,Color Measurement System
+machinery:453,machinery,453,Machinery,Colorimeter
+machinery:454,machinery,454,Machinery,Column Extractor
+machinery:455,machinery,455,Machinery,Column Palletizer
+machinery:456,machinery,456,Machinery,Combination Weigher
+machinery:457,machinery,457,Machinery,Combined Grinding Sieving Machine
+machinery:458,machinery,458,Machinery,Combined Phase Conveying
+machinery:459,machinery,459,Machinery,Sachet Machine
+machinery:460,machinery,460,Machinery,Compartment Mill
+machinery:461,machinery,461,Machinery,Complex Coacervation Unit
+machinery:462,machinery,462,Machinery,Compliance Blister Machine
+machinery:463,machinery,463,Machinery,Compounding Isolator
+machinery:464,machinery,464,Machinery,Compressed Air System
+machinery:465,machinery,465,Machinery,Computed Tomography Scanner for Products
+machinery:466,machinery,466,Machinery,Conductivity Analyzer
+machinery:467,machinery,467,Machinery,Conductivity Meter
+machinery:468,machinery,468,Machinery,Cone Bottom Tank
+machinery:469,machinery,469,Machinery,Confectionery Depositor
+machinery:470,machinery,470,Machinery,Conical Ball Mill
+machinery:471,machinery,471,Machinery,Conical Blender
+machinery:472,machinery,472,Machinery,Conical Paddle Dryer
+machinery:473,machinery,473,Machinery,Conical Screen Centrifuge
+machinery:474,machinery,474,Machinery,Conical Screw Mixer
+machinery:475,machinery,475,Machinery,Conical Vacuum Dryer
+machinery:476,machinery,476,Machinery,Contact Freeze Dryer
+machinery:477,machinery,477,Machinery,Contact Plate System
+machinery:478,machinery,478,Machinery,Contained API Manufacturing
+machinery:479,machinery,479,Machinery,Contained Capsule Filling System
+machinery:480,machinery,480,Machinery,Contained Conveyor
+machinery:481,machinery,481,Machinery,Contained Dispensing System
+machinery:482,machinery,482,Machinery,Contained Dust Collector
+machinery:483,machinery,483,Machinery,Contained Hammer Mill
+machinery:484,machinery,484,Machinery,Contained IBC Coupling System
+machinery:485,machinery,485,Machinery,Contained Mixing System
+machinery:486,machinery,486,Machinery,Contained Sieving System
+machinery:487,machinery,487,Machinery,Contained Transfer System
+machinery:488,machinery,488,Machinery,Container Blender
+machinery:489,machinery,489,Machinery,Container Tipper
+machinery:490,machinery,490,Machinery,Containment Isolator
+machinery:491,machinery,491,Machinery,Content Uniformity Analyzer
+machinery:492,machinery,492,Machinery,Continuous Ball Mill
+machinery:493,machinery,493,Machinery,Continuous Blending Line
+machinery:494,machinery,494,Machinery,Continuous Blending System
+machinery:495,machinery,495,Machinery,Continuous Blister Machine
+machinery:496,machinery,496,Machinery,Continuous Bucket Elevator
+machinery:497,machinery,497,Machinery,Continuous Capsule Filling Line
+machinery:498,machinery,498,Machinery,Continuous Capsule Filling System
+machinery:499,machinery,499,Machinery,Continuous Centrifuge
+machinery:500,machinery,500,Machinery,Continuous Chromatography System
+machinery:501,machinery,501,Machinery,Continuous Coating Line
+machinery:502,machinery,502,Machinery,Continuous Crystallizer
+machinery:503,machinery,503,Machinery,Continuous Decanter
+machinery:504,machinery,504,Machinery,Continuous Dosing System
+machinery:505,machinery,505,Machinery,Continuous Dry Granulation Line
+machinery:506,machinery,506,Machinery,Continuous Drying System
+machinery:507,machinery,507,Machinery,Continuous Environmental Monitor
+machinery:508,machinery,508,Machinery,Continuous Extraction Monitor
+machinery:509,machinery,509,Machinery,Continuous Extraction System
+machinery:510,machinery,510,Machinery,Continuous Feed Mill
+machinery:511,machinery,511,Machinery,Continuous Feeder
+machinery:512,machinery,512,Machinery,Continuous Fluid Bed Dryer
+machinery:513,machinery,513,Machinery,Continuous Freeze Dryer
+machinery:514,machinery,514,Machinery,Continuous Granulation System
+machinery:515,machinery,515,Machinery,Continuous Gummy Cooker
+machinery:516,machinery,516,Machinery,Continuous Lyophilization System
+machinery:517,machinery,517,Machinery,Continuous Manufacturing Granulation System
+machinery:518,machinery,518,Machinery,Continuous Manufacturing Platform
+machinery:519,machinery,519,Machinery,Continuous Milling System
+machinery:520,machinery,520,Machinery,Continuous Mixer
+machinery:521,machinery,521,Machinery,Continuous Mixing System
+machinery:522,machinery,522,Machinery,Continuous Motion Blister Machine
+machinery:523,machinery,523,Machinery,Continuous Motion Cartoner
+machinery:524,machinery,524,Machinery,Continuous Pan Coater
+machinery:525,machinery,525,Machinery,Continuous Pasteurizer
+machinery:526,machinery,526,Machinery,Continuous Powder Blending System
+machinery:527,machinery,527,Machinery,Continuous Process Monitoring System
+machinery:528,machinery,528,Machinery,Continuous Processing Line
+machinery:529,machinery,529,Machinery,Continuous Sachet Machine
+machinery:530,machinery,530,Machinery,Continuous Sampling System
+machinery:531,machinery,531,Machinery,Continuous Sealer
+machinery:532,machinery,532,Machinery,Continuous Sterilizer
+machinery:533,machinery,533,Machinery,Continuous Stirred Tank Reactor
+machinery:534,machinery,534,Machinery,Continuous Tablet Manufacturing Press
+machinery:535,machinery,535,Machinery,Continuous Tableting Line
+machinery:536,machinery,536,Machinery,Continuous Wet Granulation Line
+machinery:537,machinery,537,Machinery,Controlled Belt Feeder
+machinery:538,machinery,538,Machinery,Convective Mixer
+machinery:539,machinery,539,Machinery,Conventional Coating Pan
+machinery:540,machinery,540,Machinery,Conventional Palletizer
+machinery:541,machinery,541,Machinery,Conveyor Belt Dryer
+machinery:542,machinery,542,Machinery,Cooled Mixing Tank
+machinery:543,machinery,543,Machinery,Cooling Conveyor
+machinery:544,machinery,544,Machinery,Cooling Crystallizer
+machinery:545,machinery,545,Machinery,Cordyceps Manufacturing System
+machinery:546,machinery,546,Machinery,Cotton Inserter
+machinery:547,machinery,547,Machinery,Counter Display Unit Packer
+machinery:548,machinery,548,Machinery,Counter Jet Mill
+machinery:549,machinery,549,Machinery,Counter-Current Extractor
+machinery:550,machinery,550,Machinery,Counter-Current Rotary Dryer
+machinery:551,machinery,551,Machinery,Counter-Rotating Twin-Screw Extruder
+machinery:552,machinery,552,Machinery,Counterbalance Forklift
+machinery:553,machinery,553,Machinery,Course Mesh Sieve
+machinery:554,machinery,554,Machinery,Crane Scale
+machinery:555,machinery,555,Machinery,Cream Manufacturing System
+machinery:556,machinery,556,Machinery,Cream Manufacturing Vessel
+machinery:557,machinery,557,Machinery,Cream Mixer
+machinery:558,machinery,558,Machinery,Cream Tube Filler
+machinery:559,machinery,559,Machinery,Cross-Beater Mill
+machinery:560,machinery,560,Machinery,Crown Capper
+machinery:561,machinery,561,Machinery,Cryo-Milling System
+machinery:562,machinery,562,Machinery,Cryogenic Dryer
+machinery:563,machinery,563,Machinery,Cryogenic Grinding Mill
+machinery:564,machinery,564,Machinery,Cryogenic Impact Mill
+machinery:565,machinery,565,Machinery,Crystal Coating Pan
+machinery:566,machinery,566,Machinery,Crystallizer
+machinery:567,machinery,567,Machinery,Cubic Blender
+machinery:568,machinery,568,Machinery,Curcumin Extractor
+machinery:569,machinery,569,Machinery,Curcumin Processing System
+machinery:570,machinery,570,Machinery,Custom Shape Tablet Press
+machinery:571,machinery,571,Machinery,Cutting Mill
+machinery:572,machinery,572,Machinery,Cyclodextrin Complexation System
+machinery:573,machinery,573,Machinery,Cyclodextrin Production System
+machinery:574,machinery,574,Machinery,Cyclone Dust Collector
+machinery:575,machinery,575,Machinery,Cyclone Separator
+machinery:576,machinery,576,Machinery,DHA Concentration System
+machinery:577,machinery,577,Machinery,DIM Manufacturing System
+machinery:578,machinery,578,Machinery,DLS System
+machinery:579,machinery,579,Machinery,DMA
+machinery:580,machinery,580,Machinery,DNA Sequencer
+machinery:581,machinery,581,Machinery,DSC Analyzer
+machinery:582,machinery,582,Machinery,DTA Analyzer
+machinery:583,machinery,583,Machinery,Data-Integrated Blister System
+machinery:584,machinery,584,Machinery,Day Bin
+machinery:585,machinery,585,Machinery,De-Dusting Screen
+machinery:586,machinery,586,Machinery,De-Lumper
+machinery:587,machinery,587,Machinery,Dead-End Filtration System
+machinery:588,machinery,588,Machinery,Debossing Tablet Press
+machinery:589,machinery,589,Machinery,Decanter Centrifuge
+machinery:590,machinery,590,Machinery,Decarboxylation Reactor Extractor
+machinery:591,machinery,591,Machinery,Deep Learning Vision System
+machinery:592,machinery,592,Machinery,Dehumidification Dryer
+machinery:593,machinery,593,Machinery,Dehumidifier System
+machinery:594,machinery,594,Machinery,Deionization System
+machinery:595,machinery,595,Machinery,Deionized Water System
+machinery:596,machinery,596,Machinery,Delayed-Release Coating System
+machinery:597,machinery,597,Machinery,Delta Robot Cartoner
+machinery:598,machinery,598,Machinery,Delta Robot Case Packer
+machinery:599,machinery,599,Machinery,Delta Robot Picker
+machinery:600,machinery,600,Machinery,Delumping Machine
+machinery:601,machinery,601,Machinery,Dense-Phase Conveying System
+machinery:602,machinery,602,Machinery,Density Meter
+machinery:603,machinery,603,Machinery,Depalletizer
+machinery:604,machinery,604,Machinery,Depth Filtration System
+machinery:605,machinery,605,Machinery,Depyrogenation Oven
+machinery:606,machinery,606,Machinery,Desiccant Dryer
+machinery:607,machinery,607,Machinery,Desiccant Inserting Machine
+machinery:608,machinery,608,Machinery,Desiccant Placer
+machinery:609,machinery,609,Machinery,Detergent Dosing CIP Unit
+machinery:610,machinery,610,Machinery,Dew Point Analyzer
+machinery:611,machinery,611,Machinery,Diaphragm Ball Mill
+machinery:612,machinery,612,Machinery,Die Table Turret
+machinery:613,machinery,613,Machinery,Die-Face Cut Granulator
+machinery:614,machinery,614,Machinery,Dielectric Dryer
+machinery:615,machinery,615,Machinery,Dietary Supplement Bottling Line
+machinery:616,machinery,616,Machinery,Differential Scanning Calorimeter
+machinery:617,machinery,617,Machinery,Diffusion Mixer
+machinery:618,machinery,618,Machinery,Digital Density Meter
+machinery:619,machinery,619,Machinery,Digital PCR
+machinery:620,machinery,620,Machinery,Digital Polarimeter
+machinery:621,machinery,621,Machinery,Digital Refractometer
+machinery:622,machinery,622,Machinery,Dilatometer
+machinery:623,machinery,623,Machinery,Dilute-Phase System
+machinery:624,machinery,624,Machinery,Dip Coater
+machinery:625,machinery,625,Machinery,Dip Coating Machine
+machinery:626,machinery,626,Machinery,Direct Compression Press
+machinery:627,machinery,627,Machinery,Direct Compression Tablet Line
+machinery:628,machinery,628,Machinery,Direct Rotary Dryer
+machinery:629,machinery,629,Machinery,Disc Mill
+machinery:630,machinery,630,Machinery,Disc Pelletizer
+machinery:631,machinery,631,Machinery,Disc Stack Centrifuge
+machinery:632,machinery,632,Machinery,Dish Bottom Tank
+machinery:633,machinery,633,Machinery,Disintegration Tester
+machinery:634,machinery,634,Machinery,Dispensing Balance
+machinery:635,machinery,635,Machinery,Dispensing Bin
+machinery:636,machinery,636,Machinery,Dispensing Booth
+machinery:637,machinery,637,Machinery,Dispensing Robot
+machinery:638,machinery,638,Machinery,Dispensing Weighing System
+machinery:639,machinery,639,Machinery,Disperser
+machinery:640,machinery,640,Machinery,Dispersion Mill
+machinery:641,machinery,641,Machinery,Display Packer
+machinery:642,machinery,642,Machinery,Disposable Bin Blender
+machinery:643,machinery,643,Machinery,Disposable Mixing Bag System
+machinery:644,machinery,644,Machinery,Dissolved Oxygen Meter
+machinery:645,machinery,645,Machinery,Dissolver
+machinery:646,machinery,646,Machinery,Distillation Unit
+machinery:647,machinery,647,Machinery,Diverter Conveyor
+machinery:648,machinery,648,Machinery,Docking Station for IBC
+machinery:649,machinery,649,Machinery,Dome Granulator
+machinery:650,machinery,650,Machinery,Dosator Capsule Filler
+machinery:651,machinery,651,Machinery,Dose Dispenser
+machinery:652,machinery,652,Machinery,Dosing Feeder
+machinery:653,machinery,653,Machinery,Dosing Hopper
+machinery:654,machinery,654,Machinery,Double-Cone Blender
+machinery:655,machinery,655,Machinery,Double-Cone Dryer
+machinery:656,machinery,656,Machinery,Double-Cone Vacuum Mixer
+machinery:657,machinery,657,Machinery,Double-Deck Vibrating Screen
+machinery:658,machinery,658,Machinery,Double-Door Autoclave
+machinery:659,machinery,659,Machinery,Double-Drum Dryer
+machinery:660,machinery,660,Machinery,Double-Jacketed Mixing Tank
+machinery:661,machinery,661,Machinery,Double-Roll Crusher
+machinery:662,machinery,662,Machinery,Double-Roller Mill
+machinery:663,machinery,663,Machinery,Double-Sided Tablet Press
+machinery:664,machinery,664,Machinery,Double-Wall Tray Dryer
+machinery:665,machinery,665,Machinery,Downflow Booth
+machinery:666,machinery,666,Machinery,Downflow Booth Mixer
+machinery:667,machinery,667,Machinery,Downflow Booth System
+machinery:668,machinery,668,Machinery,Doy-Pack Liquid Filler
+machinery:669,machinery,669,Machinery,Doy-Pack Machine
+machinery:670,machinery,670,Machinery,Draft-Tube Crystallizer
+machinery:671,machinery,671,Machinery,Drag Chain Conveyor
+machinery:672,machinery,672,Machinery,Dropper Bottle Filler
+machinery:673,machinery,673,Machinery,Drum
+machinery:674,machinery,674,Machinery,Drum Blender
+machinery:675,machinery,675,Machinery,Drum Dryer
+machinery:676,machinery,676,Machinery,Drum Dumper
+machinery:677,machinery,677,Machinery,Drum Handler
+machinery:678,machinery,678,Machinery,Drum Inverter
+machinery:679,machinery,679,Machinery,Drum Lifter
+machinery:680,machinery,680,Machinery,Drum Scale
+machinery:681,machinery,681,Machinery,Drum Tipper
+machinery:682,machinery,682,Machinery,Dry Colloid Mill
+machinery:683,machinery,683,Machinery,Dry Granulation Line
+machinery:684,machinery,684,Machinery,Dry Granulation Tablet Line
+machinery:685,machinery,685,Machinery,Dry Granulator
+machinery:686,machinery,686,Machinery,Dry Grinding Machine
+machinery:687,machinery,687,Machinery,Dry Heat Oven
+machinery:688,machinery,688,Machinery,Dry Heat Sterilizer
+machinery:689,machinery,689,Machinery,Dry Powder Blender
+machinery:690,machinery,690,Machinery,Dry Screening Machine
+machinery:691,machinery,691,Machinery,Dual-Chamber Sachet Machine
+machinery:692,machinery,692,Machinery,Dual-Fill Capsule System
+machinery:693,machinery,693,Machinery,Dual-Frequency Screen
+machinery:694,machinery,694,Machinery,Duplex Sachet Machine
+machinery:695,machinery,695,Machinery,Dust Collector
+machinery:696,machinery,696,Machinery,Dust-Free Blister System
+machinery:697,machinery,697,Machinery,Dust-Free Conveyor
+machinery:698,machinery,698,Machinery,Dye Ingress Tester
+machinery:699,machinery,699,Machinery,Dynamic Checkweigher
+machinery:700,machinery,700,Machinery,Dynamic Light Scattering Analyzer
+machinery:701,machinery,701,Machinery,Dynamic Mechanical Analyzer
+machinery:702,machinery,702,Machinery,Dynamic Viscosity Analyzer
+machinery:703,machinery,703,Machinery,ED-XRF
+machinery:704,machinery,704,Machinery,EDI System
+machinery:705,machinery,705,Machinery,EGCG Green Tea Extractor
+machinery:706,machinery,706,Machinery,EGCG Purification Line
+machinery:707,machinery,707,Machinery,ELISA Reader
+machinery:708,machinery,708,Machinery,EPA Purification System
+machinery:709,machinery,709,Machinery,ERP Integration System
+machinery:710,machinery,710,Machinery,ETO Sterilization Chamber
+machinery:711,machinery,711,Machinery,ETO Sterilizer
+machinery:712,machinery,712,Machinery,Easy-Open Sachet Machine
+machinery:713,machinery,713,Machinery,Eccentric Vibrating Mill
+machinery:714,machinery,714,Machinery,Eddy Current Conveyor
+machinery:715,machinery,715,Machinery,Effervescent Granulation System
+machinery:716,machinery,716,Machinery,Effervescent Manufacturing System
+machinery:717,machinery,717,Machinery,Effervescent Mixing System
+machinery:718,machinery,718,Machinery,Effervescent Packaging Line
+machinery:719,machinery,719,Machinery,Effervescent Sachet Machine
+machinery:720,machinery,720,Machinery,Effervescent Tablet Line
+machinery:721,machinery,721,Machinery,Effervescent Tablet Press
+machinery:722,machinery,722,Machinery,Effervescent Tableting Line
+machinery:723,machinery,723,Machinery,Effluent Treatment System
+machinery:724,machinery,724,Machinery,Electric Forklift
+machinery:725,machinery,725,Machinery,Electric Pallet Jack
+machinery:726,machinery,726,Machinery,Electrodeionization System
+machinery:727,machinery,727,Machinery,Electrodialysis Extractor
+machinery:728,machinery,728,Machinery,Electromagnetic Sieve
+machinery:729,machinery,729,Machinery,Electromagnetic Vibrating Conveyor
+machinery:730,machinery,730,Machinery,Electromagnetic Vibratory Feeder
+machinery:731,machinery,731,Machinery,Electronic Batch Record System
+machinery:732,machinery,732,Machinery,Electronic Tablet Counter
+machinery:733,machinery,733,Machinery,Electrophoretic Light Scattering
+machinery:734,machinery,734,Machinery,Electropolished Tank
+machinery:735,machinery,735,Machinery,Electrostatic Coater
+machinery:736,machinery,736,Machinery,Elixir Manufacturing System
+machinery:737,machinery,737,Machinery,Elixir Mixing Tank
+machinery:738,machinery,738,Machinery,Ellagic Acid Extractor
+machinery:739,machinery,739,Machinery,Ellagic Acid Processing System
+machinery:740,machinery,740,Machinery,Elliptical Vibrating Screen
+machinery:741,machinery,741,Machinery,Embossing Tablet Press
+machinery:742,machinery,742,Machinery,Empty Bottle Inspector
+machinery:743,machinery,743,Machinery,Empty Capsule Sorter
+machinery:744,machinery,744,Machinery,Emulsifier
+machinery:745,machinery,745,Machinery,Emulsion Manufacturing System
+machinery:746,machinery,746,Machinery,Emulsion Mill
+machinery:747,machinery,747,Machinery,Emulsion Preparation Vessel
+machinery:748,machinery,748,Machinery,En-Masse Conveyor
+machinery:749,machinery,749,Machinery,Encapsulation Spray Dryer
+machinery:750,machinery,750,Machinery,Enclosed Conveyor
+machinery:751,machinery,751,Machinery,End-Load Cartoner
+machinery:752,machinery,752,Machinery,End-Point Granulation Controller
+machinery:753,machinery,753,Machinery,End-to-End CM System
+machinery:754,machinery,754,Machinery,Endotoxin Testing System
+machinery:755,machinery,755,Machinery,Energy Bar Production System
+machinery:756,machinery,756,Machinery,Energy Drink Production Line
+machinery:757,machinery,757,Machinery,Enteral Nutrition System
+machinery:758,machinery,758,Machinery,Enteric Softgel Coating Machine
+machinery:759,machinery,759,Machinery,Enveloped Tea Bag Machine
+machinery:760,machinery,760,Machinery,Environmental Monitoring System
+machinery:761,machinery,761,Machinery,Enzyme Hydrolysis Extraction Tank
+machinery:762,machinery,762,Machinery,Enzyme-Assisted Extraction Unit
+machinery:763,machinery,763,Machinery,Essential Oil Extractor
+machinery:764,machinery,764,Machinery,Ethanol Extraction System
+machinery:765,machinery,765,Machinery,Ethylcellulose Coater
+machinery:766,machinery,766,Machinery,Eudragit Coating System
+machinery:767,machinery,767,Machinery,Evaporative Crystallizer
+machinery:768,machinery,768,Machinery,Evaporator
+machinery:769,machinery,769,Machinery,Excipient Feeder
+machinery:770,machinery,770,Machinery,Excipient Mill
+machinery:771,machinery,771,Machinery,Excipient Mixing Tank
+machinery:772,machinery,772,Machinery,Excipient Sieve
+machinery:773,machinery,773,Machinery,Excipient Tank
+machinery:774,machinery,774,Machinery,Exhaust Air System for Coater
+machinery:775,machinery,775,Machinery,Expeller Press
+machinery:776,machinery,776,Machinery,Expiry Date Coder
+machinery:777,machinery,777,Machinery,Coating Machine
+machinery:778,machinery,778,Machinery,Explosion-Proof Dryer
+machinery:779,machinery,779,Machinery,Extended-Release Coating Machine
+machinery:780,machinery,780,Machinery,Extended-Release Tablet Press
+machinery:781,machinery,781,Machinery,Extruder-Spheronizer System
+machinery:782,machinery,782,Machinery,Extrusion Granulator
+machinery:783,machinery,783,Machinery,FFS Pouch Machine
+machinery:784,machinery,784,Machinery,FIBC Unloader
+machinery:785,machinery,785,Machinery,FOS Manufacturing System
+machinery:786,machinery,786,Machinery,FRL System
+machinery:787,machinery,787,Machinery,FT-Raman
+machinery:788,machinery,788,Machinery,FTIR Spectrometer
+machinery:789,machinery,789,Machinery,Falling-Film Dryer
+machinery:790,machinery,790,Machinery,Falling-Film Evaporator
+machinery:791,machinery,791,Machinery,Far-Infrared Dryer
+machinery:792,machinery,792,Machinery,Fed-Batch Reactor
+machinery:793,machinery,793,Machinery,Feed Hopper
+machinery:794,machinery,794,Machinery,Fermentation Tank
+machinery:795,machinery,795,Machinery,Fermentation Vessel
+machinery:796,machinery,796,Machinery,Fermentation-Assisted Extractor
+machinery:797,machinery,797,Machinery,Fermented Beverage System
+machinery:798,machinery,798,Machinery,Filled Bottle Inspector
+machinery:799,machinery,799,Machinery,Filling Machine for Oral Liquid
+machinery:800,machinery,800,Machinery,Film Coating Pan
+machinery:801,machinery,801,Machinery,Film Splice System
+machinery:802,machinery,802,Machinery,Film Tension Controller
+machinery:803,machinery,803,Machinery,Film-Coated Tablet Press
+machinery:804,machinery,804,Machinery,Filter Dryer
+machinery:805,machinery,805,Machinery,Filter Press
+machinery:806,machinery,806,Machinery,Final Blend Sieve
+machinery:807,machinery,807,Machinery,Fine Crusher
+machinery:808,machinery,808,Machinery,Fine Grinding Mill
+machinery:809,machinery,809,Machinery,Fine Mesh Sieve
+machinery:810,machinery,810,Machinery,Finished Product Tank
+machinery:811,machinery,811,Machinery,Fish Collagen System
+machinery:812,machinery,812,Machinery,Fish Oil Extractor
+machinery:813,machinery,813,Machinery,Fish Oil Refining System
+machinery:814,machinery,814,Machinery,Fixed Roof Tank
+machinery:815,machinery,815,Machinery,Fixed-Bed Bioreactor
+machinery:816,machinery,816,Machinery,Fixed-Bed Extractor
+machinery:817,machinery,817,Machinery,Fixed-Rate Feeder
+machinery:818,machinery,818,Machinery,Flaker Drum Dryer
+machinery:819,machinery,819,Machinery,Flame AAS
+machinery:820,machinery,820,Machinery,Flame-Proof Conveyor
+machinery:821,machinery,821,Machinery,Flap Folding Sealer
+machinery:822,machinery,822,Machinery,Flash Chromatography System
+machinery:823,machinery,823,Machinery,Flash Dryer
+machinery:824,machinery,824,Machinery,Flash Extraction System
+machinery:825,machinery,825,Machinery,Flash Pasteurizer
+machinery:826,machinery,826,Machinery,Flash Point Tester
+machinery:827,machinery,827,Machinery,Flat Belt Conveyor
+machinery:828,machinery,828,Machinery,Flat Bottle Labeler
+machinery:829,machinery,829,Machinery,Flat Bottom Tank
+machinery:830,machinery,830,Machinery,Flat Die Pellet Mill
+machinery:831,machinery,831,Machinery,Flat Pancake Mill
+machinery:832,machinery,832,Machinery,Flat-Bed Screen
+machinery:833,machinery,833,Machinery,Flat-Plate Blister Machine
+machinery:834,machinery,834,Machinery,Flavonoid Extractor
+machinery:835,machinery,835,Machinery,Flexible Container Mixer
+machinery:836,machinery,836,Machinery,Flexible Conveyor
+machinery:837,machinery,837,Machinery,Flexible IBC Blender
+machinery:838,machinery,838,Machinery,Flexible Pouch Filler
+machinery:839,machinery,839,Machinery,Flexible Robot Cell
+machinery:840,machinery,840,Machinery,Flexible Screw Conveyor
+machinery:841,machinery,841,Machinery,Floating Roof Tank
+machinery:842,machinery,842,Machinery,Floor Scale
+machinery:843,machinery,843,Machinery,Floor-to-Ceiling System
+machinery:844,machinery,844,Machinery,Flow Curve Analyzer
+machinery:845,machinery,845,Machinery,Flow Cytometer
+machinery:846,machinery,846,Machinery,Flow Pack Machine
+machinery:847,machinery,847,Machinery,Flow Wrapping Machine
+machinery:848,machinery,848,Machinery,Flow-Through Cell Dissolution
+machinery:849,machinery,849,Machinery,Flow-Wrap Machine
+machinery:850,machinery,850,Machinery,Flowability Tester
+machinery:851,machinery,851,Machinery,Fluid Bed Dryer
+machinery:852,machinery,852,Machinery,Fluid Bed Encapsulator
+machinery:853,machinery,853,Machinery,Fluid Bed Granulator
+machinery:854,machinery,854,Machinery,Fluid Energy Mill
+machinery:855,machinery,855,Machinery,Fluidized Bed Coater
+machinery:856,machinery,856,Machinery,Fluidized Bed Jet Mill
+machinery:857,machinery,857,Machinery,Fluidized Bed Opposed Jet Mill
+machinery:858,machinery,858,Machinery,Fluidized Motion Conveyor
+machinery:859,machinery,859,Machinery,Fluidized Zone Mixer
+machinery:860,machinery,860,Machinery,Fluorescence Reader
+machinery:861,machinery,861,Machinery,Foam Inserter
+machinery:862,machinery,862,Machinery,Foil Sealer
+machinery:863,machinery,863,Machinery,Foil Strip Packer
+machinery:864,machinery,864,Machinery,Fold-and-Glue Machine
+machinery:865,machinery,865,Machinery,Folding Machine for Inserts
+machinery:866,machinery,866,Machinery,Food Product Cartoner
+machinery:867,machinery,867,Machinery,Food Supplement Tablet Press
+machinery:868,machinery,868,Machinery,Freeze Dryer
+machinery:869,machinery,869,Machinery,IBC
+machinery:870,machinery,870,Machinery,Ribbon Blender
+machinery:871,machinery,871,Machinery,Silo
+machinery:872,machinery,872,Machinery,Forced-Air Circulation Tray Dryer
+machinery:873,machinery,873,Machinery,Forced-Circulation Evaporator
+machinery:874,machinery,874,Machinery,Forklift
+machinery:875,machinery,875,Machinery,Form-Fill-Seal Aseptic System
+machinery:876,machinery,876,Machinery,Formulation Tank
+machinery:877,machinery,877,Machinery,Fractional Distillation Extractor
+machinery:878,machinery,878,Machinery,Franz Cell Diffusion System
+machinery:879,machinery,879,Machinery,Free-Fall Mixer
+machinery:880,machinery,880,Machinery,Freeze-Dried Powder Mill
+machinery:881,machinery,881,Machinery,Freeze-Drying Extraction Unit
+machinery:882,machinery,882,Machinery,Freeze-Thaw Chamber
+machinery:883,machinery,883,Machinery,Freezer Conveyor
+machinery:884,machinery,884,Machinery,Freezing Point Osmometer
+machinery:885,machinery,885,Machinery,Freight Elevator
+machinery:886,machinery,886,Machinery,Front-and-Back Labeler
+machinery:887,machinery,887,Machinery,Full-Layer Depalletizer
+machinery:888,machinery,888,Machinery,Full-Spectrum Extract System
+machinery:889,machinery,889,Machinery,Enclosed Blister Machine
+machinery:890,machinery,890,Machinery,Functional Coating System
+machinery:891,machinery,891,Machinery,Functional Drink Filler
+machinery:892,machinery,892,Machinery,Functional Drink Manufacturing System
+machinery:893,machinery,893,Machinery,GC-ECD System
+machinery:894,machinery,894,Machinery,GC-FID System
+machinery:895,machinery,895,Machinery,GC-MS System
+machinery:896,machinery,896,Machinery,Blister Machine
+machinery:897,machinery,897,Machinery,Extraction Vessel
+machinery:898,machinery,898,Machinery,Granulator
+machinery:899,machinery,899,Machinery,Hammer Mill
+machinery:900,machinery,900,Machinery,IBC Blender
+machinery:901,machinery,901,Machinery,Pan Coater
+machinery:902,machinery,902,Machinery,Rotary Tablet Press
+machinery:903,machinery,903,Machinery,Sieve Machine
+machinery:904,machinery,904,Machinery,Spray Dryer
+machinery:905,machinery,905,Machinery,V-Blender
+machinery:906,machinery,906,Machinery,Gable-Top Carton Filler
+machinery:907,machinery,907,Machinery,Gamma Irradiation Chamber
+machinery:908,machinery,908,Machinery,Gamma Irradiation Unit
+machinery:909,machinery,909,Machinery,Gantry Palletizer
+machinery:910,machinery,910,Machinery,Gas Chromatograph
+machinery:911,machinery,911,Machinery,Gate Agitator
+machinery:912,machinery,912,Machinery,Gel Electrophoresis Unit
+machinery:913,machinery,913,Machinery,Gel Manufacturing System
+machinery:914,machinery,914,Machinery,Gel Mixer
+machinery:915,machinery,915,Machinery,Gel Preparation Tank
+machinery:916,machinery,916,Machinery,Gel Sachet Machine
+machinery:917,machinery,917,Machinery,Gel Tube Filler
+machinery:918,machinery,918,Machinery,Gelatin Cooking Kettle
+machinery:919,machinery,919,Machinery,Gelatin Gummy Line
+machinery:920,machinery,920,Machinery,Gelatin Manufacturing System
+machinery:921,machinery,921,Machinery,Gelatin Preparation Unit
+machinery:922,machinery,922,Machinery,Gelatin Recovery System
+machinery:923,machinery,923,Machinery,Gene Expression Analyzer
+machinery:924,machinery,924,Machinery,Germ-Free Manufacturing Suite
+machinery:925,machinery,925,Machinery,Ginseng Manufacturing System
+machinery:926,machinery,926,Machinery,Ginsenoside Extractor
+machinery:927,machinery,927,Machinery,Glatt Coater Style Machine
+machinery:928,machinery,928,Machinery,Gloss Meter
+machinery:929,machinery,929,Machinery,Glossing Machine
+machinery:930,machinery,930,Machinery,Glove Box
+machinery:931,machinery,931,Machinery,Glove Box Mixer
+machinery:932,machinery,932,Machinery,Glove-Box Manufacturing System
+machinery:933,machinery,933,Machinery,Glucosinolate Processing System
+machinery:934,machinery,934,Machinery,Gluing Cartoner
+machinery:935,machinery,935,Machinery,Glycoside Extractor
+machinery:936,machinery,936,Machinery,Goods Lift
+machinery:937,machinery,937,Machinery,Grade A Filling Zone
+machinery:938,machinery,938,Machinery,Grade A/B Suite
+machinery:939,machinery,939,Machinery,Grade A/B/C Manufacturing System
+machinery:940,machinery,940,Machinery,Grain Silo
+machinery:941,machinery,941,Machinery,Granulation Drying System
+machinery:942,machinery,942,Machinery,Granulation Line
+machinery:943,machinery,943,Machinery,Granulation Liquid Mixer
+machinery:944,machinery,944,Machinery,Granulation PAT System
+machinery:945,machinery,945,Machinery,Granulation Vessel
+machinery:946,machinery,946,Machinery,Granule Blender
+machinery:947,machinery,947,Machinery,Granule Bottle Filler
+machinery:948,machinery,948,Machinery,Granule Capsule Filling Machine
+machinery:949,machinery,949,Machinery,Granule Coating Machine
+machinery:950,machinery,950,Machinery,Granule Crusher
+machinery:951,machinery,951,Machinery,Granule Feeder
+machinery:952,machinery,952,Machinery,Granule Milling Machine
+machinery:953,machinery,953,Machinery,Granule Mixing System
+machinery:954,machinery,954,Machinery,Granule Sachet Machine
+machinery:955,machinery,955,Machinery,Granule Screening Machine
+machinery:956,machinery,956,Machinery,Granule Sifter
+machinery:957,machinery,957,Machinery,Granule Stick Pack Machine
+machinery:958,machinery,958,Machinery,Graphite Furnace AAS
+machinery:959,machinery,959,Machinery,Grate Discharge Mill
+machinery:960,machinery,960,Machinery,Gravimetric Blender
+machinery:961,machinery,961,Machinery,Gravimetric Dosing System
+machinery:962,machinery,962,Machinery,Gravimetric Feeder
+machinery:963,machinery,963,Machinery,Gravity Autoclave
+machinery:964,machinery,964,Machinery,Gravity Filler
+machinery:965,machinery,965,Machinery,Gravity Mixer
+machinery:966,machinery,966,Machinery,Gravity Roller Conveyor
+machinery:967,machinery,967,Machinery,Gravity Sieve
+machinery:968,machinery,968,Machinery,Grind-Sieve Combination Machine
+machinery:969,machinery,969,Machinery,Grinding Classifier System
+machinery:970,machinery,970,Machinery,Grinding Drum
+machinery:971,machinery,971,Machinery,Grinding and Classifying System
+machinery:972,machinery,972,Machinery,Grinding-Drying System
+machinery:973,machinery,973,Machinery,Gummy Blister Machine
+machinery:974,machinery,974,Machinery,Gummy Bottle Filler
+machinery:975,machinery,975,Machinery,Gummy Cooking System
+machinery:976,machinery,976,Machinery,Gummy Cooling Tunnel
+machinery:977,machinery,977,Machinery,Gummy Depositor
+machinery:978,machinery,978,Machinery,Gummy Drying Tunnel
+machinery:979,machinery,979,Machinery,Gummy Manufacturing Line
+machinery:980,machinery,980,Machinery,Gummy Oiling Machine
+machinery:981,machinery,981,Machinery,Gummy Packaging Line
+machinery:982,machinery,982,Machinery,Gummy Production System
+machinery:983,machinery,983,Machinery,Gummy Sanding Machine
+machinery:984,machinery,984,Machinery,Gummy Tumbler Coater
+machinery:985,machinery,985,Machinery,Gyratory Screener
+machinery:986,machinery,986,Machinery,HE Pan Coating System
+machinery:987,machinery,987,Machinery,HEPA Dust Collection System
+machinery:988,machinery,988,Machinery,HFFS Machine
+machinery:989,machinery,989,Machinery,HPAPI Blending System
+machinery:990,machinery,990,Machinery,HPAPI Blister Packaging Machine
+machinery:991,machinery,991,Machinery,HPAPI Booth
+machinery:992,machinery,992,Machinery,HPAPI Capsule Filling System
+machinery:993,machinery,993,Machinery,HPAPI Processing System
+machinery:994,machinery,994,Machinery,HPAPI Transfer System
+machinery:995,machinery,995,Machinery,HPLC System
+machinery:996,machinery,996,Machinery,HPMC Capsule Filling Machine
+machinery:997,machinery,997,Machinery,HPMC Coating System
+machinery:998,machinery,998,Machinery,HPP Machine
+machinery:999,machinery,999,Machinery,HTST Pasteurizer
+machinery:1000,machinery,1000,Machinery,HVAC System
+machinery:1001,machinery,1001,Machinery,Hammer Crusher
+machinery:1002,machinery,1002,Machinery,Handheld Particle Counter
+machinery:1003,machinery,1003,Machinery,Handheld Raman Analyzer
+machinery:1004,machinery,1004,Machinery,Handling Isolator
+machinery:1005,machinery,1005,Machinery,Hard Gelatin Capsule Filling Machine
+machinery:1006,machinery,1006,Machinery,Hard-Wall Isolator Suite
+machinery:1007,machinery,1007,Machinery,Hausner Ratio Analyzer
+machinery:1008,machinery,1008,Machinery,Haze Meter
+machinery:1009,machinery,1009,Machinery,Headspace Analyzer
+machinery:1010,machinery,1010,Machinery,Heat Pump Dryer
+machinery:1011,machinery,1011,Machinery,Heat Sealer
+machinery:1012,machinery,1012,Machinery,Heat Tunnel for Shrink Sleeve
+machinery:1013,machinery,1013,Machinery,Heat-Exchange Granulation System
+machinery:1014,machinery,1014,Machinery,Heat-Shrink Machine
+machinery:1015,machinery,1015,Machinery,Heated Conveyor
+machinery:1016,machinery,1016,Machinery,Heated Mixing Vessel
+machinery:1017,machinery,1017,Machinery,Helical Ribbon Agitator
+machinery:1018,machinery,1018,Machinery,Helical Static Mixer
+machinery:1019,machinery,1019,Machinery,Helium Pycnometer
+machinery:1020,machinery,1020,Machinery,Hemispherical Bottom Tank
+machinery:1021,machinery,1021,Machinery,Hemp Extraction Unit
+machinery:1022,machinery,1022,Machinery,Herb Grinding Machine
+machinery:1023,machinery,1023,Machinery,Herbal Extract Concentration Line
+machinery:1024,machinery,1024,Machinery,Herbal Extract Grinding Machine
+machinery:1025,machinery,1025,Machinery,Herbal Extraction Unit
+machinery:1026,machinery,1026,Machinery,Herbal Pulverizer
+machinery:1027,machinery,1027,Machinery,Herbal Tea Bag Machine
+machinery:1028,machinery,1028,Machinery,Hexagonal Blender
+machinery:1029,machinery,1029,Machinery,High-Accuracy Dosing System
+machinery:1030,machinery,1030,Machinery,High-Containment Blender
+machinery:1031,machinery,1031,Machinery,High-Containment Blister System
+machinery:1032,machinery,1032,Machinery,High-Containment Manufacturing Suite
+machinery:1033,machinery,1033,Machinery,High-Containment Weighing Station
+machinery:1034,machinery,1034,Machinery,High-Efficiency Pan Coater
+machinery:1035,machinery,1035,Machinery,High-Field NMR
+machinery:1036,machinery,1036,Machinery,High-Force Tablet Press
+machinery:1037,machinery,1037,Machinery,High-Frequency Vibrating Screen
+machinery:1038,machinery,1038,Machinery,High-Level Palletizer
+machinery:1039,machinery,1039,Machinery,High-Precision Capsule Filler
+machinery:1040,machinery,1040,Machinery,High-Pressure Extraction Vessel
+machinery:1041,machinery,1041,Machinery,High-Pressure Homogenizer
+machinery:1042,machinery,1042,Machinery,High-Pressure Processing System
+machinery:1043,machinery,1043,Machinery,High-Pressure Vessel
+machinery:1044,machinery,1044,Machinery,High-Shear Emulsifier
+machinery:1045,machinery,1045,Machinery,High-Shear Extractor
+machinery:1046,machinery,1046,Machinery,High-Shear Granulator Mixer
+machinery:1047,machinery,1047,Machinery,High-Shear Mixer
+machinery:1048,machinery,1048,Machinery,High-Shear Wet Granulator
+machinery:1049,machinery,1049,Machinery,Capper
+machinery:1050,machinery,1050,Machinery,Cartoner
+machinery:1051,machinery,1051,Machinery,High-Viscosity Mixer
+machinery:1052,machinery,1052,Machinery,Holding Hopper
+machinery:1053,machinery,1053,Machinery,Holding Tank
+machinery:1054,machinery,1054,Machinery,Hollow Fiber Bioreactor
+machinery:1055,machinery,1055,Machinery,Hologram Applicator
+machinery:1056,machinery,1056,Machinery,Holographic Applicator
+machinery:1057,machinery,1057,Machinery,Homogenizer
+machinery:1058,machinery,1058,Machinery,Hopper
+machinery:1059,machinery,1059,Machinery,Horizontal Ball Mill
+machinery:1060,machinery,1060,Machinery,Horizontal Carousel
+machinery:1061,machinery,1061,Machinery,Horizontal Cartoner
+machinery:1062,machinery,1062,Machinery,Horizontal Fluid Bed Dryer
+machinery:1063,machinery,1063,Machinery,Horizontal Form Fill Seal Machine
+machinery:1064,machinery,1064,Machinery,Horizontal High-Shear Granulator
+machinery:1065,machinery,1065,Machinery,Horizontal Laminar Flow Hood
+machinery:1066,machinery,1066,Machinery,Horizontal Mixer
+machinery:1067,machinery,1067,Machinery,Horizontal Tank
+machinery:1068,machinery,1068,Machinery,Horizontal Vibrating Screen
+machinery:1069,machinery,1069,Machinery,Horizontal Wrapper
+machinery:1070,machinery,1070,Machinery,Hosokawa Mill
+machinery:1071,machinery,1071,Machinery,Hot Air Tray Dryer
+machinery:1072,machinery,1072,Machinery,Hot Melt Extruder
+machinery:1073,machinery,1073,Machinery,Hot Melt Extrusion System for Dispersion
+machinery:1074,machinery,1074,Machinery,Hot Melt Granulator
+machinery:1075,machinery,1075,Machinery,Hot-Fill Machine
+machinery:1076,machinery,1076,Machinery,Hot-Glue Cartoner
+machinery:1077,machinery,1077,Machinery,Hot-Glue Case Sealer
+machinery:1078,machinery,1078,Machinery,Hot-Stamp Bottle Coder
+machinery:1079,machinery,1079,Machinery,Humidity Chamber
+machinery:1080,machinery,1080,Machinery,Humidity Control System
+machinery:1081,machinery,1081,Machinery,Hyaluronic Acid Extractor
+machinery:1082,machinery,1082,Machinery,Hyaluronic Acid Fermentation System
+machinery:1083,machinery,1083,Machinery,Hydraulic Press Extractor
+machinery:1084,machinery,1084,Machinery,Hydraulic Roller Compactor
+machinery:1085,machinery,1085,Machinery,Hydride Generation AAS
+machinery:1086,machinery,1086,Machinery,Hydro-Distillation Unit
+machinery:1087,machinery,1087,Machinery,Hydrocarbon Extractor
+machinery:1088,machinery,1088,Machinery,Hygienic Conveyor
+machinery:1089,machinery,1089,Machinery,Hygienic Ribbon Blender
+machinery:1090,machinery,1090,Machinery,IBC Bin
+machinery:1091,machinery,1091,Machinery,IBC Bin Tumbler
+machinery:1092,machinery,1092,Machinery,IBC Container
+machinery:1093,machinery,1093,Machinery,IBC Tipping Station
+machinery:1094,machinery,1094,Machinery,IBC Tote Blender
+machinery:1095,machinery,1095,Machinery,IBC Trolley
+machinery:1096,machinery,1096,Machinery,IBC Weighing System
+machinery:1097,machinery,1097,Machinery,IC System
+machinery:1098,machinery,1098,Machinery,ICH Stability Chamber
+machinery:1099,machinery,1099,Machinery,ICP-MS System
+machinery:1100,machinery,1100,Machinery,ICP-OES System
+machinery:1101,machinery,1101,Machinery,IPC Capsule Checker
+machinery:1102,machinery,1102,Machinery,IPC Coating Monitor
+machinery:1103,machinery,1103,Machinery,IPC Sampling Robot
+machinery:1104,machinery,1104,Machinery,IPC Station
+machinery:1105,machinery,1105,Machinery,IPC Tablet Checker
+machinery:1106,machinery,1106,Machinery,ISO 5 Clean Room Module
+machinery:1107,machinery,1107,Machinery,ISO 7 Clean Room System
+machinery:1108,machinery,1108,Machinery,ITC Calorimeter
+machinery:1109,machinery,1109,Machinery,Image Analysis Colony Counter
+machinery:1110,machinery,1110,Machinery,Image-Based Particle Analyzer
+machinery:1111,machinery,1111,Machinery,Immersion Coater
+machinery:1112,machinery,1112,Machinery,Immersion Extractor
+machinery:1113,machinery,1113,Machinery,Impact Crusher
+machinery:1114,machinery,1114,Machinery,Impact Mill
+machinery:1115,machinery,1115,Machinery,Impulse Sealer
+machinery:1116,machinery,1116,Machinery,In-Line Emulsifier
+machinery:1117,machinery,1117,Machinery,In-Line Sieve
+machinery:1118,machinery,1118,Machinery,In-Line Sterilization System
+machinery:1119,machinery,1119,Machinery,In-Line Sterilizer
+machinery:1120,machinery,1120,Machinery,In-Line Tablet Counter
+machinery:1121,machinery,1121,Machinery,In-Motion Blender
+machinery:1122,machinery,1122,Machinery,In-Process Control Station for Tablets
+machinery:1123,machinery,1123,Machinery,In-Process Control System
+machinery:1124,machinery,1124,Machinery,Incinerator
+machinery:1125,machinery,1125,Machinery,Inclined Belt Conveyor
+machinery:1126,machinery,1126,Machinery,Inclined Vibrating Screen
+machinery:1127,machinery,1127,Machinery,Inclusion Complex Machine
+machinery:1128,machinery,1128,Machinery,Incubator
+machinery:1129,machinery,1129,Machinery,Indexing Conveyor
+machinery:1130,machinery,1130,Machinery,Indirect Rotary Dryer
+machinery:1131,machinery,1131,Machinery,Indirect Steam Dryer
+machinery:1132,machinery,1132,Machinery,Individual Bar Wrapper
+machinery:1133,machinery,1133,Machinery,Induction Sealing Machine
+machinery:1134,machinery,1134,Machinery,Industrial Freeze Dryer
+machinery:1135,machinery,1135,Machinery,Inert Gas Extraction Unit
+machinery:1136,machinery,1136,Machinery,Inert Loop Spray Dryer
+machinery:1137,machinery,1137,Machinery,Infant Formula Line
+machinery:1138,machinery,1138,Machinery,Infrared Dryer
+machinery:1139,machinery,1139,Machinery,Infrared Moisture Analyzer
+machinery:1140,machinery,1140,Machinery,Ingredient Bin
+machinery:1141,machinery,1141,Machinery,Ingredient Silo
+machinery:1142,machinery,1142,Machinery,Ingredient Tank
+machinery:1143,machinery,1143,Machinery,Injectable Manufacturing System
+machinery:1144,machinery,1144,Machinery,Inkjet Coding Blister System
+machinery:1145,machinery,1145,Machinery,Inlet Air Handling Unit for Coating
+machinery:1146,machinery,1146,Machinery,Inline Blister Machine
+machinery:1147,machinery,1147,Machinery,Inline CIP Monitor
+machinery:1148,machinery,1148,Machinery,Inline Capper
+machinery:1149,machinery,1149,Machinery,Inline Checkweigher
+machinery:1150,machinery,1150,Machinery,Inline Coding Blister Machine
+machinery:1151,machinery,1151,Machinery,Inline Conductivity Monitor
+machinery:1152,machinery,1152,Machinery,Inline Density Meter
+machinery:1153,machinery,1153,Machinery,Inline Density Monitor
+machinery:1154,machinery,1154,Machinery,Inline Disperser
+machinery:1155,machinery,1155,Machinery,Inline Extraction Monitor
+machinery:1156,machinery,1156,Machinery,Inline Flow Monitor
+machinery:1157,machinery,1157,Machinery,Inline Grinding Machine
+machinery:1158,machinery,1158,Machinery,Inline HPLC
+machinery:1159,machinery,1159,Machinery,Inline Homogenizer
+machinery:1160,machinery,1160,Machinery,Inline Liquid Filler
+machinery:1161,machinery,1161,Machinery,Inline MS
+machinery:1162,machinery,1162,Machinery,Inline Metal Detector
+machinery:1163,machinery,1163,Machinery,Inline Particle Counter
+machinery:1164,machinery,1164,Machinery,Inline Powder Wetting System
+machinery:1165,machinery,1165,Machinery,Inline Raman Analyzer
+machinery:1166,machinery,1166,Machinery,Inline Raman Probe
+machinery:1167,machinery,1167,Machinery,Inline Refractometer
+machinery:1168,machinery,1168,Machinery,Inline Sieving System
+machinery:1169,machinery,1169,Machinery,Inline TOC Monitor
+machinery:1170,machinery,1170,Machinery,Inline Temperature Monitor
+machinery:1171,machinery,1171,Machinery,Inline Turbidity Monitor
+machinery:1172,machinery,1172,Machinery,Inline Viscometer
+machinery:1173,machinery,1173,Machinery,Inline Weighing System
+machinery:1174,machinery,1174,Machinery,Inline pH Monitor
+machinery:1175,machinery,1175,Machinery,Insert Feeder Cartoner
+machinery:1176,machinery,1176,Machinery,Insert Placer
+machinery:1177,machinery,1177,Machinery,Insert-Folding Cartoner
+machinery:1178,machinery,1178,Machinery,Inspection Robot
+machinery:1179,machinery,1179,Machinery,Instant Beverage Line
+machinery:1180,machinery,1180,Machinery,Instant Drink Sachet Machine
+machinery:1181,machinery,1181,Machinery,Insulated Storage Tank
+machinery:1182,machinery,1182,Machinery,Integrated Bottling Line
+machinery:1183,machinery,1183,Machinery,Integrated Continuous Manufacturing System
+machinery:1184,machinery,1184,Machinery,Integrated Milling Drying System
+machinery:1185,machinery,1185,Machinery,Integrated Milling Granulation System
+machinery:1186,machinery,1186,Machinery,Integrated Milling Sieving System
+machinery:1187,machinery,1187,Machinery,Integrated Pan Coater
+machinery:1188,machinery,1188,Machinery,Integrated Spray Fluid Bed Dryer
+machinery:1189,machinery,1189,Machinery,Integrated Weighing Blender
+machinery:1190,machinery,1190,Machinery,Intensive Mixer
+machinery:1191,machinery,1191,Machinery,Intermediate Bulk Container
+machinery:1192,machinery,1192,Machinery,Intermediate Stability Chamber
+machinery:1193,machinery,1193,Machinery,Intermediate Tank
+machinery:1194,machinery,1194,Machinery,Intermittent Motion Blister Machine
+machinery:1195,machinery,1195,Machinery,Intermittent Motion Cartoner
+machinery:1196,machinery,1196,Machinery,Intermittent Sachet Machine
+machinery:1197,machinery,1197,Machinery,Internal Mixer
+machinery:1198,machinery,1198,Machinery,Inulin Processing Line
+machinery:1199,machinery,1199,Machinery,Inverting Filter Centrifuge
+machinery:1200,machinery,1200,Machinery,Ion Chromatograph
+machinery:1201,machinery,1201,Machinery,Ion Exchange Chromatography System
+machinery:1202,machinery,1202,Machinery,Ion Trap MS
+machinery:1203,machinery,1203,Machinery,Ionizing Rinser
+machinery:1204,machinery,1204,Machinery,Isoflavone Extraction Line
+machinery:1205,machinery,1205,Machinery,Isolate Purification System
+machinery:1206,machinery,1206,Machinery,Isolator
+machinery:1207,machinery,1207,Machinery,Isolator Fill-Finish System
+machinery:1208,machinery,1208,Machinery,Isolator-Based Manufacturing
+machinery:1209,machinery,1209,Machinery,Isolator-Integrated Capsule Filler
+machinery:1210,machinery,1210,Machinery,Isolator-Integrated Mixer
+machinery:1211,machinery,1211,Machinery,Isothermal DSC
+machinery:1212,machinery,1212,Machinery,Isothermal Titration Calorimeter
+machinery:1213,machinery,1213,Machinery,Jacketed Extraction Tank
+machinery:1214,machinery,1214,Machinery,Jacketed Mixer
+machinery:1215,machinery,1215,Machinery,Jacketed Mixing Vessel
+machinery:1216,machinery,1216,Machinery,Jacketed Paddle Dryer
+machinery:1217,machinery,1217,Machinery,Jacketed Storage Tank
+machinery:1218,machinery,1218,Machinery,Jaw Crusher
+machinery:1219,machinery,1219,Machinery,Jet Mill
+machinery:1220,machinery,1220,Machinery,Kaolin Grinding Mill
+machinery:1221,machinery,1221,Machinery,Karl Fischer Titrator
+machinery:1222,machinery,1222,Machinery,Kenics Static Mixer
+machinery:1223,machinery,1223,Machinery,Keratin Hydrolysis System
+machinery:1224,machinery,1224,Machinery,Kibbler
+machinery:1225,machinery,1225,Machinery,Kinematic Viscosity Bath
+machinery:1226,machinery,1226,Machinery,Kneader-Extruder
+machinery:1227,machinery,1227,Machinery,Knife Mill
+machinery:1228,machinery,1228,Machinery,Kombucha Line
+machinery:1229,machinery,1229,Machinery,Krill Oil Extraction Unit
+machinery:1230,machinery,1230,Machinery,Krill Oil Line
+machinery:1231,machinery,1231,Machinery,L-Glutamine Line
+machinery:1232,machinery,1232,Machinery,L-Type Conveyor
+machinery:1233,machinery,1233,Machinery,LAL Testing System
+machinery:1234,machinery,1234,Machinery,LC-MS System
+machinery:1235,machinery,1235,Machinery,LC-MS/MS System
+machinery:1236,machinery,1236,Machinery,LC-QTOF System
+machinery:1237,machinery,1237,Machinery,LC-Triple Quad System
+machinery:1238,machinery,1238,Machinery,Lab Spray Dryer
+machinery:1239,machinery,1239,Machinery,Labeling Machine for Cartons
+machinery:1240,machinery,1240,Machinery,Laboratory Capsule Filling Machine
+machinery:1241,machinery,1241,Machinery,Laboratory Sachet Machine
+machinery:1242,machinery,1242,Machinery,Laboratory Sieve Shaker
+machinery:1243,machinery,1243,Machinery,Laminar Airflow Filling System
+machinery:1244,machinery,1244,Machinery,Laminar Flow Cabinet
+machinery:1245,machinery,1245,Machinery,Laminate Tube Filler
+machinery:1246,machinery,1246,Machinery,Lane Conveyor
+machinery:1247,machinery,1247,Machinery,Laser Bottle Coder
+machinery:1248,machinery,1248,Machinery,Laser Coding Blister Machine
+machinery:1249,machinery,1249,Machinery,Laser Diffraction Analyzer
+machinery:1250,machinery,1250,Machinery,Layer Depalletizer
+machinery:1251,machinery,1251,Machinery,Layer Palletizer
+machinery:1252,machinery,1252,Machinery,Leaf Grinding Machine
+machinery:1253,machinery,1253,Machinery,Leaflet Inserter
+machinery:1254,machinery,1254,Machinery,Leaflet Inserter Cartoner
+machinery:1255,machinery,1255,Machinery,Lecithin Extractor
+machinery:1256,machinery,1256,Machinery,Lecithin Processing System
+machinery:1257,machinery,1257,Machinery,Level Inspector
+machinery:1258,machinery,1258,Machinery,Lignan Extraction System
+machinery:1259,machinery,1259,Machinery,Lignin Processing Line
+machinery:1260,machinery,1260,Machinery,Linear Accumulation Table
+machinery:1261,machinery,1261,Machinery,Linear BFS Machine
+machinery:1262,machinery,1262,Machinery,Linear Bottle Filler
+machinery:1263,machinery,1263,Machinery,Linear Vibrating Screen
+machinery:1264,machinery,1264,Machinery,Linear Weigher
+machinery:1265,machinery,1265,Machinery,Lined Drum
+machinery:1266,machinery,1266,Machinery,Liner Inserter
+machinery:1267,machinery,1267,Machinery,Lion's Mane Processing
+machinery:1268,machinery,1268,Machinery,Liposome Manufacturing System
+machinery:1269,machinery,1269,Machinery,Liquid Capsule Filling Machine
+machinery:1270,machinery,1270,Machinery,Liquid Feeder
+machinery:1271,machinery,1271,Machinery,Liquid Manufacturing Vessel
+machinery:1272,machinery,1272,Machinery,Liquid Nitrogen Feed Mill
+machinery:1273,machinery,1273,Machinery,Liquid Nitrogen Supply System
+machinery:1274,machinery,1274,Machinery,Liquid Sachet Machine
+machinery:1275,machinery,1275,Machinery,Liquid Stick Pack Machine
+machinery:1276,machinery,1276,Machinery,Liquid Supplement Line
+machinery:1277,machinery,1277,Machinery,Liquid-Liquid Extractor
+machinery:1278,machinery,1278,Machinery,Liquid-Liquid Mixer
+machinery:1279,machinery,1279,Machinery,Liquid-Solid Separator
+machinery:1280,machinery,1280,Machinery,Literature Inserter
+machinery:1281,machinery,1281,Machinery,Literature-Feeding Cartoner
+machinery:1282,machinery,1282,Machinery,Lock-Tuck Cartoner
+machinery:1283,machinery,1283,Machinery,Long-Term Stability Chamber
+machinery:1284,machinery,1284,Machinery,Loop Jet Mill
+machinery:1285,machinery,1285,Machinery,Loop Reactor
+machinery:1286,machinery,1286,Machinery,Loss-in-Weight Blender
+machinery:1287,machinery,1287,Machinery,Loss-in-Weight Feeder
+machinery:1288,machinery,1288,Machinery,Loss-on-Drying Oven
+machinery:1289,machinery,1289,Machinery,Lotion Manufacturing System
+machinery:1290,machinery,1290,Machinery,Low-Field NMR
+machinery:1291,machinery,1291,Machinery,Low-Force Tablet Press
+machinery:1292,machinery,1292,Machinery,Low-Level Palletizer
+machinery:1293,machinery,1293,Machinery,Low-Pressure Vessel
+machinery:1294,machinery,1294,Machinery,Low-Shear Mixer
+machinery:1295,machinery,1295,Machinery,Low-Viscosity Mixer
+machinery:1296,machinery,1296,Machinery,Lozenge Blister Machine
+machinery:1297,machinery,1297,Machinery,Luminometer
+machinery:1298,machinery,1298,Machinery,Lump Breaker
+machinery:1299,machinery,1299,Machinery,Lutein Extraction Line
+machinery:1300,machinery,1300,Machinery,Lycopene Extractor
+machinery:1301,machinery,1301,Machinery,Lycopene Processing Line
+machinery:1302,machinery,1302,Machinery,Lyophilized Probiotic Line
+machinery:1303,machinery,1303,Machinery,Lyophilizer
+machinery:1304,machinery,1304,Machinery,MAP Sachet Machine
+machinery:1305,machinery,1305,Machinery,MES Integration System
+machinery:1306,machinery,1306,Machinery,MSMPR Crystallizer
+machinery:1307,machinery,1307,Machinery,MUPS Granulator
+machinery:1308,machinery,1308,Machinery,Maceration Tank
+machinery:1309,machinery,1309,Machinery,Machine Vision System
+machinery:1310,machinery,1310,Machinery,Magnetic Conveyor
+machinery:1311,machinery,1311,Machinery,Magnetic Sector MS
+machinery:1312,machinery,1312,Machinery,Magnetic Separator Conveyor
+machinery:1313,machinery,1313,Machinery,Pallet Truck
+machinery:1314,machinery,1314,Machinery,Manufacturing Execution System
+machinery:1315,machinery,1315,Machinery,Marine Collagen Extraction Line
+machinery:1316,machinery,1316,Machinery,Marumerizer
+machinery:1317,machinery,1317,Machinery,Mass Spectrometer
+machinery:1318,machinery,1318,Machinery,Material Air Lock
+machinery:1319,machinery,1319,Machinery,Material Stability Tester
+machinery:1320,machinery,1320,Machinery,Material Transfer Robot
+machinery:1321,machinery,1321,Machinery,Matrix Granulation System
+machinery:1322,machinery,1322,Machinery,Mechanical Tester
+machinery:1323,machinery,1323,Machinery,Medical Nutrition Line
+machinery:1324,machinery,1324,Machinery,Medicinal Mushroom Processing Line
+machinery:1325,machinery,1325,Machinery,Medium Grinding Mill
+machinery:1326,machinery,1326,Machinery,Medium-Viscosity Mixer
+machinery:1327,machinery,1327,Machinery,Melt Agglomeration System
+machinery:1328,machinery,1328,Machinery,Melt Granulator
+machinery:1329,machinery,1329,Machinery,Melt Pelletizer
+machinery:1330,machinery,1330,Machinery,Melt Solidification Unit
+machinery:1331,machinery,1331,Machinery,Melting Point Apparatus
+machinery:1332,machinery,1332,Machinery,Membrane Extraction System
+machinery:1333,machinery,1333,Machinery,Membrane Filtration System
+machinery:1334,machinery,1334,Machinery,Membrane Nitrogen Generator
+machinery:1335,machinery,1335,Machinery,Membrane Protein Separation System
+machinery:1336,machinery,1336,Machinery,Merging Conveyor
+machinery:1337,machinery,1337,Machinery,Mesh Belt Conveyor
+machinery:1338,machinery,1338,Machinery,Mesh Belt Dryer
+machinery:1339,machinery,1339,Machinery,Metal Detector
+machinery:1340,machinery,1340,Machinery,Metering Feeder
+machinery:1341,machinery,1341,Machinery,Mezzanine Conveyor System
+machinery:1342,machinery,1342,Machinery,Micro Balance
+machinery:1343,machinery,1343,Machinery,Micro Tablet Press
+machinery:1344,machinery,1344,Machinery,Micro-Dose Liquid Filler
+machinery:1345,machinery,1345,Machinery,Micro-Dosing Capsule Filler
+machinery:1346,machinery,1346,Machinery,Micro-Dosing System
+machinery:1347,machinery,1347,Machinery,Micro-Screw Feeder
+machinery:1348,machinery,1348,Machinery,Microaerophilic Chamber
+machinery:1349,machinery,1349,Machinery,Microalgae Reactor
+machinery:1350,machinery,1350,Machinery,Microarray Scanner
+machinery:1351,machinery,1351,Machinery,Microbial Air Sampler
+machinery:1352,machinery,1352,Machinery,Microcalorimeter
+machinery:1353,machinery,1353,Machinery,Microemulsion System
+machinery:1354,machinery,1354,Machinery,Microencapsulation Coater
+machinery:1355,machinery,1355,Machinery,Microencapsulation Granulator
+machinery:1356,machinery,1356,Machinery,Microencapsulation System
+machinery:1357,machinery,1357,Machinery,Microfiltration System
+machinery:1358,machinery,1358,Machinery,Microplate Reader
+machinery:1359,machinery,1359,Machinery,Micropulverizer
+machinery:1360,machinery,1360,Machinery,Microwave Dryer
+machinery:1361,machinery,1361,Machinery,Microwave Fluid Bed Dryer
+machinery:1362,machinery,1362,Machinery,Microwave Moisture Analyzer
+machinery:1363,machinery,1363,Machinery,Microwave Vacuum Dryer
+machinery:1364,machinery,1364,Machinery,Microwave-Assisted Extractor
+machinery:1365,machinery,1365,Machinery,Mikro-ACM Mill
+machinery:1366,machinery,1366,Machinery,Mineral Grinding Mill
+machinery:1367,machinery,1367,Machinery,Mini Capsule Filling Machine
+machinery:1368,machinery,1368,Machinery,Mini Sachet Machine
+machinery:1369,machinery,1369,Machinery,Mini Spray Dryer
+machinery:1370,machinery,1370,Machinery,Mini Tablet Press
+machinery:1371,machinery,1371,Machinery,Mini-Dose Filler
+machinery:1372,machinery,1372,Machinery,Mini-Load System
+machinery:1373,machinery,1373,Machinery,Mixed-Case Palletizer
+machinery:1374,machinery,1374,Machinery,Mixed-Flow Spray Dryer
+machinery:1375,machinery,1375,Machinery,Mixer Mill
+machinery:1376,machinery,1376,Machinery,Mixing Bin
+machinery:1377,machinery,1377,Machinery,Mixing Tank
+machinery:1378,machinery,1378,Machinery,Mobile Clean Room
+machinery:1379,machinery,1379,Machinery,Mobile Mixing Unit
+machinery:1380,machinery,1380,Machinery,Mobile Robot AMR
+machinery:1381,machinery,1381,Machinery,Modified Starch Line
+machinery:1382,machinery,1382,Machinery,Modified-Release Coater
+machinery:1383,machinery,1383,Machinery,Modular Belt Conveyor
+machinery:1384,machinery,1384,Machinery,Modular Clean Room
+machinery:1385,machinery,1385,Machinery,Modular Continuous Manufacturing Unit
+machinery:1386,machinery,1386,Machinery,Modular Conveyor System
+machinery:1387,machinery,1387,Machinery,Moisture Analyzer
+machinery:1388,machinery,1388,Machinery,Moisture Balance
+machinery:1389,machinery,1389,Machinery,Moisture-Controlled Granulation System
+machinery:1390,machinery,1390,Machinery,Molecular Distillation Extractor
+machinery:1391,machinery,1391,Machinery,Molecular Sieve Dryer
+machinery:1392,machinery,1392,Machinery,Molecular Still
+machinery:1393,machinery,1393,Machinery,Molecular Still Extractor
+machinery:1394,machinery,1394,Machinery,Monoblock Cartoner
+machinery:1395,machinery,1395,Machinery,Monoblock Filler Capper Labeler
+machinery:1396,machinery,1396,Machinery,Monoblock Filler Capper Sealer
+machinery:1397,machinery,1397,Machinery,Monoblock Filling Capping Machine
+machinery:1398,machinery,1398,Machinery,Monoblock Liquid Filler
+machinery:1399,machinery,1399,Machinery,Monorail Conveyor
+machinery:1400,machinery,1400,Machinery,Moving Bed Extractor
+machinery:1401,machinery,1401,Machinery,Multi-Camera Inspector
+machinery:1402,machinery,1402,Machinery,Multi-Chamber Fluid Bed Dryer
+machinery:1403,machinery,1403,Machinery,Multi-Component Feeder
+machinery:1404,machinery,1404,Machinery,Multi-Deck Vibrating Screen
+machinery:1405,machinery,1405,Machinery,Multi-Dose Blister Machine
+machinery:1406,machinery,1406,Machinery,Multi-Dose Liquid Filler
+machinery:1407,machinery,1407,Machinery,Multi-Dose Sachet Machine
+machinery:1408,machinery,1408,Machinery,Multi-Effect Distillation Unit
+machinery:1409,machinery,1409,Machinery,Multi-Effect Evaporator
+machinery:1410,machinery,1410,Machinery,Multi-Energy X-Ray System
+machinery:1411,machinery,1411,Machinery,Multi-Head Weigher
+machinery:1412,machinery,1412,Machinery,Multi-Hole Extrusion Granulator
+machinery:1413,machinery,1413,Machinery,Multi-Lane Checkweigher
+machinery:1414,machinery,1414,Machinery,Multi-Lane Sachet Machine
+machinery:1415,machinery,1415,Machinery,Multi-Lane Stick Pack Machine
+machinery:1416,machinery,1416,Machinery,Multi-Layer Coating Machine
+machinery:1417,machinery,1417,Machinery,Multi-Layer Tablet Press
+machinery:1418,machinery,1418,Machinery,Multi-Level Conveyor
+machinery:1419,machinery,1419,Machinery,Multi-Mode Plate Reader
+machinery:1420,machinery,1420,Machinery,Multi-Nozzle Jet Mill
+machinery:1421,machinery,1421,Machinery,Multi-Pack Bundler
+machinery:1422,machinery,1422,Machinery,Multi-Processor Granulator
+machinery:1423,machinery,1423,Machinery,Multi-Product Mixer
+machinery:1424,machinery,1424,Machinery,Multi-Purpose Coater
+machinery:1425,machinery,1425,Machinery,Multi-Purpose Extraction Vessel
+machinery:1426,machinery,1426,Machinery,Multi-Purpose Incubator
+machinery:1427,machinery,1427,Machinery,Multi-Purpose Mixer Granulator
+machinery:1428,machinery,1428,Machinery,Multi-Purpose Process Tank
+machinery:1429,machinery,1429,Machinery,Multi-Shelf Tray Dryer
+machinery:1430,machinery,1430,Machinery,Multi-Stage Classifier Mill
+machinery:1431,machinery,1431,Machinery,Multi-Stage Extraction System
+machinery:1432,machinery,1432,Machinery,Multi-Stage Grinding Mill
+machinery:1433,machinery,1433,Machinery,Multi-Stage Spray Dryer
+machinery:1434,machinery,1434,Machinery,Multi-Station Tablet Press
+machinery:1435,machinery,1435,Machinery,Multi-Tank CIP System
+machinery:1436,machinery,1436,Machinery,Multi-Tip Punch Tablet Press
+machinery:1437,machinery,1437,Machinery,Multi-Tip Tool Tablet Press
+machinery:1438,machinery,1438,Machinery,Multi-Unit Pellet System
+machinery:1439,machinery,1439,Machinery,Multi-Vessel Extraction System
+machinery:1440,machinery,1440,Machinery,Multipack Machine
+machinery:1441,machinery,1441,Machinery,NFC Carton Tagger
+machinery:1442,machinery,1442,Machinery,NFC Tagger
+machinery:1443,machinery,1443,Machinery,NGS System
+machinery:1444,machinery,1444,Machinery,NIR Spectrometer
+machinery:1445,machinery,1445,Machinery,NIR-Integrated Blending System
+machinery:1446,machinery,1446,Machinery,NMR Spectrometer
+machinery:1447,machinery,1447,Machinery,Nano Mill
+machinery:1448,machinery,1448,Machinery,Nano-Coating Machine
+machinery:1449,machinery,1449,Machinery,Nano-Encapsulation Machine
+machinery:1450,machinery,1450,Machinery,Nano-HPLC
+machinery:1451,machinery,1451,Machinery,Nanoemulsion System
+machinery:1452,machinery,1452,Machinery,Nanofiltration Extraction System
+machinery:1453,machinery,1453,Machinery,Nanofiltration System
+machinery:1454,machinery,1454,Machinery,Nanoparticle Production System
+machinery:1455,machinery,1455,Machinery,Nanotechnology Processing System
+machinery:1456,machinery,1456,Machinery,Nauta Mixer
+machinery:1457,machinery,1457,Machinery,Near-Infrared Dryer
+machinery:1458,machinery,1458,Machinery,Neck Labeler
+machinery:1459,machinery,1459,Machinery,Negative Pressure Suite
+machinery:1460,machinery,1460,Machinery,Nephelometer
+machinery:1461,machinery,1461,Machinery,Net-Weight Bottle Filler
+machinery:1462,machinery,1462,Machinery,Net-Weight Filler
+machinery:1463,machinery,1463,Machinery,Net-Weight Liquid Filler
+machinery:1464,machinery,1464,Machinery,Nitrogen Blanketing System
+machinery:1465,machinery,1465,Machinery,Nitrogen Flush Sachet Machine
+machinery:1466,machinery,1466,Machinery,Nitrogen Generation System
+machinery:1467,machinery,1467,Machinery,Nitrogen Generator
+machinery:1468,machinery,1468,Machinery,Nitrogen-Blanketed Extractor
+machinery:1469,machinery,1469,Machinery,Nitrogen-Blanketed Mixer
+machinery:1470,machinery,1470,Machinery,Nitrogen-Flush Filler
+machinery:1471,machinery,1471,Machinery,Non-Pareil Coating System
+machinery:1472,machinery,1472,Machinery,Non-Suppressed IC
+machinery:1473,machinery,1473,Machinery,Nozzle Spray Dryer
+machinery:1474,machinery,1474,Machinery,Nutraceutical Blending Tank
+machinery:1475,machinery,1475,Machinery,Nutraceutical Blister Machine
+machinery:1476,machinery,1476,Machinery,Nutraceutical Capsule Machine
+machinery:1477,machinery,1477,Machinery,Nutraceutical Cartoner
+machinery:1478,machinery,1478,Machinery,Nutraceutical Coating Machine
+machinery:1479,machinery,1479,Machinery,Nutraceutical Extraction Plant
+machinery:1480,machinery,1480,Machinery,Nutraceutical Liquid Fill-Finish
+machinery:1481,machinery,1481,Machinery,Nutraceutical Milling System
+machinery:1482,machinery,1482,Machinery,Nutraceutical Ribbon Blender
+machinery:1483,machinery,1483,Machinery,Nutraceutical Sachet Machine
+machinery:1484,machinery,1484,Machinery,Nutraceutical Spray Dryer
+machinery:1485,machinery,1485,Machinery,Nutraceutical Tablet Press
+machinery:1486,machinery,1486,Machinery,Nutrition Bar Extruder
+machinery:1487,machinery,1487,Machinery,Nutrition Bar Wrapper
+machinery:1488,machinery,1488,Machinery,Nutsche Filter
+machinery:1489,machinery,1489,Machinery,O'Hara Coater Style
+machinery:1490,machinery,1490,Machinery,OEB4 Isolator
+machinery:1491,machinery,1491,Machinery,OEB5 Isolator
+machinery:1492,machinery,1492,Machinery,OEB5 Processing Suite
+machinery:1493,machinery,1493,Machinery,Oblong Tablet Press
+machinery:1494,machinery,1494,Machinery,Octagonal Blender
+machinery:1495,machinery,1495,Machinery,Ohmic Heating System
+machinery:1496,machinery,1496,Machinery,Oil Extraction Press
+machinery:1497,machinery,1497,Machinery,Oil Sachet Machine
+machinery:1498,machinery,1498,Machinery,Oil-Free Air Compressor
+machinery:1499,machinery,1499,Machinery,Ointment Manufacturing System
+machinery:1500,machinery,1500,Machinery,Ointment Manufacturing Tank
+machinery:1501,machinery,1501,Machinery,Ointment Tube Filler
+machinery:1502,machinery,1502,Machinery,Oleuropein Extractor
+machinery:1503,machinery,1503,Machinery,Omega-3 Extraction System
+machinery:1504,machinery,1504,Machinery,Omega-3 Processing Line
+machinery:1505,machinery,1505,Machinery,Online Blending Monitor
+machinery:1506,machinery,1506,Machinery,Online Capsule Monitor
+machinery:1507,machinery,1507,Machinery,Online Coating Monitor
+machinery:1508,machinery,1508,Machinery,Online Granule Monitor
+machinery:1509,machinery,1509,Machinery,Online LC System
+machinery:1510,machinery,1510,Machinery,Online NIR Analyzer
+machinery:1511,machinery,1511,Machinery,Online Particle Size Analyzer
+machinery:1512,machinery,1512,Machinery,Opaque Coating Machine
+machinery:1513,machinery,1513,Machinery,Open RABS
+machinery:1514,machinery,1514,Machinery,Open-Cycle Spray Dryer
+machinery:1515,machinery,1515,Machinery,Open-Loop Extraction System
+machinery:1516,machinery,1516,Machinery,Oral Liquid Manufacturing Plant
+machinery:1517,machinery,1517,Machinery,Oral Syringe Filler
+machinery:1518,machinery,1518,Machinery,Orally Disintegrating Tablet Press
+machinery:1519,machinery,1519,Machinery,Orbital Pallet Wrapper
+machinery:1520,machinery,1520,Machinery,Orbitrap MS
+machinery:1521,machinery,1521,Machinery,Organic Solvent Film Coater
+machinery:1522,machinery,1522,Machinery,Oscillating Granulator
+machinery:1523,machinery,1523,Machinery,Oscillating Mill
+machinery:1524,machinery,1524,Machinery,Oscillatory Rheometer
+machinery:1525,machinery,1525,Machinery,Oslo Crystallizer
+machinery:1526,machinery,1526,Machinery,Osmometer
+machinery:1527,machinery,1527,Machinery,Oval Tablet Press
+machinery:1528,machinery,1528,Machinery,Oval Track Mill
+machinery:1529,machinery,1529,Machinery,Overflow Ball Mill
+machinery:1530,machinery,1530,Machinery,Overflow Filler
+machinery:1531,machinery,1531,Machinery,Overhead Conveyor
+machinery:1532,machinery,1532,Machinery,Overkill Sterilization System
+machinery:1533,machinery,1533,Machinery,Oxidative Stress Chamber
+machinery:1534,machinery,1534,Machinery,Oxygen Analyzer for Headspace
+machinery:1535,machinery,1535,Machinery,PAT Analyzer
+machinery:1536,machinery,1536,Machinery,PAT Probe System
+machinery:1537,machinery,1537,Machinery,PAT-Integrated Blender
+machinery:1538,machinery,1538,Machinery,PCR Machine
+machinery:1539,machinery,1539,Machinery,PDQ Packer
+machinery:1540,machinery,1540,Machinery,PEF Processing Unit
+machinery:1541,machinery,1541,Machinery,PET Can Filler
+machinery:1542,machinery,1542,Machinery,PET Strapper
+machinery:1543,machinery,1543,Machinery,PLGA Nanoparticle System
+machinery:1544,machinery,1544,Machinery,POF Shrink Wrapper
+machinery:1545,machinery,1545,Machinery,PP Strapper
+machinery:1546,machinery,1546,Machinery,PSA Nitrogen Generator
+machinery:1547,machinery,1547,Machinery,PVC Shrink Wrapper
+machinery:1548,machinery,1548,Machinery,Packaging Compatibility Chamber
+machinery:1549,machinery,1549,Machinery,Packaging Integrity Tester
+machinery:1550,machinery,1550,Machinery,Packed Bed Extractor
+machinery:1551,machinery,1551,Machinery,Packed-Bed Bioreactor
+machinery:1552,machinery,1552,Machinery,Paddle Agitator
+machinery:1553,machinery,1553,Machinery,Paddle Dissolution Apparatus
+machinery:1554,machinery,1554,Machinery,Paddle Dryer
+machinery:1555,machinery,1555,Machinery,Paddle Mixer
+machinery:1556,machinery,1556,Machinery,Paddle Over Disk System
+machinery:1557,machinery,1557,Machinery,Pallet Jack
+machinery:1558,machinery,1558,Machinery,Pallet Labeler
+machinery:1559,machinery,1559,Machinery,Pallet Scale
+machinery:1560,machinery,1560,Machinery,Pallet Wrapper
+machinery:1561,machinery,1561,Machinery,Palletizing Robot
+machinery:1562,machinery,1562,Machinery,Pan Coating Machine
+machinery:1563,machinery,1563,Machinery,Pan Granulator
+machinery:1564,machinery,1564,Machinery,Panax Ginseng Processing Line
+machinery:1565,machinery,1565,Machinery,Parallel Robot
+machinery:1566,machinery,1566,Machinery,Parenteral Manufacturing Vessel
+machinery:1567,machinery,1567,Machinery,Parenteral Nutrition Line
+machinery:1568,machinery,1568,Machinery,Particle Counter
+machinery:1569,machinery,1569,Machinery,Particle Detector
+machinery:1570,machinery,1570,Machinery,Particle Size Analyzer
+machinery:1571,machinery,1571,Machinery,Particle Size Classifier
+machinery:1572,machinery,1572,Machinery,Particle Size Reduction Mill
+machinery:1573,machinery,1573,Machinery,Pass-Through Autoclave
+machinery:1574,machinery,1574,Machinery,Pass-Through Grinding System
+machinery:1575,machinery,1575,Machinery,Pass-Through Hatch
+machinery:1576,machinery,1576,Machinery,Pass-Through Laminar Flow
+machinery:1577,machinery,1577,Machinery,Pass-Through Module
+machinery:1578,machinery,1578,Machinery,Pass-Through Oven
+machinery:1579,machinery,1579,Machinery,Passive Air Sampler
+machinery:1580,machinery,1580,Machinery,Passive RABS
+machinery:1581,machinery,1581,Machinery,Paste Manufacturing System
+machinery:1582,machinery,1582,Machinery,Paste Mill
+machinery:1583,machinery,1583,Machinery,Paste Mixer
+machinery:1584,machinery,1584,Machinery,Pasteurizer
+machinery:1585,machinery,1585,Machinery,Patient Information Leaflet Folder
+machinery:1586,machinery,1586,Machinery,Pebble Mill
+machinery:1587,machinery,1587,Machinery,Pectin Extraction Line
+machinery:1588,machinery,1588,Machinery,Pectin Gummy Machine
+machinery:1589,machinery,1589,Machinery,Peel Strength Tester
+machinery:1590,machinery,1590,Machinery,Peeler Centrifuge
+machinery:1591,machinery,1591,Machinery,Pellegrini Coater
+machinery:1592,machinery,1592,Machinery,Pellet Capsule Filling Machine
+machinery:1593,machinery,1593,Machinery,Pellet Coating Granulator
+machinery:1594,machinery,1594,Machinery,Pellet Feeder
+machinery:1595,machinery,1595,Machinery,Pellet Film Coater
+machinery:1596,machinery,1596,Machinery,Pellet Mill
+machinery:1597,machinery,1597,Machinery,Pellet Mill Size Reducer
+machinery:1598,machinery,1598,Machinery,Pellet Polishing Machine
+machinery:1599,machinery,1599,Machinery,Pellet Rounding Machine
+machinery:1600,machinery,1600,Machinery,Pellet Screening Machine
+machinery:1601,machinery,1601,Machinery,Pellet Sieve Granulator
+machinery:1602,machinery,1602,Machinery,Pellet Sizing System
+machinery:1603,machinery,1603,Machinery,Pelletizer
+machinery:1604,machinery,1604,Machinery,Percolation Extractor
+machinery:1605,machinery,1605,Machinery,Perforated Basket Centrifuge
+machinery:1606,machinery,1606,Machinery,Perforated Pan Coating Machine
+machinery:1607,machinery,1607,Machinery,Perforated Plate Screen
+machinery:1608,machinery,1608,Machinery,Peristaltic Liquid Filler
+machinery:1609,machinery,1609,Machinery,Personnel Air Lock
+machinery:1610,machinery,1610,Machinery,Pervaporation Extraction Unit
+machinery:1611,machinery,1611,Machinery,Pharma Check Screener
+machinery:1612,machinery,1612,Machinery,Pharma Granulator
+machinery:1613,machinery,1613,Machinery,Pharma Hammer Mill
+machinery:1614,machinery,1614,Machinery,Blister Packer
+machinery:1615,machinery,1615,Machinery,Capsule Filler
+machinery:1616,machinery,1616,Machinery,Crusher
+machinery:1617,machinery,1617,Machinery,Film Coater
+machinery:1618,machinery,1618,Machinery,Grinding System
+machinery:1619,machinery,1619,Machinery,Sachet Packer
+machinery:1620,machinery,1620,Machinery,Sifter
+machinery:1621,machinery,1621,Machinery,Storage Silo
+machinery:1622,machinery,1622,Machinery,Tablet Compression Machine
+machinery:1623,machinery,1623,Machinery,Photobioreactor
+machinery:1624,machinery,1624,Machinery,Photostability Chamber
+machinery:1625,machinery,1625,Machinery,Phytochemical Concentration System
+machinery:1626,machinery,1626,Machinery,Phytochemical Extractor
+machinery:1627,machinery,1627,Machinery,Phytochemical Processing Line
+machinery:1628,machinery,1628,Machinery,Phytoestrogen Processing System
+machinery:1629,machinery,1629,Machinery,Phytosterol Extraction Line
+machinery:1630,machinery,1630,Machinery,Phytosterol Extractor
+machinery:1631,machinery,1631,Machinery,Pick-and-Place Cartoner
+machinery:1632,machinery,1632,Machinery,Pick-and-Place Robot
+machinery:1633,machinery,1633,Machinery,Pigment Coating System
+machinery:1634,machinery,1634,Machinery,Pillow Pouch Machine
+machinery:1635,machinery,1635,Machinery,Pillow Sachet Machine
+machinery:1636,machinery,1636,Machinery,Pilot Capsule Filler
+machinery:1637,machinery,1637,Machinery,Pilot Freeze Dryer
+machinery:1638,machinery,1638,Machinery,Pilot Sachet Machine
+machinery:1639,machinery,1639,Machinery,Pilot Sieve
+machinery:1640,machinery,1640,Machinery,Pin Disc Mill
+machinery:1641,machinery,1641,Machinery,Pin Mill
+machinery:1642,machinery,1642,Machinery,Piston Filler for Liquid
+machinery:1643,machinery,1643,Machinery,Pivoting Bucket Elevator
+machinery:1644,machinery,1644,Machinery,Planetary Ball Mill
+machinery:1645,machinery,1645,Machinery,Planetary Mixer
+machinery:1646,machinery,1646,Machinery,Plasma Sterilizer
+machinery:1647,machinery,1647,Machinery,Plastic Tube Filler
+machinery:1648,machinery,1648,Machinery,Plate Pasteurizer
+machinery:1649,machinery,1649,Machinery,Plate-and-Frame Filter Press
+machinery:1650,machinery,1650,Machinery,Platform Scale
+machinery:1651,machinery,1651,Machinery,Plough Mixer
+machinery:1652,machinery,1652,Machinery,Plow Mixer
+machinery:1653,machinery,1653,Machinery,Plug Flow Conveying System
+machinery:1654,machinery,1654,Machinery,Plug-Flow Continuous System
+machinery:1655,machinery,1655,Machinery,Pneumatic Conveying System
+machinery:1656,machinery,1656,Machinery,Pneumatic Flash Dryer
+machinery:1657,machinery,1657,Machinery,Pneumatic Roller Compactor
+machinery:1658,machinery,1658,Machinery,Pneumatic Vibratory Feeder
+machinery:1659,machinery,1659,Machinery,Polish Coating Machine
+machinery:1660,machinery,1660,Machinery,Polyphenol Extraction System
+machinery:1661,machinery,1661,Machinery,Polyphenol Processing System
+machinery:1662,machinery,1662,Machinery,Blender
+machinery:1663,machinery,1663,Machinery,Clean Room Module
+machinery:1664,machinery,1664,Machinery,XRF Analyzer
+machinery:1665,machinery,1665,Machinery,Portion Pack Machine
+machinery:1666,machinery,1666,Machinery,Positive Displacement Filler
+machinery:1667,machinery,1667,Machinery,Post-Granulation Sieve
+machinery:1668,machinery,1668,Machinery,Potent Compound Blender
+machinery:1669,machinery,1669,Machinery,Potent Compound Handling System
+machinery:1670,machinery,1670,Machinery,Pouch Cartoner
+machinery:1671,machinery,1671,Machinery,Pouch Liquid Filler
+machinery:1672,machinery,1672,Machinery,Powder Balance
+machinery:1673,machinery,1673,Machinery,Powder Blender
+machinery:1674,machinery,1674,Machinery,Powder Bottle Filler
+machinery:1675,machinery,1675,Machinery,Powder Capsule Filling Machine
+machinery:1676,machinery,1676,Machinery,Powder Characterizer
+machinery:1677,machinery,1677,Machinery,Powder Feeder
+machinery:1678,machinery,1678,Machinery,Powder Flow Tester
+machinery:1679,machinery,1679,Machinery,Powder Induction Mixer
+machinery:1680,machinery,1680,Machinery,Powder Mixing System
+machinery:1681,machinery,1681,Machinery,Powder Sachet Machine
+machinery:1682,machinery,1682,Machinery,Powder Screening Machine
+machinery:1683,machinery,1683,Machinery,Powder Sifter
+machinery:1684,machinery,1684,Machinery,Powder Silo
+machinery:1685,machinery,1685,Machinery,Powder Stick Pack Machine
+machinery:1686,machinery,1686,Machinery,Powder-Liquid Mixer
+machinery:1687,machinery,1687,Machinery,Powdered Drink Mix Line
+machinery:1688,machinery,1688,Machinery,Power-Consumption Granulator Monitor
+machinery:1689,machinery,1689,Machinery,Power-and-Free Conveyor
+machinery:1690,machinery,1690,Machinery,Powered Roller Conveyor
+machinery:1691,machinery,1691,Machinery,Pre-Compactor
+machinery:1692,machinery,1692,Machinery,Pre-Compression Screen
+machinery:1693,machinery,1693,Machinery,Pre-Crusher
+machinery:1694,machinery,1694,Machinery,Pre-Filled Syringe Machine
+machinery:1695,machinery,1695,Machinery,Pre-Vacuum Autoclave
+machinery:1696,machinery,1696,Machinery,Prebiotic Manufacturing System
+machinery:1697,machinery,1697,Machinery,Precision Balance
+machinery:1698,machinery,1698,Machinery,Precision Feeder
+machinery:1699,machinery,1699,Machinery,Precision Metering System
+machinery:1700,machinery,1700,Machinery,Preparative HPLC System
+machinery:1701,machinery,1701,Machinery,Press-On Capper
+machinery:1702,machinery,1702,Machinery,Pressure Conveying System
+machinery:1703,machinery,1703,Machinery,Pressure Decay Tester
+machinery:1704,machinery,1704,Machinery,Pressure Kneader
+machinery:1705,machinery,1705,Machinery,Pressure Leaf Filter
+machinery:1706,machinery,1706,Machinery,Pressure Nozzle Spray Dryer
+machinery:1707,machinery,1707,Machinery,Pressure Vessel
+machinery:1708,machinery,1708,Machinery,Pressure Vessel Mixer
+machinery:1709,machinery,1709,Machinery,Pressure-Cascade Suite
+machinery:1710,machinery,1710,Machinery,Pressure-Gravity Filler
+machinery:1711,machinery,1711,Machinery,Pressure-Sensitive Glue Cartoner
+machinery:1712,machinery,1712,Machinery,Pressure-Swing Grinding
+machinery:1713,machinery,1713,Machinery,Pressurized Liquid Extractor
+machinery:1714,machinery,1714,Machinery,Prilling Tower
+machinery:1715,machinery,1715,Machinery,Primary Dryer
+machinery:1716,machinery,1716,Machinery,Printed Tablet Press
+machinery:1717,machinery,1717,Machinery,Probiotic Extract System
+machinery:1718,machinery,1718,Machinery,Probiotic Fermentation System
+machinery:1719,machinery,1719,Machinery,Probiotic Liquid Line
+machinery:1720,machinery,1720,Machinery,Probiotic Manufacturing System
+machinery:1721,machinery,1721,Machinery,Process Air Handler
+machinery:1722,machinery,1722,Machinery,Process Density Analyzer
+machinery:1723,machinery,1723,Machinery,Process Mass Spectrometer
+machinery:1724,machinery,1724,Machinery,Process NIR System
+machinery:1725,machinery,1725,Machinery,Process Raman System
+machinery:1726,machinery,1726,Machinery,Process Sampling System
+machinery:1727,machinery,1727,Machinery,Process Temperature System
+machinery:1728,machinery,1728,Machinery,Process Vessel
+machinery:1729,machinery,1729,Machinery,Process Vessel Mixer
+machinery:1730,machinery,1730,Machinery,Process Viscometer
+machinery:1731,machinery,1731,Machinery,Process pH Analyzer
+machinery:1732,machinery,1732,Machinery,Product Tank
+machinery:1733,machinery,1733,Machinery,Production Isolator
+machinery:1734,machinery,1734,Machinery,Production Sieve
+machinery:1735,machinery,1735,Machinery,Propeller Agitator
+machinery:1736,machinery,1736,Machinery,Protein Bar Line
+machinery:1737,machinery,1737,Machinery,Protein Drink Manufacturing System
+machinery:1738,machinery,1738,Machinery,Protein Fractionation System
+machinery:1739,machinery,1739,Machinery,Protein Hydrolysis Extractor
+machinery:1740,machinery,1740,Machinery,Pug Mill Granulator
+machinery:1741,machinery,1741,Machinery,Pugmill Granulator
+machinery:1742,machinery,1742,Machinery,Pulsatile Release Coater
+machinery:1743,machinery,1743,Machinery,Pulse-Jet Dust Collector
+machinery:1744,machinery,1744,Machinery,Pulsed Electric Field System
+machinery:1745,machinery,1745,Machinery,Pulsed Fluid Bed Dryer
+machinery:1746,machinery,1746,Machinery,Pulverizer
+machinery:1747,machinery,1747,Machinery,Puncture Tester
+machinery:1748,machinery,1748,Machinery,Punicalagin Extractor
+machinery:1749,machinery,1749,Machinery,Purified Water Skid
+machinery:1750,machinery,1750,Machinery,Purified Water System
+machinery:1751,machinery,1751,Machinery,Pusher Centrifuge
+machinery:1752,machinery,1752,Machinery,Pycnometer
+machinery:1753,machinery,1753,Machinery,Pyramid Tea Bag Machine
+machinery:1754,machinery,1754,Machinery,Pyrogen Testing System
+machinery:1755,machinery,1755,Machinery,QR Code Printer for Bottles
+machinery:1756,machinery,1756,Machinery,QTOF Mass Spectrometer
+machinery:1757,machinery,1757,Machinery,Quad-Seal Bag Machine
+machinery:1758,machinery,1758,Machinery,Quercetin Extractor
+machinery:1759,machinery,1759,Machinery,Quercetin Manufacturing Line
+machinery:1760,machinery,1760,Machinery,Quick-Change Blister Tooling
+machinery:1761,machinery,1761,Machinery,R&D Capsule Filler
+machinery:1762,machinery,1762,Machinery,R&D Sachet Machine
+machinery:1763,machinery,1763,Machinery,RABS System
+machinery:1764,machinery,1764,Machinery,RCS Sampler
+machinery:1765,machinery,1765,Machinery,RF Drying System
+machinery:1766,machinery,1766,Machinery,RFID Labeler
+machinery:1767,machinery,1767,Machinery,RFID Pallet Tagger
+machinery:1768,machinery,1768,Machinery,ROPP Capper
+machinery:1769,machinery,1769,Machinery,RSP Machine
+machinery:1770,machinery,1770,Machinery,RT-PCR Machine
+machinery:1771,machinery,1771,Machinery,RTD Beverage Filler
+machinery:1772,machinery,1772,Machinery,RTD Beverage Line
+machinery:1773,machinery,1773,Machinery,RTF Lyophilization Line
+machinery:1774,machinery,1774,Machinery,RTP System
+machinery:1775,machinery,1775,Machinery,RTRT System
+machinery:1776,machinery,1776,Machinery,Radial Extruder Granulator
+machinery:1777,machinery,1777,Machinery,Radial Flow Column
+machinery:1778,machinery,1778,Machinery,Radio Frequency Dryer
+machinery:1779,machinery,1779,Machinery,Raman Spectrometer
+machinery:1780,machinery,1780,Machinery,Random Case Sealer
+machinery:1781,machinery,1781,Machinery,Rapid Mixer Granulator
+machinery:1782,machinery,1782,Machinery,Rapid Transfer Port
+machinery:1783,machinery,1783,Machinery,Raw Material Silo
+machinery:1784,machinery,1784,Machinery,Raw Material Size Reducer
+machinery:1785,machinery,1785,Machinery,Raw Material Tank
+machinery:1786,machinery,1786,Machinery,Reach Forklift
+machinery:1787,machinery,1787,Machinery,Reach Truck
+machinery:1788,machinery,1788,Machinery,Reactor Vessel
+machinery:1789,machinery,1789,Machinery,Real-Time PCR
+machinery:1790,machinery,1790,Machinery,Real-Time Release Testing System
+machinery:1791,machinery,1791,Machinery,Real-Time Stability Monitor
+machinery:1792,machinery,1792,Machinery,Receiving Hopper
+machinery:1793,machinery,1793,Machinery,Recipe Management System
+machinery:1794,machinery,1794,Machinery,Recipe-Controlled Mixer
+machinery:1795,machinery,1795,Machinery,Reciprocating Blister Machine
+machinery:1796,machinery,1796,Machinery,Reciprocating Cylinder Apparatus
+machinery:1797,machinery,1797,Machinery,Rectangular Vibrating Separator
+machinery:1798,machinery,1798,Machinery,Red Clover Isoflavone Line
+machinery:1799,machinery,1799,Machinery,Red Ginseng System
+machinery:1800,machinery,1800,Machinery,Reflux Extraction Unit
+machinery:1801,machinery,1801,Machinery,Refractometer
+machinery:1802,machinery,1802,Machinery,Refrigerated Conveyor
+machinery:1803,machinery,1803,Machinery,Refrigerated Incubator
+machinery:1804,machinery,1804,Machinery,Refrigerated Stability Unit
+machinery:1805,machinery,1805,Machinery,Reishi Extraction System
+machinery:1806,machinery,1806,Machinery,Reject Station Blister Machine
+machinery:1807,machinery,1807,Machinery,Reseal Sachet System
+machinery:1808,machinery,1808,Machinery,Resonance Mill
+machinery:1809,machinery,1809,Machinery,Resonance Screen
+machinery:1810,machinery,1810,Machinery,Resonance Sieve
+machinery:1811,machinery,1811,Machinery,Resonating Screen
+machinery:1812,machinery,1812,Machinery,Restricted Access Barrier System
+machinery:1813,machinery,1813,Machinery,Resveratrol Extractor
+machinery:1814,machinery,1814,Machinery,Resveratrol Production System
+machinery:1815,machinery,1815,Machinery,Retail-Ready Packer
+machinery:1816,machinery,1816,Machinery,Reverse Osmosis System
+machinery:1817,machinery,1817,Machinery,Rheometer
+machinery:1818,machinery,1818,Machinery,Rhodiola Processing Line
+machinery:1819,machinery,1819,Machinery,Ring Die Pellet Mill
+machinery:1820,machinery,1820,Machinery,Ring Dryer
+machinery:1821,machinery,1821,Machinery,Ring-Roll Mill
+machinery:1822,machinery,1822,Machinery,Rising-Film Dryer
+machinery:1823,machinery,1823,Machinery,Rising-Film Evaporator
+machinery:1824,machinery,1824,Machinery,Robotic Bottle Palletizer
+machinery:1825,machinery,1825,Machinery,Robotic Cartoner
+machinery:1826,machinery,1826,Machinery,Robotic Case Packer
+machinery:1827,machinery,1827,Machinery,Robotic Palletizer
+machinery:1828,machinery,1828,Machinery,Robotic Tray Packer
+machinery:1829,machinery,1829,Machinery,Rod Mill
+machinery:1830,machinery,1830,Machinery,Roll Crusher
+machinery:1831,machinery,1831,Machinery,Roller Compactor
+machinery:1832,machinery,1832,Machinery,Roller Conveyor
+machinery:1833,machinery,1833,Machinery,Roller Mill
+machinery:1834,machinery,1834,Machinery,Room Particle Counter
+machinery:1835,machinery,1835,Machinery,Root Pulverizer
+machinery:1836,machinery,1836,Machinery,Rotap Sieve Shaker
+machinery:1837,machinery,1837,Machinery,Rotary Accumulation Table
+machinery:1838,machinery,1838,Machinery,Rotary Arm Wrapper
+machinery:1839,machinery,1839,Machinery,Rotary Atomizer Spray Dryer
+machinery:1840,machinery,1840,Machinery,Rotary BFS Machine
+machinery:1841,machinery,1841,Machinery,Rotary Blister Machine
+machinery:1842,machinery,1842,Machinery,Rotary Bottle Filler
+machinery:1843,machinery,1843,Machinery,Rotary Bottle Unscrambler
+machinery:1844,machinery,1844,Machinery,Rotary Capper
+machinery:1845,machinery,1845,Machinery,Rotary Capsule Filling Machine
+machinery:1846,machinery,1846,Machinery,Rotary Die Softgel Machine
+machinery:1847,machinery,1847,Machinery,Rotary Drum Blender
+machinery:1848,machinery,1848,Machinery,Rotary Drum Coater
+machinery:1849,machinery,1849,Machinery,Rotary Drum Granulator
+machinery:1850,machinery,1850,Machinery,Rotary Dryer
+machinery:1851,machinery,1851,Machinery,Rotary Evaporator
+machinery:1852,machinery,1852,Machinery,Rotary Friability Tester
+machinery:1853,machinery,1853,Machinery,Rotary Hardness Tester
+machinery:1854,machinery,1854,Machinery,Rotary Liquid Filler
+machinery:1855,machinery,1855,Machinery,Rotary Sachet Machine
+machinery:1856,machinery,1856,Machinery,Rotary Sifter
+machinery:1857,machinery,1857,Machinery,Rotary Sterilizer
+machinery:1858,machinery,1858,Machinery,Rotary Tablet Counter
+machinery:1859,machinery,1859,Machinery,Rotary Transfer Table
+machinery:1860,machinery,1860,Machinery,Rotary Vacuum Dryer
+machinery:1861,machinery,1861,Machinery,Rotary Valve Feeder
+machinery:1862,machinery,1862,Machinery,Rotating Cylinder Dissolution
+machinery:1863,machinery,1863,Machinery,Rotating Disk Dissolution
+machinery:1864,machinery,1864,Machinery,Rotating Drum Dryer
+machinery:1865,machinery,1865,Machinery,Rotating Drum Extractor
+machinery:1866,machinery,1866,Machinery,Rotating Drum Mixer
+machinery:1867,machinery,1867,Machinery,Rotational Rheometer
+machinery:1868,machinery,1868,Machinery,Rotational Viscometer
+machinery:1869,machinery,1869,Machinery,Rotor Mill
+machinery:1870,machinery,1870,Machinery,Rotor-Stator Homogenizer
+machinery:1871,machinery,1871,Machinery,Round Bottle Labeler
+machinery:1872,machinery,1872,Machinery,Round Tablet Press
+machinery:1873,machinery,1873,Machinery,Round Tea Bag Machine
+machinery:1874,machinery,1874,Machinery,Round Vibro Separator
+machinery:1875,machinery,1875,Machinery,S-Type Elevator
+machinery:1876,machinery,1876,Machinery,SAG Mill
+machinery:1877,machinery,1877,Machinery,SCADA System
+machinery:1878,machinery,1878,Machinery,SCARA Robot
+machinery:1879,machinery,1879,Machinery,SDS-PAGE System
+machinery:1880,machinery,1880,Machinery,SFE System
+machinery:1881,machinery,1881,Machinery,SFP System
+machinery:1882,machinery,1882,Machinery,SIP System
+machinery:1883,machinery,1883,Machinery,SMX Static Mixer
+machinery:1884,machinery,1884,Machinery,SPR Analyzer
+machinery:1885,machinery,1885,Machinery,SS Drum
+machinery:1886,machinery,1886,Machinery,Tank
+machinery:1887,machinery,1887,Machinery,Storage Vessel
+machinery:1888,machinery,1888,Machinery,Sachet Cartoner
+machinery:1889,machinery,1889,Machinery,Sachet Case Packer
+machinery:1890,machinery,1890,Machinery,Sachet Checkweigher
+machinery:1891,machinery,1891,Machinery,Sachet Coding Machine
+machinery:1892,machinery,1892,Machinery,Sachet Cutting Machine
+machinery:1893,machinery,1893,Machinery,Sachet Date Coder
+machinery:1894,machinery,1894,Machinery,Sachet Display Packer
+machinery:1895,machinery,1895,Machinery,Sachet Filling Machine
+machinery:1896,machinery,1896,Machinery,Sachet Film Feeder
+machinery:1897,machinery,1897,Machinery,Sachet Inkjet Coder
+machinery:1898,machinery,1898,Machinery,Sachet Laser Coder
+machinery:1899,machinery,1899,Machinery,Sachet Leak Tester
+machinery:1900,machinery,1900,Machinery,Sachet Liquid Filler
+machinery:1901,machinery,1901,Machinery,Sachet Metal Detector
+machinery:1902,machinery,1902,Machinery,Sachet Packing Machine
+machinery:1903,machinery,1903,Machinery,Sachet Reject System
+machinery:1904,machinery,1904,Machinery,Sachet Sealing Machine
+machinery:1905,machinery,1905,Machinery,Sachet Vision Inspector
+machinery:1906,machinery,1906,Machinery,Sack Cutting Machine
+machinery:1907,machinery,1907,Machinery,Safety Cap Applicator
+machinery:1908,machinery,1908,Machinery,Safety Screener
+machinery:1909,machinery,1909,Machinery,Salt Grinding Machine
+machinery:1910,machinery,1910,Machinery,Sample Blister Machine
+machinery:1911,machinery,1911,Machinery,Sampling Booth
+machinery:1912,machinery,1912,Machinery,Sampling Robot
+machinery:1913,machinery,1913,Machinery,Sanitary Conveyor
+machinery:1914,machinery,1914,Machinery,Sanitary Ribbon Blender
+machinery:1915,machinery,1915,Machinery,Sanitary Round Separator
+machinery:1916,machinery,1916,Machinery,Saponin Extraction System
+machinery:1917,machinery,1917,Machinery,Scalper Sieve
+machinery:1918,machinery,1918,Machinery,Scissor Lift
+machinery:1919,machinery,1919,Machinery,Score Line Tablet Press
+machinery:1920,machinery,1920,Machinery,Scored Tablet Machine
+machinery:1921,machinery,1921,Machinery,Scraped-Surface Pasteurizer
+machinery:1922,machinery,1922,Machinery,Screw Capper
+machinery:1923,machinery,1923,Machinery,Screw Compressor System
+machinery:1924,machinery,1924,Machinery,Screw Conveyor
+machinery:1925,machinery,1925,Machinery,Screw Feeder
+machinery:1926,machinery,1926,Machinery,Screw Press Extractor
+machinery:1927,machinery,1927,Machinery,Seal Integrity Tester
+machinery:1928,machinery,1928,Machinery,Seal Strength Tester
+machinery:1929,machinery,1929,Machinery,Secondary Dryer
+machinery:1930,machinery,1930,Machinery,Security Label Applicator
+machinery:1931,machinery,1931,Machinery,Seed Coating Machine
+machinery:1932,machinery,1932,Machinery,Seed Mill
+machinery:1933,machinery,1933,Machinery,Seeded Crystallizer
+machinery:1934,machinery,1934,Machinery,Self-Cleaning Mixer
+machinery:1935,machinery,1935,Machinery,Self-Cleaning Sieve
+machinery:1936,machinery,1936,Machinery,Self-Draining Tank
+machinery:1937,machinery,1937,Machinery,Self-Emulsifying System
+machinery:1938,machinery,1938,Machinery,Semi-Micro Balance
+machinery:1939,machinery,1939,Machinery,Semi-Preparative HPLC
+machinery:1940,machinery,1940,Machinery,Senior-Friendly Blister Machine
+machinery:1941,machinery,1941,Machinery,Sequential Coating System
+machinery:1942,machinery,1942,Machinery,Serialization Blister System
+machinery:1943,machinery,1943,Machinery,Serialization Cartoner
+machinery:1944,machinery,1944,Machinery,Serialization Machine
+machinery:1945,machinery,1945,Machinery,Serialization Unit for Cartons
+machinery:1946,machinery,1946,Machinery,Servo Capper
+machinery:1947,machinery,1947,Machinery,Shaftless Screw Conveyor
+machinery:1948,machinery,1948,Machinery,Shaking Incubator
+machinery:1949,machinery,1949,Machinery,Shaped Tablet Press
+machinery:1950,machinery,1950,Machinery,Shear Mixer
+machinery:1951,machinery,1951,Machinery,Shelf Freeze Dryer
+machinery:1952,machinery,1952,Machinery,Shelf-Ready Packaging Machine
+machinery:1953,machinery,1953,Machinery,Shellac Coating System
+machinery:1954,machinery,1954,Machinery,Short-Path Distillation Extraction
+machinery:1955,machinery,1955,Machinery,Short-Path Extractor
+machinery:1956,machinery,1956,Machinery,Shrink Sleeve Applicator
+machinery:1957,machinery,1957,Machinery,Shrink Tunnel
+machinery:1958,machinery,1958,Machinery,Shrink Tunnel Machine
+machinery:1959,machinery,1959,Machinery,Shrink Wrapper
+machinery:1960,machinery,1960,Machinery,Side-Gusset Bag Machine
+machinery:1961,machinery,1961,Machinery,Side-Load Cartoner
+machinery:1962,machinery,1962,Machinery,Side-Load Case Packer
+machinery:1963,machinery,1963,Machinery,Sieve Analysis Machine
+machinery:1964,machinery,1964,Machinery,Sieve Shaker
+machinery:1965,machinery,1965,Machinery,Sigma Blade Mixer
+machinery:1966,machinery,1966,Machinery,Silica Grinding Mill
+machinery:1967,machinery,1967,Machinery,Silymarin Extractor
+machinery:1968,machinery,1968,Machinery,Simulated Moving Bed Chromatography
+machinery:1969,machinery,1969,Machinery,Simultaneous TGA-DSC
+machinery:1970,machinery,1970,Machinery,Single-Dose Sachet Machine
+machinery:1971,machinery,1971,Machinery,Single-Drum Dryer
+machinery:1972,machinery,1972,Machinery,Single-Nozzle Jet Mill
+machinery:1973,machinery,1973,Machinery,Single-Punch Tablet Press
+machinery:1974,machinery,1974,Machinery,Single-Roll Crusher
+machinery:1975,machinery,1975,Machinery,Single-Screw Extruder Granulator
+machinery:1976,machinery,1976,Machinery,Single-Screw Feeder
+machinery:1977,machinery,1977,Machinery,Single-Shaft Paddle Mixer
+machinery:1978,machinery,1978,Machinery,Single-Tank CIP
+machinery:1979,machinery,1979,Machinery,Single-Use Mixer
+machinery:1980,machinery,1980,Machinery,Single-Use Mixing System
+machinery:1981,machinery,1981,Machinery,Size 0 Capsule Filler
+machinery:1982,machinery,1982,Machinery,Size 00 Capsule Filler
+machinery:1983,machinery,1983,Machinery,Size 000 Capsule Filling Machine
+machinery:1984,machinery,1984,Machinery,Size 1 Capsule Filler
+machinery:1985,machinery,1985,Machinery,Size 2 Capsule Filler
+machinery:1986,machinery,1986,Machinery,Size 4 Capsule Filler
+machinery:1987,machinery,1987,Machinery,Size Classifier
+machinery:1988,machinery,1988,Machinery,Size Exclusion Chromatography System
+machinery:1989,machinery,1989,Machinery,Skid-Mounted Mixer
+machinery:1990,machinery,1990,Machinery,Slat Conveyor
+machinery:1991,machinery,1991,Machinery,Slat Conveyor for Bottles
+machinery:1992,machinery,1992,Machinery,Slat Counter
+machinery:1993,machinery,1993,Machinery,Sleeve Wrapper
+machinery:1994,machinery,1994,Machinery,Slim Stick Pack Machine
+machinery:1995,machinery,1995,Machinery,Slotted Screen
+machinery:1996,machinery,1996,Machinery,Slug Flow Conveying
+machinery:1997,machinery,1997,Machinery,Slugging Machine
+machinery:1998,machinery,1998,Machinery,Slurry Feeder
+machinery:1999,machinery,1999,Machinery,Slurry Mill
+machinery:2000,machinery,2000,Machinery,Slurry Mixer
+machinery:2001,machinery,2001,Machinery,Slurry Screener
+machinery:2002,machinery,2002,Machinery,Gripper System
+machinery:2003,machinery,2003,Machinery,Snap Capper
+machinery:2004,machinery,2004,Machinery,Soft-Wall Isolator System
+machinery:2005,machinery,2005,Machinery,Softgel Blister Machine
+machinery:2006,machinery,2006,Machinery,Softgel Bottle Filler
+machinery:2007,machinery,2007,Machinery,Softgel Coloring System
+machinery:2008,machinery,2008,Machinery,Softgel Counter
+machinery:2009,machinery,2009,Machinery,Softgel Drying Tumbler
+machinery:2010,machinery,2010,Machinery,Softgel Encapsulation Machine
+machinery:2011,machinery,2011,Machinery,Softgel Enteric System
+machinery:2012,machinery,2012,Machinery,Softgel Fill Pump System
+machinery:2013,machinery,2013,Machinery,Softgel Gelatin Melting System
+machinery:2014,machinery,2014,Machinery,Softgel Inspection Machine
+machinery:2015,machinery,2015,Machinery,Softgel Manufacturing Machine
+machinery:2016,machinery,2016,Machinery,Softgel Polishing Machine
+machinery:2017,machinery,2017,Machinery,Softgel Printing Machine
+machinery:2018,machinery,2018,Machinery,Softgel Ribbon Caster
+machinery:2019,machinery,2019,Machinery,Softgel Sizing Machine
+machinery:2020,machinery,2020,Machinery,Softgel Spread Box
+machinery:2021,machinery,2021,Machinery,Softgel Tumble Dryer
+machinery:2022,machinery,2022,Machinery,Softgel Vision System
+machinery:2023,machinery,2023,Machinery,Solar Dryer
+machinery:2024,machinery,2024,Machinery,Solid Dispersion System
+machinery:2025,machinery,2025,Machinery,Solid Lipid Nanoparticle System
+machinery:2026,machinery,2026,Machinery,Solid-Liquid Extractor
+machinery:2027,machinery,2027,Machinery,Solution Manufacturing Vessel
+machinery:2028,machinery,2028,Machinery,Solvent Extraction System
+machinery:2029,machinery,2029,Machinery,Solvent Recovery Dryer
+machinery:2030,machinery,2030,Machinery,Solvent Recovery Extraction System
+machinery:2031,machinery,2031,Machinery,Solvent Recovery System
+machinery:2032,machinery,2032,Machinery,Solvent Tank
+machinery:2033,machinery,2033,Machinery,Solvent-Capable Coating Machine
+machinery:2034,machinery,2034,Machinery,Sonication System
+machinery:2035,machinery,2035,Machinery,Sorting Conveyor
+machinery:2036,machinery,2036,Machinery,Soxhlet Extractor
+machinery:2037,machinery,2037,Machinery,Soy Isoflavone System
+machinery:2038,machinery,2038,Machinery,Spectrophotometer
+machinery:2039,machinery,2039,Machinery,Spectroradiometer
+machinery:2040,machinery,2040,Machinery,Spheronizer
+machinery:2041,machinery,2041,Machinery,Spice Grinding Machine
+machinery:2042,machinery,2042,Machinery,Spin Flash Dryer
+machinery:2043,machinery,2043,Machinery,Spindle Capper
+machinery:2044,machinery,2044,Machinery,Spiral Conveyor
+machinery:2045,machinery,2045,Machinery,Spiral Elevator
+machinery:2046,machinery,2046,Machinery,Spiral Jet Mill
+machinery:2047,machinery,2047,Machinery,Spore Probiotic System
+machinery:2048,machinery,2048,Machinery,Spout Pouch Filler
+machinery:2049,machinery,2049,Machinery,Spouted Bed Dryer
+machinery:2050,machinery,2050,Machinery,Spouted Pouch Machine
+machinery:2051,machinery,2051,Machinery,Spray Bottle Filler
+machinery:2052,machinery,2052,Machinery,Spray Coater for Nutraceuticals
+machinery:2053,machinery,2053,Machinery,Spray Coating Encapsulator
+machinery:2054,machinery,2054,Machinery,Spray Congealing System
+machinery:2055,machinery,2055,Machinery,Spray Congealing for Solid Dispersion
+machinery:2056,machinery,2056,Machinery,Spray Freeze Dryer
+machinery:2057,machinery,2057,Machinery,Spray Freeze-Drying System
+machinery:2058,machinery,2058,Machinery,Spray Granulation Dryer
+machinery:2059,machinery,2059,Machinery,Spray Gun System for Coating
+machinery:2060,machinery,2060,Machinery,Spray-Dried Powder Mill
+machinery:2061,machinery,2061,Machinery,Spray-Drying Extraction Line
+machinery:2062,machinery,2062,Machinery,Square Hole Screen
+machinery:2063,machinery,2063,Machinery,Stackable Incubator
+machinery:2064,machinery,2064,Machinery,Stand-Up Pouch Machine
+machinery:2065,machinery,2065,Machinery,Stand-Up Sachet Machine
+machinery:2066,machinery,2066,Machinery,Standardized Botanical Extract System
+machinery:2067,machinery,2067,Machinery,Standardized Extract Production System
+machinery:2068,machinery,2068,Machinery,Starch Grinding Machine
+machinery:2069,machinery,2069,Machinery,Starch Molding Gummy System
+machinery:2070,machinery,2070,Machinery,Starch Processing System
+machinery:2071,machinery,2071,Machinery,Starter Core Coater
+machinery:2072,machinery,2072,Machinery,Static Mixer
+machinery:2073,machinery,2073,Machinery,Statistical Checkweigher
+machinery:2074,machinery,2074,Machinery,Steam Distillation Extractor
+machinery:2075,machinery,2075,Machinery,Steam Shrink System
+machinery:2076,machinery,2076,Machinery,Steam Shrink Tunnel
+machinery:2077,machinery,2077,Machinery,Steam Sterilizer
+machinery:2078,machinery,2078,Machinery,Steam Tube Dryer
+machinery:2079,machinery,2079,Machinery,Steel Strapper
+machinery:2080,machinery,2080,Machinery,Sterile Compounding System
+machinery:2081,machinery,2081,Machinery,Sterile Fill-Finish Line
+machinery:2082,machinery,2082,Machinery,Sterile Filtration System
+machinery:2083,machinery,2083,Machinery,Sterile Liquid Filler
+machinery:2084,machinery,2084,Machinery,Sterile Liquid Manufacturing System
+machinery:2085,machinery,2085,Machinery,Sterile Mixing Vessel
+machinery:2086,machinery,2086,Machinery,Sterility Testing System
+machinery:2087,machinery,2087,Machinery,Sterilize-in-Place Unit
+machinery:2088,machinery,2088,Machinery,Sterilizer
+machinery:2089,machinery,2089,Machinery,Sterols Processing System
+machinery:2090,machinery,2090,Machinery,Stick Pack Cartoner
+machinery:2091,machinery,2091,Machinery,Stick Pack Case Packer
+machinery:2092,machinery,2092,Machinery,Stick Pack Counter
+machinery:2093,machinery,2093,Machinery,Stick Pack Machine
+machinery:2094,machinery,2094,Machinery,Stickiness Tester
+machinery:2095,machinery,2095,Machinery,Still Skid
+machinery:2096,machinery,2096,Machinery,Still for WFI
+machinery:2097,machinery,2097,Machinery,Stirred Ball Mill
+machinery:2098,machinery,2098,Machinery,Stirred Tank Bioreactor
+machinery:2099,machinery,2099,Machinery,Storage Bin
+machinery:2100,machinery,2100,Machinery,Storage Tank
+machinery:2101,machinery,2101,Machinery,Strand Granulator
+machinery:2102,machinery,2102,Machinery,Strapping Machine
+machinery:2103,machinery,2103,Machinery,Stress Testing Chamber
+machinery:2104,machinery,2104,Machinery,Stretch Wrapper
+machinery:2105,machinery,2105,Machinery,String-and-Tag Tea Bag System
+machinery:2106,machinery,2106,Machinery,Strip Packaging Machine
+machinery:2107,machinery,2107,Machinery,Strip Packing Machine
+machinery:2108,machinery,2108,Machinery,Sturtevant Mill
+machinery:2109,machinery,2109,Machinery,Sub-Critical Water Extractor
+machinery:2110,machinery,2110,Machinery,Sub-Micron Mill
+machinery:2111,machinery,2111,Machinery,Subcritical CO2 Extractor
+machinery:2112,machinery,2112,Machinery,Sublingual Tablet Press
+machinery:2113,machinery,2113,Machinery,Suction Head Mixer
+machinery:2114,machinery,2114,Machinery,Sugar Coating Pan
+machinery:2115,machinery,2115,Machinery,Sugar Grinding Machine
+machinery:2116,machinery,2116,Machinery,Sugar Sphere Coating Granulator
+machinery:2117,machinery,2117,Machinery,Sulforaphane Production Line
+machinery:2118,machinery,2118,Machinery,Super Sack Discharger
+machinery:2119,machinery,2119,Machinery,Supercritical CO2 Extractor
+machinery:2120,machinery,2120,Machinery,Supercritical Fluid Processing System
+machinery:2121,machinery,2121,Machinery,Superfine Grinding Mill
+machinery:2122,machinery,2122,Machinery,Superheated Steam Dryer
+machinery:2123,machinery,2123,Machinery,Supplement Shot Manufacturing System
+machinery:2124,machinery,2124,Machinery,Suppressed IC
+machinery:2125,machinery,2125,Machinery,Surface Plasmon Resonance System
+machinery:2126,machinery,2126,Machinery,Surface Sampler
+machinery:2127,machinery,2127,Machinery,Surge Hopper
+machinery:2128,machinery,2128,Machinery,Suspension Manufacturing System
+machinery:2129,machinery,2129,Machinery,Suspension Mixer
+machinery:2130,machinery,2130,Machinery,Suspension Preparation Tank
+machinery:2131,machinery,2131,Machinery,Sustained-Release Coater
+machinery:2132,machinery,2132,Machinery,Sustained-Release Tablet Press
+machinery:2133,machinery,2133,Machinery,Swab Sampling Device
+machinery:2134,machinery,2134,Machinery,Synchronous Conveyor
+machinery:2135,machinery,2135,Machinery,Syringe Filling Machine
+machinery:2136,machinery,2136,Machinery,Syrup Manufacturing System
+machinery:2137,machinery,2137,Machinery,Syrup Preparation Vessel
+machinery:2138,machinery,2138,Machinery,TDS Analyzer
+machinery:2139,machinery,2139,Machinery,TFF System
+machinery:2140,machinery,2140,Machinery,TGA Analyzer
+machinery:2141,machinery,2141,Machinery,TOC Analyzer
+machinery:2142,machinery,2142,Machinery,TOC Reduction System
+machinery:2143,machinery,2143,Machinery,TPA Machine
+machinery:2144,machinery,2144,Machinery,Tablet Balance
+machinery:2145,machinery,2145,Machinery,Tablet Blister Machine
+machinery:2146,machinery,2146,Machinery,Tablet Bottle Filler
+machinery:2147,machinery,2147,Machinery,Tablet Color Sorter
+machinery:2148,machinery,2148,Machinery,Tablet Compression Suite
+machinery:2149,machinery,2149,Machinery,Tablet Compression Tooling
+machinery:2150,machinery,2150,Machinery,Tablet Counter
+machinery:2151,machinery,2151,Machinery,Tablet Crusher
+machinery:2152,machinery,2152,Machinery,Tablet Deduster
+machinery:2153,machinery,2153,Machinery,Tablet Diameter Gauge
+machinery:2154,machinery,2154,Machinery,Tablet Die Set System
+machinery:2155,machinery,2155,Machinery,Tablet Disintegration Apparatus
+machinery:2156,machinery,2156,Machinery,Tablet Dissolution Inline Monitor
+machinery:2157,machinery,2157,Machinery,Tablet Dissolution Tester
+machinery:2158,machinery,2158,Machinery,Tablet Feed Hopper
+machinery:2159,machinery,2159,Machinery,Tablet Film Coater
+machinery:2160,machinery,2160,Machinery,Tablet Friability Tester
+machinery:2161,machinery,2161,Machinery,Tablet Friability Tester Inline
+machinery:2162,machinery,2162,Machinery,Tablet Hardness Sorter
+machinery:2163,machinery,2163,Machinery,Tablet Hardness Tester
+machinery:2164,machinery,2164,Machinery,Tablet Manufacturing Line
+machinery:2165,machinery,2165,Machinery,Tablet Optical Sorter
+machinery:2166,machinery,2166,Machinery,Tablet Packaging Line
+machinery:2167,machinery,2167,Machinery,Tablet Polisher
+machinery:2168,machinery,2168,Machinery,Tablet Press Tooling Station
+machinery:2169,machinery,2169,Machinery,Tablet Press
+machinery:2170,machinery,2170,Machinery,Tablet Punch Polisher
+machinery:2171,machinery,2171,Machinery,Tablet Rework Mill
+machinery:2172,machinery,2172,Machinery,Tablet Sieve
+machinery:2173,machinery,2173,Machinery,Tablet Sorting Machine
+machinery:2174,machinery,2174,Machinery,Tablet Thickness Gauge
+machinery:2175,machinery,2175,Machinery,Tablet Uniformity Tester
+machinery:2176,machinery,2176,Machinery,Tablet Vision Inspector
+machinery:2177,machinery,2177,Machinery,Tablet Weight Checker
+machinery:2178,machinery,2178,Machinery,Tablet Weight Variation Tester
+machinery:2179,machinery,2179,Machinery,Talc Grinding Mill
+machinery:2180,machinery,2180,Machinery,Tamper-Evident Band Applicator
+machinery:2181,machinery,2181,Machinery,Tamper-Evident Bander
+machinery:2182,machinery,2182,Machinery,Tamper-Evident Capsule Machine
+machinery:2183,machinery,2183,Machinery,Tamping-Pin Capsule Filler
+machinery:2184,machinery,2184,Machinery,Tangential Flow Filtration System
+machinery:2185,machinery,2185,Machinery,Tangential-Spray Coater
+machinery:2186,machinery,2186,Machinery,Tangential-Spray Granulator
+machinery:2187,machinery,2187,Machinery,Tannin Processing Line
+machinery:2188,machinery,2188,Machinery,Tap Density Tester
+machinery:2189,machinery,2189,Machinery,Tape Case Sealer
+machinery:2190,machinery,2190,Machinery,Taste-Masking Coater
+machinery:2191,machinery,2191,Machinery,Tea Bag Machine
+machinery:2192,machinery,2192,Machinery,Tear Notch Machine
+machinery:2193,machinery,2193,Machinery,Tear-Strip Applicator
+machinery:2194,machinery,2194,Machinery,Temperature Control Unit
+machinery:2195,machinery,2195,Machinery,Temperature Cycling Chamber
+machinery:2196,machinery,2196,Machinery,Temperature-Controlled Conveyor
+machinery:2197,machinery,2197,Machinery,Temperature-Controlled Mixer
+machinery:2198,machinery,2198,Machinery,Temperature-Controlled Tank
+machinery:2199,machinery,2199,Machinery,Tensile Tester
+machinery:2200,machinery,2200,Machinery,Terminal Sterilization Line
+machinery:2201,machinery,2201,Machinery,Terpene Extractor
+machinery:2202,machinery,2202,Machinery,Test Sieve Stack
+machinery:2203,machinery,2203,Machinery,Tetra Pak Style Filler
+machinery:2204,machinery,2204,Machinery,Texture Analyzer
+machinery:2205,machinery,2205,Machinery,Texture Profile Analyzer
+machinery:2206,machinery,2206,Machinery,Theobromine Processing
+machinery:2207,machinery,2207,Machinery,Thermal Transfer Coder
+machinery:2208,machinery,2208,Machinery,Thermoform Film Feeding System
+machinery:2209,machinery,2209,Machinery,Thermoforming Blister Machine
+machinery:2210,machinery,2210,Machinery,Thermogravimetric Analyzer
+machinery:2211,machinery,2211,Machinery,Thin-Film Evaporator
+machinery:2212,machinery,2212,Machinery,Thin-Film Extractor
+machinery:2213,machinery,2213,Machinery,Thomas Engineering Coater
+machinery:2214,machinery,2214,Machinery,Three-Phase Decanter
+machinery:2215,machinery,2215,Machinery,Three-Roll Mill
+machinery:2216,machinery,2216,Machinery,Three-Tank CIP
+machinery:2217,machinery,2217,Machinery,Tilted Pan Granulator
+machinery:2218,machinery,2218,Machinery,Time-Gravity Filler
+machinery:2219,machinery,2219,Machinery,Time-of-Flight MS
+machinery:2220,machinery,2220,Machinery,Tin Filler
+machinery:2221,machinery,2221,Machinery,Tincture Manufacturing Unit
+machinery:2222,machinery,2222,Machinery,Toothed Roll Crusher
+machinery:2223,machinery,2223,Machinery,Top Labeler
+machinery:2224,machinery,2224,Machinery,Top-Drive Granulator
+machinery:2225,machinery,2225,Machinery,Top-Drive High-Shear Granulator
+machinery:2226,machinery,2226,Machinery,Top-Load Cartoner
+machinery:2227,machinery,2227,Machinery,Top-Load Case Packer
+machinery:2228,machinery,2228,Machinery,Top-Spray Coating System
+machinery:2229,machinery,2229,Machinery,Top-Spray Granulator
+machinery:2230,machinery,2230,Machinery,Torque-Controlled Capper
+machinery:2231,machinery,2231,Machinery,Torque-Controlled Granulator
+machinery:2232,machinery,2232,Machinery,Tote Dumper
+machinery:2233,machinery,2233,Machinery,Touchscreen Blister Machine
+machinery:2234,machinery,2234,Machinery,Toxic Compound Mixer
+machinery:2235,machinery,2235,Machinery,Toxic Compound Suite
+machinery:2236,machinery,2236,Machinery,Track-and-Trace Blister Machine
+machinery:2237,machinery,2237,Machinery,Track-and-Trace Cartoner
+machinery:2238,machinery,2238,Machinery,Track-and-Trace System
+machinery:2239,machinery,2239,Machinery,Transfer Conveyor
+machinery:2240,machinery,2240,Machinery,Transfer Hopper
+machinery:2241,machinery,2241,Machinery,Transfer Isolator
+machinery:2242,machinery,2242,Machinery,Transmission FTIR
+machinery:2243,machinery,2243,Machinery,Tray Dryer
+machinery:2244,machinery,2244,Machinery,Tray Erector
+machinery:2245,machinery,2245,Machinery,Tray Former
+machinery:2246,machinery,2246,Machinery,Tray Packer
+machinery:2247,machinery,2247,Machinery,Triple Quadrupole MS
+machinery:2248,machinery,2248,Machinery,Triple-Deck Vibrating Screen
+machinery:2249,machinery,2249,Machinery,Triple-Layer Tablet Press
+machinery:2250,machinery,2250,Machinery,Triple-Shaft Mixer
+machinery:2251,machinery,2251,Machinery,Trolley-Mounted IBC Blender
+machinery:2252,machinery,2252,Machinery,Trommel Screen
+machinery:2253,machinery,2253,Machinery,Tropical Blister Machine
+machinery:2254,machinery,2254,Machinery,Truck Scale
+machinery:2255,machinery,2255,Machinery,True Density Analyzer
+machinery:2256,machinery,2256,Machinery,Tube Cartoner
+machinery:2257,machinery,2257,Machinery,Tube Filling Machine
+machinery:2258,machinery,2258,Machinery,Tube Mill
+machinery:2259,machinery,2259,Machinery,Tubular Bowl Centrifuge
+machinery:2260,machinery,2260,Machinery,Tubular Continuous Reactor
+machinery:2261,machinery,2261,Machinery,Tubular Pasteurizer
+machinery:2262,machinery,2262,Machinery,Tubular Screw Conveyor
+machinery:2263,machinery,2263,Machinery,Tuck-in Cartoner
+machinery:2264,machinery,2264,Machinery,Tumble Blender
+machinery:2265,machinery,2265,Machinery,Tumbler Screener
+machinery:2266,machinery,2266,Machinery,Tumbling Drum Blender
+machinery:2267,machinery,2267,Machinery,Tumbling Mill
+machinery:2268,machinery,2268,Machinery,Tunnel Depyrogenation System
+machinery:2269,machinery,2269,Machinery,Tunnel Dryer
+machinery:2270,machinery,2270,Machinery,Tunnel Metal Detector
+machinery:2271,machinery,2271,Machinery,Tunnel Pasteurizer
+machinery:2272,machinery,2272,Machinery,Tunnel Wrapper
+machinery:2273,machinery,2273,Machinery,Turbidity Meter
+machinery:2274,machinery,2274,Machinery,Turbine Agitator
+machinery:2275,machinery,2275,Machinery,Turbine Extraction Machine
+machinery:2276,machinery,2276,Machinery,Turbo Mill
+machinery:2277,machinery,2277,Machinery,Turkey Tail Processing System
+machinery:2278,machinery,2278,Machinery,Turntable Conveyor
+machinery:2279,machinery,2279,Machinery,Turntable Pallet Wrapper
+machinery:2280,machinery,2280,Machinery,Twin Sachet Machine
+machinery:2281,machinery,2281,Machinery,Twin-Screw Extruder Granulator
+machinery:2282,machinery,2282,Machinery,Twin-Screw Feeder
+machinery:2283,machinery,2283,Machinery,Twin-Screw Kneader
+machinery:2284,machinery,2284,Machinery,Twin-Shaft Granulator
+machinery:2285,machinery,2285,Machinery,Twin-Shaft Mixer
+machinery:2286,machinery,2286,Machinery,Twin-Shaft Paddle Mixer
+machinery:2287,machinery,2287,Machinery,Two-Fluid Nozzle Spray Dryer
+machinery:2288,machinery,2288,Machinery,Two-Piece Capsule Filler
+machinery:2289,machinery,2289,Machinery,Two-Piece Hard Shell Filler
+machinery:2290,machinery,2290,Machinery,Two-Roll Mill
+machinery:2291,machinery,2291,Machinery,Two-Stage Spray Dryer
+machinery:2292,machinery,2292,Machinery,Two-Tank CIP
+machinery:2293,machinery,2293,Machinery,UHT System
+machinery:2294,machinery,2294,Machinery,UPLC System
+machinery:2295,machinery,2295,Machinery,USP Disintegration Machine
+machinery:2296,machinery,2296,Machinery,USP Dissolution Apparatus
+machinery:2297,machinery,2297,Machinery,UV Degradation Chamber
+machinery:2298,machinery,2298,Machinery,UV Disinfection Chamber
+machinery:2299,machinery,2299,Machinery,UV Processing System
+machinery:2300,machinery,2300,Machinery,UV Sterilizer
+machinery:2301,machinery,2301,Machinery,UV Water Treatment System
+machinery:2302,machinery,2302,Machinery,UV-C Sterilization Cabinet
+machinery:2303,machinery,2303,Machinery,UV-Vis Spectrophotometer
+machinery:2304,machinery,2304,Machinery,UV-Vis Stability Chamber
+machinery:2305,machinery,2305,Machinery,Ultra-Centrifugal Mill
+machinery:2306,machinery,2306,Machinery,Ultra-HPLC System
+machinery:2307,machinery,2307,Machinery,Ultra-High-Pressure Homogenizer
+machinery:2308,machinery,2308,Machinery,Ultra-Micro Balance
+machinery:2309,machinery,2309,Machinery,Ultra-Pure Water System
+machinery:2310,machinery,2310,Machinery,Ultrafiltration System
+machinery:2311,machinery,2311,Machinery,Ultrafiltration Water System
+machinery:2312,machinery,2312,Machinery,Ultrafine Grinding Mill
+machinery:2313,machinery,2313,Machinery,Ultrasonic Extraction Machine
+machinery:2314,machinery,2314,Machinery,Ultrasonic Homogenizer
+machinery:2315,machinery,2315,Machinery,Ultrasonic Processing Unit
+machinery:2316,machinery,2316,Machinery,Ultrasonic Screener
+machinery:2317,machinery,2317,Machinery,Ultrasonic Sieve Cleaner
+machinery:2318,machinery,2318,Machinery,Ultrasonic Spray Coater
+machinery:2319,machinery,2319,Machinery,Underwater Pelletizer
+machinery:2320,machinery,2320,Machinery,Uniform Case Sealer
+machinery:2321,machinery,2321,Machinery,Unit-Dose Blister Machine
+machinery:2322,machinery,2322,Machinery,Unit-Dose Liquid Filler
+machinery:2323,machinery,2323,Machinery,Unit-Dose Sachet Machine
+machinery:2324,machinery,2324,Machinery,Unit-Load System
+machinery:2325,machinery,2325,Machinery,Universal Mill
+machinery:2326,machinery,2326,Machinery,Unlined Drum
+machinery:2327,machinery,2327,Machinery,VFFS Machine
+machinery:2328,machinery,2328,Machinery,VLM
+machinery:2329,machinery,2329,Machinery,Vacu-Lock System
+machinery:2330,machinery,2330,Machinery,Vacuum Conveying System
+machinery:2331,machinery,2331,Machinery,Vacuum Crystallizer
+machinery:2332,machinery,2332,Machinery,Vacuum Decay Leak Tester
+machinery:2333,machinery,2333,Machinery,Vacuum Disperser
+machinery:2334,machinery,2334,Machinery,Vacuum Distillation Extractor
+machinery:2335,machinery,2335,Machinery,Vacuum Emulsifying Mixer
+machinery:2336,machinery,2336,Machinery,Vacuum Evaporator
+machinery:2337,machinery,2337,Machinery,Vacuum Extraction Vessel
+machinery:2338,machinery,2338,Machinery,Vacuum Filler
+machinery:2339,machinery,2339,Machinery,Vacuum Freeze Dryer
+machinery:2340,machinery,2340,Machinery,Vacuum Kneader
+machinery:2341,machinery,2341,Machinery,Vacuum Leak Tester
+machinery:2342,machinery,2342,Machinery,Vacuum Mixer
+machinery:2343,machinery,2343,Machinery,Vacuum Paddle Dryer
+machinery:2344,machinery,2344,Machinery,Vacuum Roller Compactor
+machinery:2345,machinery,2345,Machinery,Vacuum Sachet Machine
+machinery:2346,machinery,2346,Machinery,Vacuum Tray Dryer
+machinery:2347,machinery,2347,Machinery,Vacuum Vessel
+machinery:2348,machinery,2348,Machinery,Vapor Compression Distiller
+machinery:2349,machinery,2349,Machinery,Vapor Pressure Osmometer
+machinery:2350,machinery,2350,Machinery,Variable-Force Tablet Press
+machinery:2351,machinery,2351,Machinery,Variable-Rate Feeder
+machinery:2352,machinery,2352,Machinery,Vegan Gummy Machine
+machinery:2353,machinery,2353,Machinery,Vertical Bucket Elevator
+machinery:2354,machinery,2354,Machinery,Vertical Carousel
+machinery:2355,machinery,2355,Machinery,Vertical Cartoner
+machinery:2356,machinery,2356,Machinery,Vertical Conveyor Lift
+machinery:2357,machinery,2357,Machinery,Vertical Fluid Bed Dryer
+machinery:2358,machinery,2358,Machinery,Vertical Form Fill Seal Machine
+machinery:2359,machinery,2359,Machinery,Vertical High-Shear Granulator
+machinery:2360,machinery,2360,Machinery,Vertical Laminar Flow Hood
+machinery:2361,machinery,2361,Machinery,Vertical Lift Module
+machinery:2362,machinery,2362,Machinery,Vertical Mixer
+machinery:2363,machinery,2363,Machinery,Vertical Roller Mill
+machinery:2364,machinery,2364,Machinery,Vertical Spiral Conveyor
+machinery:2365,machinery,2365,Machinery,Vertical Tank
+machinery:2366,machinery,2366,Machinery,Vial Cartoner
+machinery:2367,machinery,2367,Machinery,Vial Filling Machine
+machinery:2368,machinery,2368,Machinery,Vial Freeze Dryer
+machinery:2369,machinery,2369,Machinery,Vial Freeze-Dry Line
+machinery:2370,machinery,2370,Machinery,Vial Inspection Machine
+machinery:2371,machinery,2371,Machinery,Vibrating Conveyor
+machinery:2372,machinery,2372,Machinery,Vibrating Fluid Bed Dryer
+machinery:2373,machinery,2373,Machinery,Vibrating Pan Conveyor
+machinery:2374,machinery,2374,Machinery,Vibrating Sieve
+machinery:2375,machinery,2375,Machinery,Vibratory Ball Mill
+machinery:2376,machinery,2376,Machinery,Vibratory Feeder
+machinery:2377,machinery,2377,Machinery,Vibratory Screener
+machinery:2378,machinery,2378,Machinery,Vibratory Tablet Counter
+machinery:2379,machinery,2379,Machinery,Vibro Energy Grinding Mill
+machinery:2380,machinery,2380,Machinery,Vibro-Fluidizer Dryer
+machinery:2381,machinery,2381,Machinery,Viscometer
+machinery:2382,machinery,2382,Machinery,Visible Spectrophotometer
+machinery:2383,machinery,2383,Machinery,Vision Inspection Blister Machine
+machinery:2384,machinery,2384,Machinery,Vision Inspection System
+machinery:2385,machinery,2385,Machinery,Vision-Guided Pick-and-Place
+machinery:2386,machinery,2386,Machinery,Vision-Integrated Cartoner
+machinery:2387,machinery,2387,Machinery,Vitamin C Manufacturing System
+machinery:2388,machinery,2388,Machinery,Vitamin D3 Processing System
+machinery:2389,machinery,2389,Machinery,Vitamin E Distillation System
+machinery:2390,machinery,2390,Machinery,Vitamin K2 Fermentation Line
+machinery:2391,machinery,2391,Machinery,Volumetric Bottle Filler
+machinery:2392,machinery,2392,Machinery,Volumetric Dosing System
+machinery:2393,machinery,2393,Machinery,Volumetric Feeder
+machinery:2394,machinery,2394,Machinery,Volumetric Filler
+machinery:2395,machinery,2395,Machinery,WD-XRF
+machinery:2396,machinery,2396,Machinery,WFI Generation Skid
+machinery:2397,machinery,2397,Machinery,WFI-Based Manufacturing System
+machinery:2398,machinery,2398,Machinery,Walk-In Incubator
+machinery:2399,machinery,2399,Machinery,Walk-In Stability Room
+machinery:2400,machinery,2400,Machinery,Walking Beam Conveyor
+machinery:2401,machinery,2401,Machinery,Wallet Blister Machine
+machinery:2402,machinery,2402,Machinery,Warehouse Management System Integration
+machinery:2403,machinery,2403,Machinery,Wash-Down Conveyor
+machinery:2404,machinery,2404,Machinery,Waste Disposal System
+machinery:2405,machinery,2405,Machinery,Wastewater Treatment Plant
+machinery:2406,machinery,2406,Machinery,Water Activity Meter
+machinery:2407,machinery,2407,Machinery,Water Distribution System
+machinery:2408,machinery,2408,Machinery,Water Loop System
+machinery:2409,machinery,2409,Machinery,Water Purification System
+machinery:2410,machinery,2410,Machinery,Water Rinser
+machinery:2411,machinery,2411,Machinery,Water Storage System
+machinery:2412,machinery,2412,Machinery,Water System Skid
+machinery:2413,machinery,2413,Machinery,Water Treatment System
+machinery:2414,machinery,2414,Machinery,Water-Ring Pelletizer
+machinery:2415,machinery,2415,Machinery,Water-for-Injection System
+machinery:2416,machinery,2416,Machinery,Wave Bioreactor
+machinery:2417,machinery,2417,Machinery,Wedge Wire Screen
+machinery:2418,machinery,2418,Machinery,Weigh Belt Feeder
+machinery:2419,machinery,2419,Machinery,Weigh Hopper
+machinery:2420,machinery,2420,Machinery,Weighing Booth
+machinery:2421,machinery,2421,Machinery,Weighing System
+machinery:2422,machinery,2422,Machinery,Weight Gain Monitor for Coating
+machinery:2423,machinery,2423,Machinery,Western Blot System
+machinery:2424,machinery,2424,Machinery,Wet Ball Mill
+machinery:2425,machinery,2425,Machinery,Wet Colloid Mill
+machinery:2426,machinery,2426,Machinery,Wet Granulation Line
+machinery:2427,machinery,2427,Machinery,Wet Granulation Tablet Line
+machinery:2428,machinery,2428,Machinery,Wet Grinding Machine
+machinery:2429,machinery,2429,Machinery,Wet Mixing Granulator
+machinery:2430,machinery,2430,Machinery,Wet Powder Mixer
+machinery:2431,machinery,2431,Machinery,Wet Screening Machine
+machinery:2432,machinery,2432,Machinery,Wet Scrubber Dust Collector
+machinery:2433,machinery,2433,Machinery,Whey Protein Processing Line
+machinery:2434,machinery,2434,Machinery,Winterization System
+machinery:2435,machinery,2435,Machinery,Wiped-Film Dryer
+machinery:2436,machinery,2436,Machinery,Wiped-Film Evaporator
+machinery:2437,machinery,2437,Machinery,Withanolide Extraction Unit
+machinery:2438,machinery,2438,Machinery,Woven Wire Screen
+machinery:2439,machinery,2439,Machinery,Wrap-Around Cartoner
+machinery:2440,machinery,2440,Machinery,Wrap-Around Case Packer
+machinery:2441,machinery,2441,Machinery,Wrap-Around Labeler
+machinery:2442,machinery,2442,Machinery,Wurster Coater Granulator
+machinery:2443,machinery,2443,Machinery,Wurster Fluid Bed Coater
+machinery:2444,machinery,2444,Machinery,Wurster Fluid Bed Dryer
+machinery:2445,machinery,2445,Machinery,X-Ray Bottle Inspector
+machinery:2446,machinery,2446,Machinery,X-Ray Food Scanner
+machinery:2447,machinery,2447,Machinery,X-Ray Inspection Machine
+machinery:2448,machinery,2448,Machinery,X-Ray Pharmaceutical Scanner
+machinery:2449,machinery,2449,Machinery,XRF Spectrometer
+machinery:2450,machinery,2450,Machinery,Yeast Fermentation System
+machinery:2451,machinery,2451,Machinery,Z-Blade Mixer
+machinery:2452,machinery,2452,Machinery,Z-Type Elevator
+machinery:2453,machinery,2453,Machinery,Zeaxanthin Processing System
+machinery:2454,machinery,2454,Machinery,Zein Coating Machine
+machinery:2455,machinery,2455,Machinery,Zero Dead-Leg Tank
+machinery:2456,machinery,2456,Machinery,Zero-Emission Dryer
+machinery:2457,machinery,2457,Machinery,Zero-Pressure Accumulator
+machinery:2458,machinery,2458,Machinery,Zeta Potential Analyzer
+machinery:2459,machinery,2459,Machinery,Zippered Pouch Machine
+machinery:2460,machinery,2460,Machinery,eBR System
+machinery:2461,machinery,2461,Machinery,pH Analyzer
+machinery:2462,machinery,2462,Machinery,pH Meter
+machinery:2463,machinery,2463,Machinery,qPCR System
+machinery:2464,machinery,2464,Machinery,SS316L System
+machinery:2465,machinery,2465,Machinery,SS316L Dryer
+machinery:2466,machinery,2466,Machinery,Food-Grade Freeze Dryer
+machinery:2467,machinery,2467,Machinery,Food-Grade IBC
+machinery:2468,machinery,2468,Machinery,Food-Grade Ribbon Blender
+machinery:2469,machinery,2469,Machinery,Food-Grade Silo
+machinery:2470,machinery,2470,Machinery,Fully Enclosed Blister Machine
+machinery:2471,machinery,2471,Machinery,Manual Pallet Truck
+machinery:2472,machinery,2472,Machinery,Pharmaceutical Autoclave
+machinery:2473,machinery,2473,Machinery,Pharmaceutical Blister Packer
+machinery:2474,machinery,2474,Machinery,Pharmaceutical Capsule Filler
+machinery:2475,machinery,2475,Machinery,Pharmaceutical Cartoner
+machinery:2476,machinery,2476,Machinery,Pharmaceutical Centrifuge
+machinery:2477,machinery,2477,Machinery,Pharmaceutical Crusher
+machinery:2478,machinery,2478,Machinery,Pharmaceutical Drum
+machinery:2479,machinery,2479,Machinery,Pharmaceutical Film Coater
+machinery:2480,machinery,2480,Machinery,Pharmaceutical Freeze Dryer
+machinery:2481,machinery,2481,Machinery,Pharmaceutical Grinding System
+machinery:2482,machinery,2482,Machinery,Pharmaceutical IBC
+machinery:2483,machinery,2483,Machinery,Pharmaceutical Incinerator
+machinery:2484,machinery,2484,Machinery,Pharmaceutical Mixing Tank
+machinery:2485,machinery,2485,Machinery,Pharmaceutical Ribbon Blender
+machinery:2486,machinery,2486,Machinery,Pharmaceutical Sachet Packer
+machinery:2487,machinery,2487,Machinery,Pharmaceutical Sifter
+machinery:2488,machinery,2488,Machinery,Pharmaceutical Spray Dryer
+machinery:2489,machinery,2489,Machinery,Pharmaceutical Storage Silo
+machinery:2490,machinery,2490,Machinery,Pharmaceutical Tablet Compression Machine
+machinery:2491,machinery,2491,Machinery,SS304 Tank
+machinery:2492,machinery,2492,Machinery,SS316L Tank
+machinery:2493,machinery,2493,Machinery,Ultra-High-Speed Sachet Machine
+machinery:2494,machinery,2494,Machinery,cGMP System
+machinery:2495,machinery,2495,Machinery,cGMP Dryer
+machinery:2496,machinery,2496,Machinery,cGMP Tank

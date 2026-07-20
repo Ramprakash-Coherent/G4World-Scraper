@@ -1,0 +1,30 @@
+﻿.env
+__pycache__/
+*.pyc
+
+# Runtime junk (all depths) — keep companies.csv + progress.json for resume
+**/cache/
+**/raw_html/
+**/browser_profile/
+**/_probe/
+**/*.log
+**/translation_cache.json
+**/proxies.txt
+**/go4world_companies.csv
+
+# Regenerable listings
+listings_rm/
+listings_fg/
+listings_pk/
+listings_mc/
+
+# Old per-worker output (active data lives in Go4World_countries/)
+Go4World/
+Go4World_RM/
+Go4World_FG/
+Go4World_PK/
+Go4World_MC/
+
+# Unused leftover packages
+indiamart_scraper/
+spain_scraper/

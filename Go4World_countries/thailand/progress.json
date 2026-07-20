@@ -1,0 +1,24 @@
+{
+  "completed_keys": [
+    "acacia_fiber::gum_acacia_soluble_fibre::thailand",
+    "acai_berry_extract_products::acai_berry_fruit_extract::thailand",
+    "acai_berry_extract_products::acai_berry_fruit_juice_powder::thailand",
+    "acai_berry_extract_products::acai_berry_fruit_powder::thailand",
+    "acerola_cherry_extract_products::acerola_cherry_fruit_fibre::thailand",
+    "acerola_cherry_extract_products::acerola_cherry_fruit_juice_extract::thailand",
+    "acerola_cherry_extract_products::acerola_cherry_fruit_juice_powder::thailand",
+    "acesulfame::acesulfame_k::thailand",
+    "adipic_acid::adipic_acid::thailand",
+    "agar_agar::agar_agar::thailand",
+    "agaricus_extract_products::agaricus_blazei_murill_mushroom_fungus_fruiting_body_extract::thailand",
+    "atp::atp_adenosine_triphosphate_disodium::thailand"
+  ],
+  "no_result_keys": [],
+  "stats": {
+    "listings_completed": 12,
+    "searches_fetched": 72,
+    "profiles_fetched": 232,
+    "records_found": 695,
+    "errors": 0
+  }
+}
