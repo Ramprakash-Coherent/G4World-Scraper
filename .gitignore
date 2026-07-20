@@ -18,8 +18,9 @@ listings_fg/
 listings_pk/
 listings_mc/
 
-# Old per-worker output (active data lives in Go4World_countries/)
+# Scrape output (code + catalog CSVs only on GitHub)
 Go4World/
+Go4World_countries/
 Go4World_RM/
 Go4World_FG/
 Go4World_PK/
