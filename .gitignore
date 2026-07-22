@@ -1,12 +1,17 @@
-﻿.env
+.env
+.venv/
+venv/
 __pycache__/
 *.pyc
 
-# Runtime junk (all depths) — keep companies.csv + progress.json for resume
+# Runtime junk (all depths)
 **/cache/
 **/raw_html/
 **/browser_profile/
 **/_probe/
+**/_tmp/
+**/_spotcheck/
+**/_spotcheck_browser/
 **/*.log
 **/translation_cache.json
 **/proxies.txt
@@ -18,9 +23,10 @@ listings_fg/
 listings_pk/
 listings_mc/
 
-# Scrape output (code + catalog CSVs only on GitHub)
+# Scrape / enrich output (code + catalog CSVs only on GitHub)
 Go4World/
 Go4World_countries/
+Go4World_countries_enriched/
 Go4World_RM/
 Go4World_FG/
 Go4World_PK/

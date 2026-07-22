@@ -125,32 +125,36 @@ python run_parallel_countries.py --all-countries --max-parallel 2
 **Output layout:**
 
 ```text
-Go4World_countries/
-  japan/
-    companies.csv      ← all catalogs merged, unique company_id
-    progress.json      ← resume keys entity::listing::country
-    parallel_runner.log
+Go4World_countries_enriched/     ← default for new runs (fresh / full enrich)
+  malaysia/
+    companies.csv
+    progress.json
     cache/  raw_html/  browser_profile/
-  indonesia/
+  thailand/
     ...
+
+Go4World_countries/              ← legacy archive (left untouched by new runs)
 ```
 
-**Resume:** re-run the same command; finished listing×country keys are skipped; known `company_id`s are not re-enriched.
+**Resume:** re-run the same command against the enriched tree; finished listing×country keys are skipped; rich known `company_id`s are not re-enriched (thin known rows are re-enriched).
 
 **Recommended `--max-parallel`:** `2` (safe). `3` is usually OK. Avoid 4+ on one IP (WAF risk).
 
-### Collection defaults (fast)
+### Collection defaults
 
 - Website URL + LinkedIn lookup **off** (enable with `--enrich`)
 - Max **3** search pages / listing×country (`G4W_MAX_PAGES_PER_SEARCH`)
-- Max **25** new profiles enriched per listing×country (`G4W_MAX_PROFILES_PER_LISTING`)
-- Skip profile enrich when `company_id` already in `companies.csv`
+- **All** companies found on a listing are profile-enriched by default (`G4W_MAX_PROFILES_PER_LISTING=0` = unlimited; set e.g. `25` to cap)
+- Skip profile enrich only when `company_id` is already in CSV **and** has description or address
 - Drop companies whose HQ country conflicts with the filter (site filter is soft)
 - Set `country` from parsed HQ, or fall back to the filter country when HQ is missing
 
 ```powershell
 # Optional slow enrichment pass
 python main_go4world.py ... --country Japan --enrich
+
+# Cap profiles again if needed
+$env:G4W_MAX_PROFILES_PER_LISTING="25"
 ```
 
 ## Smoke tests

@@ -27,6 +27,12 @@ from go4world_scraper.parser import (
     parse_profile_page,
     parse_search_page,
     products_url_from_profile,
+    _clean_address,
+    _clean_designation,
+    _clean_legal_entity,
+    _clean_person_name,
+    _clean_verification_details,
+    _normalize_phone,
 )
 from go4world_scraper.translator import Go4WorldTranslator
 from go4world_scraper.url_lookup import enrich_websites
@@ -102,6 +108,7 @@ class Go4WorldScraper:
         self.stats = ScraperStats()
         self._last_listing_confirmed_empty = False
         self.known_company_ids: set[str] = set()
+        self.thin_company_ids: set[str] = set()
         self.http = G4WHTTPClient(
             cache_dir=cache_dir,
             timeout=request_timeout,
@@ -147,22 +154,23 @@ class Go4WorldScraper:
         search_terms = record.get("search_terms") or record.get("source_listing") or record.get("new_listing")
         category_types = record.get("category_types") or record.get("source_entity")
         country = config.normalize_country_name(record.get("country")) or record.get("country")
+        company_name = record.get("company_name")
         out = {
             "company_id": company_id,
-            "company_name": record.get("company_name"),
+            "company_name": company_name,
             "company_profile_url": profile_url,
             "country": country,
             "city": record.get("city"),
-            "address": record.get("address"),
-            "website": record.get("website") or record.get("company_url"),
-            "phone": record.get("phone"),
-            "contact_person": record.get("contact_person"),
-            "contact_designation": record.get("contact_designation"),
+            "address": _clean_address(record.get("address"), company_name=company_name),
+            "website": record.get("website"),
+            "phone": _normalize_phone(record.get("phone")),
+            "contact_person": _clean_person_name(record.get("contact_person")),
+            "contact_designation": _clean_designation(record.get("contact_designation")),
             "member_status": record.get("member_status"),
             "member_since": record.get("member_since"),
             "verified": verified,
-            "verification_details": record.get("verification_details"),
-            "legal_entity": record.get("legal_entity"),
+            "verification_details": _clean_verification_details(record.get("verification_details")),
+            "legal_entity": _clean_legal_entity(record.get("legal_entity"), company_name=company_name),
             "established_year": record.get("established_year"),
             "primary_business": record.get("primary_business"),
             "role": record.get("role"),
@@ -174,16 +182,59 @@ class Go4WorldScraper:
             "search_tab": record.get("search_tab"),
             "scrape_date": record.get("scrape_date"),
         }
+        # Never treat G4W profile URL as company website.
+        website = out.get("website")
+        profile = out.get("company_profile_url")
+        if website and profile and str(website).rstrip("/") == str(profile).rstrip("/"):
+            out["website"] = None
+        if website and "go4worldbusiness.com" in str(website).lower():
+            out["website"] = None
+        if out.get("member_status") and str(out["member_status"]).strip().lower() == "premium":
+            out["member_status"] = None
         return {key: out.get(key) for key in self.csv_columns}
 
+    @staticmethod
+    def _is_blank(value: Any) -> bool:
+        if value is None:
+            return True
+        text = str(value).strip()
+        return not text or text.upper() in {"NULL", "NONE", "NAN"}
+
+    def _is_thin_row(self, row: dict[str, Any]) -> bool:
+        """Thin = missing core profile fields, or known-noisy prior parse."""
+        description = (
+            row.get("description")
+            or row.get("description_en")
+            or row.get("about_text")
+        )
+        address = row.get("address")
+        if self._is_blank(description) and self._is_blank(address):
+            return True
+        addr = str(address or "")
+        phone = str(row.get("phone") or "")
+        website = str(row.get("website") or "")
+        if any(tok in addr for tok in ("Website:", "Contact Person:", "Designation:", "Phone:")):
+            return True
+        digits = "".join(ch for ch in phone if ch.isdigit())
+        if digits in {"1800114649", "800114649"} or digits.startswith("1800"):
+            return True
+        if "go4worldbusiness.com" in website.lower():
+            return True
+        legal = str(row.get("legal_entity") or "")
+        name = str(row.get("company_name") or "")
+        if legal and name and legal.strip().lower() == name.strip().lower():
+            return True
+        return False
+
     def _load_known_company_ids(self) -> None:
-        """Load existing company_id values from companies.csv (unique-company set)."""
+        """Load existing company_id values and thin-row set from companies.csv."""
         paths: list[Path] = []
         if self.single_csv_path:
             paths.append(self.single_csv_path)
         else:
             paths.append(self.output_dir / "companies.csv")
         known: set[str] = set()
+        thin: set[str] = set()
         for path in paths:
             if not path.exists() or path.stat().st_size == 0:
                 continue
@@ -197,13 +248,21 @@ class Go4WorldScraper:
                 col = "member_id"
             if not col:
                 continue
-            for value in frame[col].dropna():
-                text = str(value).strip()
-                if text and text.upper() != "NULL":
-                    known.add(text)
+            for row in frame.to_dict(orient="records"):
+                value = row.get(col)
+                text = str(value).strip() if value is not None else ""
+                if not text or text.upper() == "NULL":
+                    continue
+                known.add(text)
+                if self._is_thin_row(row):
+                    thin.add(text)
         self.known_company_ids = known
-        logger.info("Loaded %s known company_ids from existing CSV", len(known))
-
+        self.thin_company_ids = thin
+        logger.info(
+            "Loaded %s known company_ids (%s thin) from existing CSV",
+            len(known),
+            len(thin),
+        )
     def _company_id_of(self, record: dict[str, Any]) -> str | None:
         value = record.get("company_id") or record.get("member_id")
         if value is None:
@@ -626,20 +685,25 @@ class Go4WorldScraper:
         if not records:
             return []
 
-        # Split: already-known ids → merge terms only; new ids → enrich.
+        # Split: rich known → merge terms only; new or thin known → enrich.
         to_enrich: list[dict[str, Any]] = []
         merge_only: list[dict[str, Any]] = []
+        thin_known = 0
         for record in records:
             cid = self._company_id_of(record)
-            if cid and cid in self.known_company_ids:
+            if cid and cid in self.known_company_ids and cid not in self.thin_company_ids:
                 merge_only.append(record)
             else:
+                if cid and cid in self.thin_company_ids:
+                    thin_known += 1
                 to_enrich.append(record)
 
-        if merge_only:
+        if merge_only or thin_known:
             logger.info(
-                "%sSkipping enrich for %s already-known company_ids",
+                "%sEnriching %s new + %s thin known (skipping %s rich known)",
                 progress_prefix,
+                len(to_enrich) - thin_known,
+                thin_known,
                 len(merge_only),
             )
 
@@ -662,6 +726,10 @@ class Go4WorldScraper:
             cid = self._company_id_of(record)
             if cid:
                 self.known_company_ids.add(cid)
+                if not self._is_thin_row(record):
+                    self.thin_company_ids.discard(cid)
+                else:
+                    self.thin_company_ids.add(cid)
             kept.append(record)
         return kept
 

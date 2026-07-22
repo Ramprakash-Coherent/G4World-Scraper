@@ -21,7 +21,9 @@ PROXY_LIST_FILE = OUTPUT_DIR / "proxies.txt"
 BROWSER_PROFILE_DIR = Path(
     os.environ.get("G4W_BROWSER_PROFILE_DIR", str(OUTPUT_DIR / "browser_profile"))
 )
-COUNTRIES_OUTPUT_ROOT = BASE_DIR / "Go4World_countries"
+# Fresh enriched runs write here. Legacy tree is never written by default.
+COUNTRIES_OUTPUT_ROOT = BASE_DIR / "Go4World_countries_enriched"
+COUNTRIES_OUTPUT_ROOT_LEGACY = BASE_DIR / "Go4World_countries"
 
 # --- Site ---
 BASE_URL = "https://www.go4worldbusiness.com"
@@ -120,7 +122,8 @@ MAX_PAGES_PER_SEARCH: int | None = (
     int(_max_pages) if _max_pages.isdigit() and int(_max_pages) > 0 else None
 )
 
-_max_profiles = os.environ.get("G4W_MAX_PROFILES_PER_LISTING", "25").strip()
+# 0 / empty / non-positive = unlimited (enrich every company found on a listing).
+_max_profiles = os.environ.get("G4W_MAX_PROFILES_PER_LISTING", "0").strip()
 MAX_PROFILES_PER_LISTING: int | None = (
     int(_max_profiles) if _max_profiles.isdigit() and int(_max_profiles) > 0 else None
 )

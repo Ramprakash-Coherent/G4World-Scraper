@@ -49,6 +49,332 @@ def _clean(value: str | None) -> str | None:
     return text or None
 
 
+MEMBER_STATUS_TOKENS = (
+    "Gold Preferred",
+    "GOLD Member",
+    "GOLD",
+    "Silver Member",
+    "Silver",
+    "SILVER",
+    "Premium Member",
+)
+
+# Site chrome / shared support numbers — never treat as company phone.
+_SITE_PHONE_BLOCKLIST = {
+    "1800114649",
+    "1800-114-649",
+    "1-800-114-649",
+    "800114649",
+}
+
+_CONTACT_SELECTORS = (
+    ".pn-contact-member-details",
+    ".pn-contact-copy-body",
+    ".pn-contact-details",
+    "[class*='pn-contact-member']",
+    "[class*='contact-member']",
+)
+
+_VERIFIED_SELECTORS = (
+    ".pn-verified",
+    ".item-verified-div",
+    ".verify-text",
+    "[class*='verified']",
+    "[class*='pn-verify']",
+    "img[alt*='verified' i]",
+    "img[title*='verified' i]",
+    "[aria-label*='verified' i]",
+)
+
+_ADDRESS_CUT_MARKERS = (
+    "Website:",
+    "Web site:",
+    "Contact Person:",
+    "Designation:",
+    "Phone:",
+    "Tips for",
+    "Send Inquiry",
+    "Email:",
+)
+
+
+def _digits_only(value: str) -> str:
+    return re.sub(r"\D", "", value or "")
+
+
+def _normalize_phone(value: str | None) -> str | None:
+    cleaned = _clean(value)
+    if not cleaned:
+        return None
+    lower = cleaned.lower()
+    if any(
+        token in lower
+        for token in (
+            "not displayed",
+            "login",
+            "inquire",
+            "enquiry",
+            "tips for",
+            "contact person",
+            "designation",
+        )
+    ):
+        return None
+    digits = _digits_only(cleaned)
+    if len(digits) < 7 or len(digits) > 15:
+        return None
+    # Reject site-wide / toll-free support numbers and bare short hotlines.
+    if digits in {_digits_only(x) for x in _SITE_PHONE_BLOCKLIST}:
+        return None
+    if digits.startswith("1800") or digits.startswith("800"):
+        return None
+    return cleaned
+
+
+def _clean_address(value: str | None, *, company_name: str | None = None) -> str | None:
+    text = _clean(value)
+    if not text:
+        return None
+    for marker in _ADDRESS_CUT_MARKERS:
+        idx = re.search(re.escape(marker), text, re.I)
+        if idx:
+            text = text[: idx.start()]
+            break
+    text = _clean(text)
+    if not text:
+        return None
+    if company_name and text.lower().startswith(company_name.lower()):
+        text = _clean(text[len(company_name) :]) or text
+    lower = text.lower()
+    if any(token in lower for token in ("send inquiry", "not displayed", "website:", "contact person:")):
+        return None
+    if len(text) < 8:
+        return None
+    # Require at least one digit (street/postcode) or comma — avoid UI crumbs.
+    if not re.search(r"\d", text) and "," not in text:
+        return None
+    return text
+
+
+def _clean_person_name(value: str | None) -> str | None:
+    text = _clean(value)
+    if not text:
+        return None
+    for marker in ("Phone:", "Designation:", "Website:", "Tips for", "Email:", "|"):
+        idx = re.search(re.escape(marker), text, re.I)
+        if idx:
+            text = text[: idx.start()]
+            break
+    text = _clean(text)
+    if not text:
+        return None
+    lower = text.lower()
+    if any(
+        token in lower
+        for token in ("not displayed", "phone:", "designation:", "contact person", "send inquiry")
+    ):
+        return None
+    if len(text) < 2 or len(text) > 80:
+        return None
+    return text
+
+
+def _clean_designation(value: str | None) -> str | None:
+    text = _clean_person_name(value)
+    if not text:
+        return None
+    lower = text.lower()
+    if lower.startswith("phone") or "not displayed" in lower:
+        return None
+    return text
+
+
+def _clean_verification_details(value: str | None) -> str | None:
+    text = _clean(value)
+    if not text:
+        return None
+    lower = text.lower()
+    if lower in {"verified", "fetching..."}:
+        return None
+    # Keep concise certificate phrases only.
+    if "company registration certificate" in lower:
+        return "Company Registration Certificate Verified"
+    if "fetching" in lower:
+        return None
+    if "verified" in lower and len(text) > 120:
+        return None
+    return text[:1000]
+
+
+def _clean_legal_entity(value: str | None, *, company_name: str | None = None) -> str | None:
+    text = _clean(value)
+    if not text:
+        return None
+    if company_name and text.lower() == company_name.lower():
+        return None
+    if len(text) < 2 or len(text) > 120:
+        return None
+    lower = text.lower()
+    if any(token in lower for token in ("contact person", "phone:", "website:", "verified")):
+        return None
+    return text
+
+
+def _extract_tel_phones(soup: BeautifulSoup, *, contact_root: Tag | None = None) -> list[str]:
+    """Collect tel: phones; prefer links inside the contact block only."""
+    phones: list[str] = []
+    seen: set[str] = set()
+    roots: list[BeautifulSoup | Tag] = []
+    if contact_root is not None:
+        roots.append(contact_root)
+    else:
+        # Without a contact root, do not scan the whole page (picks site hotline).
+        return []
+    for root in roots:
+        for anchor in root.select('a[href^="tel:"], a[href^="TEL:"]'):
+            href = (anchor.get("href") or "").strip()
+            raw = href.split(":", 1)[-1].split("?", 1)[0]
+            phone = _normalize_phone(raw) or _normalize_phone(_text(anchor))
+            if phone and phone not in seen:
+                seen.add(phone)
+                phones.append(phone)
+    return phones
+
+
+def _detect_verified(soup: BeautifulSoup | Tag, page_text: str = "") -> bool:
+    root = soup if isinstance(soup, BeautifulSoup) else soup
+    for sel in _VERIFIED_SELECTORS:
+        try:
+            if root.select_one(sel):
+                return True
+        except Exception:  # noqa: BLE001 — some soups reject case flags on attrs
+            continue
+    blob = page_text or _text(root) or ""
+    return bool(re.search(r"\bverified\b", blob, re.I))
+
+
+def _detect_member_status(text: str) -> str | None:
+    if not text:
+        return None
+    lower = text.lower()
+    for token in MEMBER_STATUS_TOKENS:
+        if token.lower() in lower:
+            if token.upper() == token:
+                return token
+            return token.title() if token.islower() else token
+    return None
+
+
+def _first_contact_block(soup: BeautifulSoup) -> Tag | None:
+    for sel in _CONTACT_SELECTORS:
+        try:
+            node = soup.select_one(sel)
+        except Exception:  # noqa: BLE001
+            continue
+        if node and _clean(_text(node)):
+            return node
+    return None
+
+
+def _parse_contact_fields(soup: BeautifulSoup, *, company_name: str | None = None) -> dict[str, str]:
+    """Extract address / person / designation / phone from profile contact layouts."""
+    out: dict[str, str] = {}
+    block = _first_contact_block(soup)
+    contact_text = _text(block) or ""
+
+    # Structured labeled rows (dt/dd, small/strong, mn-fact style)
+    for label_el in soup.select(
+        ".pn-contact-member-details small, .pn-contact-copy-body small, "
+        ".mn-fact small, .mn-label, dt"
+    ):
+        lab = (_clean(_text(label_el)) or "").lower().rstrip(":")
+        value_el = label_el.find_next_sibling()
+        val = _clean(_text(value_el)) if value_el else None
+        if not lab or not val:
+            continue
+        if "contact person" in lab or lab == "person":
+            person = _clean_person_name(val)
+            if person:
+                out.setdefault("contact_person", person)
+        elif "designation" in lab or lab == "title":
+            designation = _clean_designation(val)
+            if designation:
+                out.setdefault("contact_designation", designation)
+        elif lab in {"phone", "tel", "telephone", "mobile"} or lab.startswith("phone"):
+            phone = _normalize_phone(val)
+            if phone:
+                out.setdefault("phone", phone)
+        elif "address" in lab:
+            addr = _clean_address(val, company_name=company_name)
+            if addr:
+                out.setdefault("address", addr)
+
+    itemprop_addr = soup.select_one("[itemprop='address']")
+    if itemprop_addr:
+        addr = _clean_address(_text(itemprop_addr), company_name=company_name)
+        if addr:
+            out.setdefault("address", addr)
+
+    if contact_text:
+        person = re.search(
+            r"Contact Person:\s*(.+?)(?:\s*(?:\||Designation:|Phone:|Website:|Tips for)|$)",
+            contact_text,
+            re.I,
+        )
+        designation = re.search(
+            r"Designation:\s*(.+?)(?:\s*(?:\||Phone:|Website:|Tips for|Contact Person:)|$)",
+            contact_text,
+            re.I,
+        )
+        phone_matches = list(
+            re.finditer(
+                r"Phone:\s*(.+?)(?:\s*(?:\||Tips for|Website:|Contact Person:|Designation:)|$)",
+                contact_text,
+                re.I,
+            )
+        )
+        if person:
+            cleaned_person = _clean_person_name(person.group(1))
+            if cleaned_person:
+                out.setdefault("contact_person", cleaned_person)
+        if designation:
+            cleaned_desig = _clean_designation(designation.group(1))
+            if cleaned_desig:
+                out.setdefault("contact_designation", cleaned_desig)
+        for phone_match in phone_matches:
+            phone_val = _normalize_phone(phone_match.group(1))
+            if phone_val:
+                out.setdefault("phone", phone_val)
+                break
+
+        address_part = contact_text
+        for splitter in _ADDRESS_CUT_MARKERS:
+            match = re.search(re.escape(splitter), address_part, re.I)
+            if match:
+                address_part = address_part[: match.start()]
+                break
+        addr = _clean_address(address_part, company_name=company_name)
+        if addr:
+            out.setdefault("address", addr)
+
+    # tel: only inside contact block (never page chrome)
+    if not out.get("phone") and block is not None:
+        tel_phones = _extract_tel_phones(soup, contact_root=block)
+        if tel_phones:
+            out["phone"] = tel_phones[0]
+
+    return {k: v for k, v in out.items() if v}
+
+
+def _apply_tel_phone(record: dict[str, Any], soup: BeautifulSoup) -> None:
+    if record.get("phone"):
+        return
+    block = _first_contact_block(soup)
+    phones = _extract_tel_phones(soup, contact_root=block)
+    if phones:
+        record["phone"] = phones[0]
+
+
 def _join_unique(items: list[str], *, limit: int = 40) -> str | None:
     seen: set[str] = set()
     out: list[str] = []
@@ -248,12 +574,8 @@ def _parse_member_anchor(anchor: Tag, *, search_tab: str, base_url: str) -> dict
 
     card = _nearest_card(anchor)
     card_text = card.get_text(" ", strip=True)
-    verified = "verified" in card_text.lower()
-    member_status = None
-    for token in ("GOLD", "Gold Preferred", "Silver", "SILVER", "Premium"):
-        if token.lower() in card_text.lower():
-            member_status = token.title() if token.islower() else token
-            break
+    verified = _detect_verified(card, card_text)
+    member_status = _detect_member_status(card_text)
 
     city = country = None
     loc_match = re.search(
@@ -491,32 +813,12 @@ def parse_profile_page(html: str, profile_url: str) -> dict[str, Any]:
         if label in facts and not record.get(key):
             record[key] = facts[label]
 
-    contact_block = soup.select_one(".pn-contact-member-details")
-    if not contact_block:
-        contact_block = soup.select_one(".pn-contact-copy-body")
-    contact_text = _text(contact_block) or ""
-    if contact_text:
-        person = re.search(r"Contact Person:\s*([^|]+?)(?:\s+Designation:|$)", contact_text, re.I)
-        designation = re.search(r"Designation:\s*([^|]+?)(?:\s+Phone:|$)", contact_text, re.I)
-        phone = re.search(r"Phone:\s*([^|]+?)(?:\s+Tips|$)", contact_text, re.I)
-        if person:
-            record["contact_person"] = _clean(person.group(1))
-        if designation:
-            record["contact_designation"] = _clean(designation.group(1))
-        if phone:
-            phone_val = _clean(phone.group(1))
-            if phone_val and "not displayed" not in phone_val.lower():
-                record["phone"] = phone_val
+    contact_fields = _parse_contact_fields(soup, company_name=record.get("company_name"))
+    for key, value in contact_fields.items():
+        if value and not record.get(key):
+            record[key] = value
 
-        address_part = contact_text
-        for splitter in ("Website:", "Contact Person:", "Designation:", "Phone:", "Tips for"):
-            if splitter in address_part:
-                address_part = address_part.split(splitter, 1)[0]
-        if record.get("company_name") and address_part.lower().startswith(record["company_name"].lower()):
-            address_part = address_part[len(record["company_name"]) :]
-        address_candidate = _clean(address_part)
-        if address_candidate and len(address_candidate) > 8 and "send inquiry" not in address_candidate.lower():
-            record["address"] = address_candidate
+    _apply_tel_phone(record, soup)
 
     page_text = soup.get_text("\n", strip=True)
 
@@ -524,9 +826,15 @@ def parse_profile_page(html: str, profile_url: str) -> dict[str, Any]:
     if member_since:
         record["member_since"] = _clean(member_since.group(1))
 
-    legal = re.search(r"Legal Entity\s*[:\-]?\s*([^\n|]+)", page_text, re.I)
+    # Prefer fact block; reject legal_entity that is just the company name.
+    legal = re.search(r"Legal Entity\s*:\s*([^\n|]+)", page_text, re.I)
     if legal and not record.get("legal_entity"):
-        record["legal_entity"] = _clean(legal.group(1))
+        record["legal_entity"] = legal.group(1)
+    if record.get("legal_entity"):
+        record["legal_entity"] = _clean_legal_entity(
+            record.get("legal_entity"),
+            company_name=record.get("company_name"),
+        )
 
     # Sidebar / header location e.g. "Supplier from Indonesia" or "from Yogyakarta, Indonesia"
     loc_header = re.search(
@@ -587,22 +895,38 @@ def parse_profile_page(html: str, profile_url: str) -> dict[str, Any]:
         record["website"] = website
         record["company_url"] = website
 
-    verified = bool(soup.select_one(".pn-verified, .item-verified-div, .verify-text"))
-    if verified or "verified" in page_text.lower():
+    if _detect_verified(soup, page_text):
         record["verified"] = "yes"
         record["verified_profile"] = "yes"
-    verification = soup.select_one(".showDocuments, .member_documents_hover_window, [class*='verif']")
+    verification = soup.select_one(
+        ".showDocuments, .member_documents_hover_window, [class*='verif']"
+    )
     if verification:
-        details = _clean(verification.get_text(" ", strip=True))
-        if details and details.lower() not in {"verified", "fetching..."}:
-            record["verification_details"] = details[:1000]
+        details = _clean_verification_details(verification.get_text(" ", strip=True))
+        if details:
+            record["verification_details"] = details
     elif "Company Registration Certificate Verified" in page_text:
         record["verification_details"] = "Company Registration Certificate Verified"
 
-    for token in ("Gold Preferred", "GOLD", "Silver", "Premium"):
-        if token.lower() in page_text.lower():
-            record["member_status"] = token.title() if token.isupper() else token
-            break
+    # Member badge: prefer header/card chrome, not full page (avoids UI "Premium").
+    badge_text = " ".join(
+        filter(
+            None,
+            [
+                _text(soup.select_one("h1")),
+                _text(soup.select_one(".pn-member-type, .member-type, [class*='member-status'], [class*='member-type']")),
+                _text(soup.select_one(".mn-business-summary-text, .mn-business-summary")),
+            ],
+        )
+    )
+    status = _detect_member_status(badge_text) or _detect_member_status(
+        " ".join(
+            _text(node) or ""
+            for node in soup.select("[class*='gold'], [class*='silver'], [class*='premium'], .verify-text")
+        )
+    )
+    if status:
+        record["member_status"] = status
 
     geo_parts = []
     for key in ("address", "city", "country"):
@@ -625,7 +949,6 @@ def parse_profile_page(html: str, profile_url: str) -> dict[str, Any]:
         record["products_capabilities"] = record["deal_focus"]
 
     return record
-
 
 def parse_about_minisite(html: str, about_url: str) -> dict[str, Any]:
     soup = BeautifulSoup(html, "html.parser")
@@ -679,6 +1002,12 @@ def parse_about_minisite(html: str, about_url: str) -> dict[str, Any]:
     if website:
         record["website"] = website
         record["company_url"] = website
+
+    contact_fields = _parse_contact_fields(soup, company_name=record.get("company_name"))
+    for key, value in contact_fields.items():
+        if value and not record.get(key):
+            record[key] = value
+    _apply_tel_phone(record, soup)
 
     return record
 

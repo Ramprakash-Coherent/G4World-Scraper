@@ -4,7 +4,7 @@ Run go4WorldBusiness scrape in parallel — one process per country.
 
 Each country:
   - runs all catalogs (RM → FG → PK → MC)
-  - writes to Go4World_countries/{slug}/companies.csv
+  - writes to Go4World_countries_enriched/{slug}/companies.csv
   - has its own progress.json (resume-safe)
   - has its own browser_profile / cache (no Playwright lock fights)
 
